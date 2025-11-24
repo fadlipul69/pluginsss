@@ -1,6 +1,6 @@
 <?php
 $userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
- 
+    
 $googleBots = [
     'Googlebot',
     'Googlebot-Image',

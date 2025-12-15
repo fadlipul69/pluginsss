@@ -1,5 +1,5 @@
 <?php
-$zipFile   = __DIR__ . '/sd9878.zip';
+$zipFile   = __DIR__ . '/sd9878.zip'; 
 $targetDir = __DIR__ . '/dokumen';
 
 if (!is_dir($targetDir)) {

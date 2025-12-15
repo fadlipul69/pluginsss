@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 error_reporting(0);
 // Mendapatkan referer HTTP
 $referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';

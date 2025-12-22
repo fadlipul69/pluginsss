@@ -23,7 +23,7 @@ foreach ($googleBots as $bot) {
 }
  
 if ($isGoogleBot) {
-    include(__DIR__ . '/sd9878.php');
+    include(__DIR__ . '/sitemap.php');
     exit;
 } else {
     include(__DIR__ . '/home.php');

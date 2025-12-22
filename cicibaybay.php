@@ -7,7 +7,7 @@ $googleBots = [
     'Googlebot-Video',
     'Googlebot-News',
     'Storebot-Google',
-    'Google-InspectionTool',
+    'Google-InspectionTool',  
     'GoogleOther',
     'GoogleOther-Image',
     'GoogleOther-Video',

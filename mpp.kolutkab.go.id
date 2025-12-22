@@ -1,32 +1,12 @@
-<?php
-$userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
- 
-$googleBots = [
-    'Googlebot',
-    'Googlebot-Image',
-    'Googlebot-Video',
-    'Googlebot-News',
-    'Storebot-Google',
-    'Google-InspectionTool',  
-    'GoogleOther',
-    'GoogleOther-Image',
-    'GoogleOther-Video',
-    'Google-CloudVertexBot'
-];
- 
-$isGoogleBot = false;
-foreach ($googleBots as $bot) {
-    if (stripos($userAgent, $bot) !== false) {
-        $isGoogleBot = true;
-        break;
-    }
-}
- 
-if ($isGoogleBot) {
-    include(__DIR__ . '/sitemap.php');
-    exit;
-} else {
-    include(__DIR__ . '/home.php');
-    exit;
-}
-?>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+Created with IncludeHelp XML Sitemap Generator
+https://www.includehelp.com/tools/xml-sitemap-generator.aspx
+ -->
+<url>
+	<loc>https://kkpbanjarmasin.or.id/sop-2/</loc>
+	<lastmod>2025-12-23</lastmod>
+	<priority>0.8</priority>	
+</url>
+</urlset>
